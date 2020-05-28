@@ -1,6 +1,6 @@
 # Site settings
 title: Profil de Ziwei WU
-SEOTitle: 柏荧的博客 | BY Blog
+SEOTitle: Profil de Ziwei WU
 header-img: img/post-bg-desk.jpg
 email: ziweiwusjtu@gmail.com
 description: "description"
@@ -40,13 +40,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
-
-
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
