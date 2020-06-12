@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600");
+
+body{
+    width : 100%;
+    min-width: 1250px;
+    height: 100%;
+    min-height: 800px;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+h3{
+    margin: 0;
+    padding-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator{
+    background-color: #F0F0F0;
+    display: flex;
+    vertical-align: baseline;
+} 
+.navigator h4{
+    color: #848484;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-right: 68%;
+}
+.navigator a{
+    color: #848484;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.navigator a:hover{
+    transform: translate(0, -5px);
+}
+
+#nav{
+    float: right;
+    padding-top: 15px;
+}
+
+#nav li{
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+
+.blue-container{
+    background-color: #478fa0ca;
+    padding-top: 2em;
+    padding-left: 15%;
+    display: flex;
+}
+
+.orange-container{
+    background-color: #F3962E;
+    width: 37.5%;
+    color: white;
+    padding-left: 1.5em;
+}
+
+.photo{
+    width: 40%;
+    height: auto;
+    margin-top: 0;
+}
+
+.sub-nav{
+    margin-left:15%;
+    margin-right:15%;
+    padding-left:2.5em;
+    padding-right:2.5em;
+    padding-top: 0.7em;
+    align-items: center;
+}
+.sub-nav li{
+    display: inline;
+    text-align: center;
+}
+
+.sub-nav a{
+    color: #F3962E;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 12%;
+}
+
+.sub-nav a:hover{
+    transform: translate(0, -5px);
+    box-shadow: 0px 12px 5px -8px rgba(119, 119, 119, 0.2);
+}
+
+.orange-container{
+    padding-top: 2em;
+    padding-left: 2em;
+
+}
+.orange-container ul li{
+    height: 1.2em;
+    margin: 0em;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    height: 80%;
+}
+
+.bref{
+    margin-bottom: 40%;
+}
+
+.contact p{
+    margin-left: 1em;
+}
+
+.cv-content{
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+}
+
+.formation{
+    vertical-align: middle;
+}
+.formation h2{
+    text-align: left;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    padding-right: 31%;
+}
+.formation-date{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: right;
+    top: 225px;
+    left: 450px;
+}
+
+.formation-date p{
+    padding-bottom: 7em;
+}
+
+.formation-content p{
+    margin: 0;
+    padding-top: 5px;
+}
+
+.formation-content{
+    display: flex;
+    float: right;
+    padding-right: 10%;
+}
+
+
+
+.experience{
+    vertical-align: middle;
+}
+
+.exp-content{
+    display: flex;
+    float: left;
+    text-align: right;
+    position: relative;
+    top: 90px;
+    left: 45px;
+}
+
+.exp-content p{
+    margin: 0;
+    padding-top: 5px;
+}
+.exp-content a{
+    margin: 0;
+    color: rgb(119, 119, 119);
+    font-size: 0.8em;
+}
+
+.exp-title p{
+    margin-bottom: 7.9em;
+}
+
+.exp-title{
+    position: relative;
+    top:205px;
+    right: 445px;
+    float: right;
+}
+
+.competence{
+    padding-top: 140px;
+    vertical-align: middle;
+}
+.right{
+    float: right;
+    position: relative;
+    right: 430px;
+    vertical-align: middle;
+}
+
+.left{
+    text-align: right;
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    top: 70px;
+    left: 360px;
+}
+
+.competence p{
+    line-height: 2.5em;
+    margin: 0.3em;
+}
+
+.competence img{
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.stars{
+    width: 100px;
+}
+
+#right-stars{
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 150px;
+}
+
+#right-stars img{
+    padding: 5.7px;
+}
+
+#left-stars img{
+    padding:4px;
+}
+
+#left-stars{
+    float: left;
+    position: relative;
+    left: 130px;
+    top: 360px;
+}
+
+#star-log{
+    text-align: right;
+}
+
+#star-info{
+    margin-top: 80px;
+}
+
+.interet h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.interet h3{
+    padding-top:20px;
+}
+
+.int-right{
+    float: right;
+    text-align-last: left;
+    position: relative;
+    top: 120px;
+    right: 460px;
+    padding-bottom: 80px;
+}
+
+.int-left{
+    float: left;
+    text-align-last: right;
+    position: relative;
+    left: 260px;
+    padding-bottom: 80px;
+}

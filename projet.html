@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziwei WU | PROJETS</title>
+    <link rel="stylesheet" href="css/projet.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <nav class="navigator">
+                <h4>Ziwei WU | PROJETS</h4>
+                <div class="nav-link">
+                    <ul id="nav">
+                        <li><a href="index.html">CV</a></li>
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="projet.html">Projet</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class="title-pic">
+        <img src="images/prj-title1.png" alt="prj-title1">
+    </div>
+    <div class="proj-1">
+        <div class="left-1">
+            <p>Grâce aux simulations générées par le modèle <br>
+                WRF-CMAQ, il nous permettrait d'obtenir un <br>
+            champ de polluants atmosphériques en 3-D. <br>
+            La manière traditionnelle de le visualiser était <br>
+            de prendre chaque tranche de données et de<br>
+                la dessiner comme un graphique en 2-D, ce <br>
+            qui était d'une part inefficace et d'autre part <br>
+            risquait de négliger la cohérence entre les <br>
+            différentes couches. </p>
+
+            <p id="description-1">Ainsi, dans ce projet, basé sur la plateforme <br>
+                ParaView et en modifiant le API, j'ai crée un outil <br>
+                pour effectuer la visualisation de ce type de <br>
+                données qui facilite énormément la procédure<br>
+                d'analyse et d'appropriation.  </p>
+
+            <p id="description-2">Avec ces trois graphiques à gauche, on pourrait<br>
+                constater les différences de la distribution verticale<br>
+                entre les particules des composantes hétérogènes<br>
+                selon l'échelle de temps.</p>
+
+            <p>Cette vidéo à gauche montre la relation entre la <br>
+                concentration de polluants et l'évolution dynamique <br>
+                du PBL. La concentration augmente lorsque la LBP <br>
+                descend, et diminue lorsque la LBP remonte. Grâce <br>
+                à cette visualisation, ce mécanisme aérodynamique <br>
+                est plus évident à observer.</p>
+        </div>
+        <div class="right-1">
+            <iframe width="750" height="408" src="https://www.youtube.com/embed/jYcIJIpjgZI?autoplay=1&loop=1&playlist=jYcIJIpjgZI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Visualisation finale de la simulation du champs de PM2.5 - échelle national (15/01/2015-05/02/2015) <br>
+                Réalisé en Avril, 2019</p>
+            <img src="images/projet_content_1.png" alt="prj1">
+            <iframe width="750" height="422" src="https://www.youtube.com/embed/aqtJdsOGFTo?autoplay=1&loop=1&playlist=aqtJdsOGFTo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Visualisation de PBL(Planetary Boundary Layer) et le champ des polluants (15/01/2015-05/02/2015) <br>
+                Réalisé en Avril, 2019</p>
+        </div>
+    </div>
+    
+    <div class="title-pic">
+        <img src="images/prj-title2.png" alt="prj-title2">
+    </div>
+
+    <div class="proj-2">
+        <div class="left-2">
+            <p id="para1">Dans le contexte de pandémie COVID-19 qui a touché <br>
+                l'ensemble de la population mondiale, pour notre Projet <br>
+                de 2A, nous avons choisi d'étudier plusieurs scénarios de <br>
+                confinement et/ou de déconfinement, permettant de <br>
+                contrôler la propagation du coronavirus et ainsi stopper<br> 
+                l'épidémie. </p>
+
+            <p id="para2">Pour étudier différents scénarios de confinement et/ou <br> 
+                déconfinement, nous avons considéré différentes classes <br> 
+                de populations, correspondant chaque aux différents États <br> 
+                des États-Unis, au nombre de 51. Pour avoir des données <br> 
+                réelles, nous avons récupéré les données provenant de la <br> 
+                base de données PlaceIQ fournissant des indicateurs sur <br> 
+                les mouvements des smartphones aux Etats-Unis. </p>
+
+            <p>Par soucis de simplification, nous avons choisi de représenter <br> 
+                nos résultats pour un seul État. Nous avons choisi de <br> 
+                représenter la situation pour l'Etat de Géorgie, qui a une <br> 
+                date de déconfinement prévue en mai et présente une <br> 
+                densité moyenne.</p>
+        </div>
+        <div class="right-2">
+            <img src="images/covid_1.png" alt="schema1">
+            <p>Compartmental model. S=Susceptible, E=Exposed, Ip = Infectious in the prodromic phase, Ia=Asymptomatic<br>
+                Infectious, Ips=Paucysymptomatic Infectious, Ims=Symptomatic Infectious with mild symptoms, Iss=Symptomatic<br>
+                Infectious with severe symptoms, ICU=severe case admitted to ICU, H=severe case admitted to the hospital<br>
+                 but not intensive care, R=Recovered, D=Deceased. (Di Domenico L. 12 avril 2020)</p>
+            <img src="images/covid2.png" alt="schema2" id="schema2">
+            <p>Nombre de personnes infectées dans chaque Etat des Etats-Unis le 15 mai, si aucune mesure de confinement n'est prise</p>
+            <iframe width="700" height="381" src="https://chart-studio.plotly.com/~ziweiwuAPT/17.embed"></iframe>
+            <p>Nombre de personnes de chaque groupe S, E, I, R de l'État Unis avec confinement relativement strict</p>
+            <iframe width="700" height="393" src="https://chart-studio.plotly.com/~ziweiwuAPT/23.embed"></iframe>
+            <p>Évolution de nombre de personnes de chaque groupe S, E, I, R de l'État Géorgie </p>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600");
+
+body{
+    width : 100%;
+    min-width: 1250px;
+    height: 100%;
+    min-height: 800px;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #848484;
+}
+
+h3{
+    margin: 0;
+    padding-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator{
+    background-color: #F0F0F0;
+    display: flex;
+    vertical-align: baseline;
+} 
+.navigator h4{
+    color: #848484;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-right: 66%;
+}
+.navigator a{
+    color: #848484;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.navigator a:hover{
+    transform: translate(0, -5px);
+}
+
+#nav{
+    float: right;
+    padding-top: 15px;
+}
+
+#nav li{
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-pic img{
+    margin-top: 60px;
+    width: 80%;
+    height: auto;
+}
+
+.proj-1{
+    display: flex;
+}
+
+.left-1{
+    width: 30%;
+    position: relative;
+    left: 5%;
+}
+
+.left-1 p{
+    margin-bottom: 80px;
+}
+#description-1{
+    margin-bottom: 350px;
+}
+#description-2{
+    margin-bottom: 700px;
+}
+
+.right-1{
+    width: 50%;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.right-1 p{
+    margin: 0;
+    margin-bottom:30px ;
+    font-style: italic;
+}
+.right-1 img{
+    width: 800px;
+    height: auto;
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+.proj-2{
+    display: flex;
+}
+
+.left-2{
+    width: 30%;
+    position: relative;
+    left: 5%;
+}
+
+.left-2 p{
+    margin-bottom: 80px;
+}
+
+.right-2{
+    width: 60%;
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.right-2 img{
+    width: 700px;
+    height: auto;
+}
+.right-2 p{
+    margin: 0;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+#schema2{
+    margin-left: -50px;
+    width: 750px;
+}
+
+#para1{
+    margin-top: 50px;
+    margin-bottom: 800px;
+}
+#para2{
+    margin-bottom: 350px;
+}

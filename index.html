@@ -1,42 +1,229 @@
----
-layout: page
-description: "Thinking will not overcome fear but action will."
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziwei WU | CV</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navigator">
+                <h4>Ziwei WU | CV</h4>
+                <div class="nav-link">
+                    <ul id="nav">
+                        <li><a href="index.html">CV</a></li>
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="projet.html">Projet</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="blue-container">
+                <div class="orange-container">
+                    
+                    <h1>Ziwei WU</h1>
+                    <p class="bref">Étudiante à AgroParisTech 2A en <br/>
+                        Gestion & Ingénierie de l'Environnement,<br/>
+                        Expecté d'être diplomé en 2022
+                    </p>
+                    <ul class="contact">
+                        <li >
+                            <img src="images/Icon_adress.svg" alt="adress" class="icon">
+                            <p>7B Boulevard Jourdan, 75014 Paris</p>
+                        </li>
+                        <li>
+                            <img src="images/Icon_email.svg" alt="adress" class="icon">
+                            <p>ziwei.wu@agroparistech.fr</p>
+                        </li>
+                        <li>
+                            <img src="images/Icon_phone.svg" alt="adress" class="icon">
+                            <p>+33 (0)6 30 21 52 08</p>
+                        </li>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+                    </ul>
+                </div>
+                <img src="images/photo.png" alt="photo" class="photo">
+            </div>
+        </section>
+    </div>
+    <div class="cv-content">
+        <nav>
+            <ul class="sub-nav">
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#competence">Compétence</a></li>
+                <li><a href="#interet">Intérêt</a></li>
+            </ul>
+        </nav>
+        <div class="formation" id="formation">
+            
+            <div class="formation-date">
+                <ul>
+                    <li >
+                        <p>Depuis 2019<br/>Diplôme d'ingénieur</p>
+                        <p>2015-2019<br/>Diplôme de Licence</p>
+                        <p>2018<br/>Programme d'échange</p>
+                        <p>2017<br/>Programme d'échange</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="formation-content">
+                <ul>
+                    <li>
+                        <h2>FORMATION</h2>
+                        <h3>AgroParisTech (France)</h3>
+                        <p>Spécialité: Gestion et Ingénierie de l'Environnement<br/>
+                            Cours: Statistique, Écologie, Traitement d'Eaux usée,<br/>
+                            Analyse Financière, etc.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Université Jiaotong de Shanghai (Chine)</h3>
+                        <p>Spécialité: Sciences et Ingénierie de l'Environnement<br/>
+                            Cours: Calcul, Chimie, Biologie, Mécanique des Fluides, <br/>
+                            Ingénierie Environnementale, Hydrologie, Python <br/>
+                            La Bourse Kwang-Hua, Le Directeur de BDE
+                        </p>
+                    </li>
+                    <li>
+                        <h3>University of New South Wales (Australie)</h3>
+                        <p>Cours: Système Informatique, Algorithme, <br/>
+                            Économie de l'Environnement, <br/>
+                            Évaluation de l'Impact sur l'Environnement
+                        </p>
+                    </li>
+                    <li>
+                        <h3>University of California at Berkeley (États Unis)</h3>
+                        <p>Cours : Politique Internationale de l'Environnement,<br/> 
+                            Psychologie du Comportement
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
-
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+        <div class="experience" id="experience"> 
+            
+            <div class="exp-content">
+                <ul>
+                    <li>
+                        <h2>ÉXPÉRIENCE</h2>
+                        <h3>Direction Interdépartementale et Régionale de <br/>
+                            l'énergie et de l'environnement de IDF</h3> 
+                        <p>Valorisation et l'analyse des donnees<br/> 
+                            concernant la transition energetique francilienne</p>
+                    </li>
+                    <li>
+                        <h3>Pôle culturel Chinois de la Cité Universitaire de Paris</h3>
+                        <p>Organise les cours et les événements culturels chinois et <br/>
+                            les activité d'échange culturels</p>
+                    </li>
+                    <li>
+                        <h3>Laboratoire de l'intelligence artificielle et big data de <br/> 
+                            l'environnement à Université Jiao Tong de Shanghai</h3>  
+                        <p>Projet de la visualisation et la gestion <br/> 
+                            des 3-D données des pollutions atmosphériques</p>
+                        <a href="projet.html">En savoir plus</a>
+                    </li>
+                    <li>
+                        <h3>Bureau de surveillance de l'environnement de Shanghai</h3>
+                        <p>Analyse les indices fondamentaux des échantillons quotidiens</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="exp-title">
+                <ul>
+                    <li>
+                        <p>2020<br/>Stagiaire</p>
+                        <p>2019<br/>Directeur</p>
+                        <p>2018-2019<br/>Assistant de Laboratoire</p>
+                        <p>2017<br/>Assistant de Laboratoire</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="competence" id="competence">
+            <div class="right">
+                <ul>
+                    <li>
+                        <h2>COMPÉTENCE</h2>
+                        <h3>Design</h3>
+                        <p>Adobe Photoshop <br/>Adobe Premiere<br/>Adobe XD <br/>Adobe Illustrator</p> 
+                    </li>
+                    <li>
+                        <h3>Informatique</h3>
+                        <p>Python <br/>R<br/>VBA<br/>C<br/>HTML&CSS</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="stars" id="right-stars">
+                <ul>
+                    <li id="star-design">
+                        <img src="images/five-star.png" alt="5-stars">
+                        <img src="images/four-star.png" alt="4-stars">
+                        <img src="images/four-star.png" alt="4-stars">
+                        <img src="images/three-star.png" alt="3-stars">
+                    </li>
+                    <li id="star-info">
+                        <img src="images/five-star.png" alt="5-stars">
+                        <img src="images/five-star.png" alt="5-stars">
+                        <img src="images/four-star.png" alt="4-stars">
+                        <img src="images/three-star.png" alt="3-stars">
+                        <img src="images/three-star.png" alt="3-stars">
+                    </li>
+                </ul>
+            </div>
+            <div  class="left">
+                <ul>
+                    <li>
+                        <h3>Langue</h3>
+                        <p>Langue maternelle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chinois<br/>
+                            Courant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Français<br/>
+                            Courant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anglais<br/>
+                            &nbsp;<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Logiciel</h3>
+                        <p>Microsoft Office <br/>ArcGIS</p>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="stars" id="left-stars">
+                <ul>
+                    <li id="star-log">
+                        <img src="images/five-star.png" alt="5-stars">
+                        <img src="images/four-star.png" alt="4-stars">
+                    </li>
+                </ul>
+            </div>
+               
+        </div>
+        <div class="interet" id="interet">
+            <div class="int-left">
+                <ul>
+                    <li>
+                        <h2>INTÉRÊT</h2>
+                        <h3>Design graphique</h3>
+                        <p>Dessiner les logos et les affiches pour les associations</p>
+                        <h3>Cuisine</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="int-right">
+                <ul>
+                    <li>
+                        <h3>Photographier</h3>
+                        <p>Plutôt le paysage</p>
+                        <h3>Fitness & Skier</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
