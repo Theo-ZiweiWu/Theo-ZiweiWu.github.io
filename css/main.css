@@ -74,8 +74,8 @@ ul{
 }
 
 .photo{
-    width: 40%;
-    height: auto;
+    width: 504px;
+    height: 100%;
     margin-top: 0;
     flex-shrink: 0;
 }
