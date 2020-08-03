@@ -20,11 +20,11 @@ Promise.all([
     mapInfo = datasources[1];
     data = datasources[0];
     let line_data = get_history(data);
-    drawLineChart(line_data);
     data = annee_filter(data);
     prepare_data(mapInfo, data);
     update_chiffre_cles();
     drawMap(data, mapInfo, "conso_tot");
+    drawLineChart(line_data);
 })
 
 function set_html(id, text){
