@@ -36,6 +36,7 @@ function update_chiffre_cles(){
         consomm_1 = data.filter(function(d){return d.id === "consommation_1";});
         consomm_2 = data.filter(function(d){return d.id === "consommation_2";});
         consomm_3 = data.filter(function(d){return d.id === "consommation_3";});
+        comsole.log(consomm_1);
         set_html("consomm_1_chiffre", consomm_1[0].chiffre_cles);
         set_html("consomm_2_chiffre", consomm_2[0].chiffre_cles);
         set_html("consomm_3_chiffre", consomm_3[0].chiffre_cles);
