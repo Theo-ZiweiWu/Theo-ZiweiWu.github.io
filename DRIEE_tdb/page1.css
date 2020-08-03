@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600");
+
+body{
+    width : 100%;
+    min-width: 800px;
+    height: 100%;
+    min-height: 800px;
+    margin: 0 auto;
+    font-family:'Montserrat', sans-serif;
+    padding-left: 10em;
+}
+
+h1{
+    color: #474747;
+}
+
+h2{
+    color: #474747;
+    margin-bottom: 2em;
+}
+
+#container_linechart{
+    margin-bottom: 3em;
+
+}
+#container{
+    margin-right: 3em;
+}
+
+#container_general{
+    margin-top: 14em;
+    display: flex;
+}
+
+.seperateur {
+    margin: 3em 0 4em 0;
+    width: 60%;
+    height: 1px;
+    border-top: solid #ACC0D8 1px;
+}
+
+.sep_small{
+    width: 10%;
+    height: 1px;
+    border-top: solid #ACC0D8 1px;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+#tooltip {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px black;
+    display: none;
+}
+#tooltip2 {
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid 1px black;
+    display: none;
+}
+
+#button-annee{
+    margin: 2em 2em 0 0;
+
+}
+
+.logo{
+    width: 220px;
+    height: 90px;
+    margin-top: 3em;
+}
+
+.bloc-general {
+    height: 150px;
+    display: inline-flex;
+    position: relative;
+    padding-bottom: 0.8em;
+}
+
+.bloc-general .block {
+    margin:0 2% 1% 2%;
+    position: relative;
+}
+
+.bloc-general .block .face.face1 {
+    width: 200px;
+    height: 120px;
+    transition: 0.5s;
+    padding: 1s5px;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(30px);
+    border: #18A1CD solid 2px;
+    border-style: none none solid none;
+
+}
+
+.bloc-general .block:hover .face.face1 {
+    transform: translateY(0px);
+}
+
+.bloc-general .block .face.face1 .contenu {
+    margin: 1px;
+    opacity: 1;
+    transition: 0.5s;
+
+}
+
+.bloc-general .block:hover .face.face1 .contenu {
+    opacity: 1;
+
+}
+
+.bloc-general .block .face.face1 .contenu h3 {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #ff8900;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.bloc-general .block .face.face1 .contenu h4 {
+    margin: 2px 0 0;
+    padding: 0;
+    color: #ff8900;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.6em;
+}
+
+.bloc-general .block .face.face2 {
+    width: 200px;
+    height: 60px;
+    transition: 0.5s;
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-30px);
+}
+
+.bloc-general .block:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.bloc-general .block .face.face2 .contenu p {
+    font-size: 0.6em;
+    color: #6b6b6b;
+    margin: 0;
+    padding: 5px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,20 @@
+﻿id,chiffre_cles,unite,description,chiffre_ref,description_sup,source
+consommation_1,92%,,d’énergie consommée sur l’Ile-de-France est importée.,,"L'IDF est la région qui a importé le plus d'énergie. 
+Source: SDES (2017)",ROSE
+consommation_2,45%,,de la consommation est représentée par les besoins en chaleur des bâtiments.,,Source: ROSE,DRIEE Feuille de route
+consommation_3,18070,KWh,Consommation énergétique par habitant sur l’IDF.,,-12% par rapport au 2005,DRIEE Feuille de route
+production_1,890,GWh,La productivité des sites de méthanisation en fonctionnement.,,,
+production_2,64,GWh,d’électricité sont produits par les sites de photovoltaïque (2017).,,,
+production_3,13996,,Nombre des sites de photovoltaïque en l’IDF (2017),,,
+emission_1,3135,kgeq CO2,par habitant ont été émis en l’Ile-de-France (2017).,2000 kgeq,,
+emission_2,38092,kteq CO2,sont émis en l’IDF en 2017 (Scope 1 et 2).,87.50%,sont émis à Métropole du Paris,AIRPARIF
+emission_3,36%,,d’émission GES sont représentées  par le secteur de résidentiel (2017).,,,AIRPARIF
+bati_1,48663,GWhc,d’énergie sont économisées selon les certificats CEE.,,,DRIEE fichier de CEE
+bati_2,"60,7%",,"des logements consomment plus de 230kwh/m2/an. (classe E, F, G).",,,
+bati_3,"71,6%",,d’énergie est consommée par les logements construit avant 1980.,,,
+transport_1,-12%,,de consommation d’énergie en année 2017 par rapport à 2005.,,,
+transport_2,98%,,d’immatriculation en l’IDF sont des véhicules à diesel ou à essence.,,,
+transport_3,+20%,,de l’usage de trasnports collectifs en Île-de-France par rapport au 2010.,,,
+chaleur_1,52%,,de chaleur livrée au chauffage urbain sont alimentée par ENR (2018).,,,DRIEE Feuille de route
+chaleur_2,1903,GWh,de chaleur sont produits par les sites de biomasse. (2019),,,DRIEE fichier de Biomasse
+chaleur_3,1292,GWh,de chaleur sont produits par les sites de géothermie sous autorisation.(2019),,,DRIEE fichier de Géothermie
