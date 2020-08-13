@@ -33,13 +33,13 @@ function set_html(id, text){
 }
 
 function update_chiffre_cles(){
-    d3.csv(chiffres_url).then((data)=>{
+    d3.csv("page_chiffre_cles.csv").then((data)=>{
         consomm_1 = data.filter(function(d){return d.id === "consommation_1";});
         consomm_2 = data.filter(function(d){return d.id === "consommation_2";});
         consomm_3 = data.filter(function(d){return d.id === "consommation_3";});
-        production_1 = data.filter(function(d){return d.id === "production_1";});
-        production_2 = data.filter(function(d){return d.id === "production_2";});
-        production_3 = data.filter(function(d){return d.id === "production_3";});
+        precarite_1 = data.filter(function(d){return d.id === "precarite_1";});
+        precarite_2 = data.filter(function(d){return d.id === "precarite_2";});
+        precarite_3 = data.filter(function(d){return d.id === "precarite_3";});
         emission_1 = data.filter(function(d){return d.id === "emission_1";});
         emission_2 = data.filter(function(d){return d.id === "emission_2";});
         emission_3 = data.filter(function(d){return d.id === "emission_3";});
@@ -68,18 +68,18 @@ function update_chiffre_cles(){
         set_html("consomm_2_mot_cle", consomm_2[0].mot_cle);
         set_html("consomm_3_mot_cle", consomm_3[0].mot_cle);
         
-        set_html("production_1_chiffre", production_1[0].chiffre_cles);
-        set_html("production_2_chiffre", production_2[0].chiffre_cles);
-        set_html("production_3_chiffre", production_3[0].chiffre_cles);
-        set_html("production_1_description", production_1[0].description);
-        set_html("production_2_description", production_2[0].description);
-        set_html("production_3_description", production_3[0].description);
-        set_html("production_1_des_sup", production_1[0].description_sup);
-        set_html("production_2_des_sup", production_2[0].description_sup);
-        set_html("production_3_des_sup", production_3[0].description_sup);
-        set_html("production_1_mot_cle", production_1[0].mot_cle);
-        set_html("production_2_mot_cle", production_2[0].mot_cle);
-        set_html("production_3_mot_cle", production_3[0].mot_cle);
+        set_html("precarite_1_chiffre", precarite_1[0].chiffre_cles);
+        set_html("precarite_2_chiffre", precarite_2[0].chiffre_cles);
+        set_html("precarite_3_chiffre", precarite_3[0].chiffre_cles);
+        set_html("precarite_1_description", precarite_1[0].description);
+        set_html("precarite_2_description", precarite_2[0].description);
+        set_html("precarite_3_description", precarite_3[0].description);
+        set_html("precarite_1_des_sup", precarite_1[0].description_sup);
+        set_html("precarite_2_des_sup", precarite_2[0].description_sup);
+        set_html("precarite_3_des_sup", precarite_3[0].description_sup);
+        set_html("precarite_1_mot_cle", precarite_1[0].mot_cle);
+        set_html("precarite_2_mot_cle", precarite_2[0].mot_cle);
+        set_html("precarite_3_mot_cle", precarite_3[0].mot_cle);
         
         set_html("emission_1_chiffre", emission_1[0].chiffre_cles);
         set_html("emission_2_chiffre", emission_2[0].chiffre_cles);
@@ -174,6 +174,61 @@ function showTooltipPie(sec, conso, coords){
         
 }
 
+function drawTreemap(data){
+    let width_map = 400;
+    let height_map = 300;
+    console.log(data);
+    var svg = d3.select("#container_treemap")
+        .attr("transform", "translate(" + 10 + ", " + 10 + ")");
+
+    root = {};
+    root["name"] = "root";
+    children = [];
+    for(let c of data){
+        obj = {
+            energie: c.Energie,
+            parent: "Root",
+            consommation: c.Consommation
+        };
+        children.push(obj);
+    }
+    root["children"] = children;
+    tree = d3.hierarchy(root);
+    
+    tree.sum(function(d) { return +d.consommation})
+
+    
+    d3.treemap()
+    .size([width_map, height_map])
+    .padding(4)
+    (tree)
+
+    svg
+        .selectAll("rect")
+        .data(tree.leaves())
+        .enter()
+        .append("rect")
+        .attr('x', function (d) { return d.x0; })
+        .attr('y', function (d) { return d.y0; })
+        .attr('width', function (d) { return d.x1 - d.x0; })
+        .attr('height', function (d) { return d.y1 - d.y0; })
+        .style("stroke", "black")
+        .style("fill", "#69b3a2");
+    
+    // and to add the text labels
+    svg
+        .selectAll("text")
+        .data(tree.leaves())
+        .enter()
+        .append("text")
+        .attr("x", function(d){ return d.x0+10})    // +10 to adjust position (more right)
+        .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
+        .text(function(d){ return d.data.energie})
+        .attr("font-size", "15px")
+        .attr("fill", "white")
+
+}
+
 function drawPie(data){
     let body = d3.select("#piechart");
     let bodyHeight = 200;
@@ -195,6 +250,7 @@ function drawPie(data){
         .data(pie(data))
         .enter()
         .append("g")
+        
     g.append("path")
         .attr("d", arc)
         .attr("fill", d => {
@@ -221,21 +277,32 @@ function change_year(a){
 
 function prepare_data(mapInfo, data){
     let secteurs=["RES","TRAF","TER","IND","AGR"];
-    let dataIndex = {};
+    let energie=["ELEC","URB","BOIS","GN"];
+    let dataSecteur = {};
+    let dataEnergie = {};
     for(let c of data){
         let par_secteur = {};
+        let par_energie = {};
         let epci = c.epci;
         for(let s of secteurs){
             par_secteur[s] = d3.sum(data.filter(d=>d.epci === c.epci && 
                 d.secteur === s),d=>d.consommation);
         }
+        for(let e of energie){
+            par_energie[e] = d3.sum(data.filter(d=>d.epci === c.epci && 
+                d.energie === e),d=>d.consommation);
+        }
+        par_energie["PP_CMS"] = d3.sum(data.filter(d=>d.epci === c.epci && 
+            d.energie === "PP + CMS"),d=>d.consommation);
         par_secteur["TOT"] = d3.sum(data.filter(d=>d.epci === c.epci),d=>d.consommation);
-        dataIndex[epci] = par_secteur;
+        dataSecteur[epci] = par_secteur;
+        dataEnergie[epci] = par_energie;
     };
 
     mapInfo.features = mapInfo.features.map(d => {
         let epci = d.properties.code;
-        let conso = dataIndex[epci];
+        let conso = dataSecteur[epci];
+        let conso_eng = dataEnergie[epci];
         
         d.properties.conso_agr = Math.round(conso.AGR);
         d.properties.conso_ind = Math.round(conso.IND);
@@ -243,6 +310,12 @@ function prepare_data(mapInfo, data){
         d.properties.conso_traf = Math.round(conso.TRAF);
         d.properties.conso_ter = Math.round(conso.TER);
         d.properties.conso_tot = Math.round(conso.TOT);
+        d.properties.conso_elec = Math.round(conso_eng.ELEC);
+        d.properties.conso_urb = Math.round(conso_eng.URB);
+        d.properties.conso_bois = Math.round(conso_eng.BOIS);
+        d.properties.conso_gn = Math.round(conso_eng.GN);
+        d.properties.conso_pp_cms = Math.round(conso_eng.PP_CMS);
+
         return d;
     });
 }
@@ -269,11 +342,12 @@ function get_history(data){
 function drawLineChart(data){
     var svg = d3.select("#container_linechart")
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(60, 20, 300, 200);
+    myChart.setBounds(60, 20, 380, 200);
     var x = myChart.addCategoryAxis("x", "year");
     x.addOrderRule("year");
     myChart.addMeasureAxis("y", "value");
-    var s = myChart.addSeries(null, dimple.plot.area);
+    var s = myChart.addSeries(null, dimple.plot.line);
+    s.lineMarkers = true;
     myChart.draw();
     
     /*let width = 300;
@@ -311,7 +385,6 @@ function drawLineChart(data){
     */
 }
 
-
 function drawMap(data, mapInfo, sec){
     
     let maxConso = d3.max(mapInfo.features,
@@ -320,8 +393,6 @@ function drawMap(data, mapInfo, sec){
     let midConso = d3.median(mapInfo.features,
         d => d.properties[sec]);
     console.log(maxConso, midConso);
-
-    console.log(mapInfo);
 
     let cScale = d3.scaleLinear()
         .domain([0, 1000000, 2000000, 3000000, 4000000, maxConso])
@@ -369,7 +440,26 @@ function drawMap(data, mapInfo, sec){
                 "Secteur": "Transport Routier",
                 "Consommation": d.properties.conso_traf
             }];
-            console.log(pie_data);
+            
+            let tree_data = [{
+                "Energie": "ELEC", 
+                "Consommation": d.properties.conso_elec
+            },{
+                "Energie": "GN", 
+                "Consommation": d.properties.conso_gn
+            },{
+                "Energie": "PP_CMS", 
+                "Consommation": d.properties.conso_pp_cms
+            },{
+                "Energie": "URB", 
+                "Consommation": d.properties.conso_urb
+            },{
+                "Energie": "BOIS", 
+                "Consommation": d.properties.conso_bois
+            }];
+            drawTreemap(tree_data);
+            console.log(tree_data);
             drawPie(pie_data);
         })
+        
 }

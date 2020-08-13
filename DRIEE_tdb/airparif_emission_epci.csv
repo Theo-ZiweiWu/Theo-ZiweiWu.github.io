@@ -1,0 +1,1856 @@
+,annee,epci,epci_nom,secteur,emission
+0,2005,200054781,Métropole du Grand Paris,Agriculture,21.299999999999997
+1,2005,200054781,Métropole du Grand Paris,Residentiel,10102.3
+2,2005,200054781,Métropole du Grand Paris,Tertiaire,4037.3999999999983
+3,2005,200054781,Métropole du Grand Paris,Totale,23579.6
+4,2005,200054781,Métropole du Grand Paris,Transport_R,5561.699999999998
+5,2005,200054781,Métropole du Grand Paris,Transport_A,425.0000000000001
+6,2005,200054781,Métropole du Grand Paris,Production-Energie,149.9000000000001
+7,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Agriculture,3.9000000000000004
+8,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Residentiel,67.4
+9,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Tertiaire,11.6
+10,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Totale,160.1
+11,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_R,53.7
+12,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_A,0.0
+13,2005,200023125,CC Les Portes Briardes entre Villes et Forêts,Production-Energie,0.7
+14,2005,200023240,CC Pays de Nemours,Agriculture,14.299999999999995
+15,2005,200023240,CC Pays de Nemours,Residentiel,51.300000000000004
+16,2005,200023240,CC Pays de Nemours,Tertiaire,15.9
+17,2005,200023240,CC Pays de Nemours,Totale,286.1
+18,2005,200023240,CC Pays de Nemours,Transport_R,69.1
+19,2005,200023240,CC Pays de Nemours,Transport_A,0.0
+20,2005,200023240,CC Pays de Nemours,Production-Energie,0.8999999999999999
+21,2005,200023919,CC Gâtinais Val de Loing,Agriculture,33.9
+22,2005,200023919,CC Gâtinais Val de Loing,Residentiel,34.99999999999999
+23,2005,200023919,CC Gâtinais Val de Loing,Tertiaire,2.9000000000000004
+24,2005,200023919,CC Gâtinais Val de Loing,Totale,204.70000000000002
+25,2005,200023919,CC Gâtinais Val de Loing,Transport_R,59.800000000000004
+26,2005,200023919,CC Gâtinais Val de Loing,Transport_A,0.0
+27,2005,200023919,CC Gâtinais Val de Loing,Production-Energie,0.2
+28,2005,200033090,CC Plaines et Monts de France,Agriculture,14.300000000000004
+29,2005,200033090,CC Plaines et Monts de France,Residentiel,29.7
+30,2005,200033090,CC Plaines et Monts de France,Tertiaire,3.4000000000000004
+31,2005,200033090,CC Plaines et Monts de France,Totale,221.99999999999997
+32,2005,200033090,CC Plaines et Monts de France,Transport_R,76.6
+33,2005,200033090,CC Plaines et Monts de France,Transport_A,68.0
+34,2005,200033090,CC Plaines et Monts de France,Production-Energie,0.2
+35,2005,200037133,CC du Provinois,Agriculture,62.699999999999996
+36,2005,200037133,CC du Provinois,Residentiel,59.800000000000004
+37,2005,200037133,CC du Provinois,Tertiaire,9.199999999999998
+38,2005,200037133,CC du Provinois,Totale,223.5
+39,2005,200037133,CC du Provinois,Transport_R,62.09999999999998
+40,2005,200037133,CC du Provinois,Transport_A,0.0
+41,2005,200037133,CC du Provinois,Production-Energie,0.2
+42,2005,200040251,CC Bassée-Montois,Agriculture,32.599999999999994
+43,2005,200040251,CC Bassée-Montois,Residentiel,43.10000000000001
+44,2005,200040251,CC Bassée-Montois,Tertiaire,3.3000000000000003
+45,2005,200040251,CC Bassée-Montois,Totale,107.39999999999999
+46,2005,200040251,CC Bassée-Montois,Transport_R,18.100000000000005
+47,2005,200040251,CC Bassée-Montois,Transport_A,0.0
+48,2005,200040251,CC Bassée-Montois,Production-Energie,0.0
+49,2005,200055655,CA Roissy Pays de France,Agriculture,27.6
+50,2005,200055655,CA Roissy Pays de France,Residentiel,412.0000000000001
+51,2005,200055655,CA Roissy Pays de France,Tertiaire,196.3
+52,2005,200055655,CA Roissy Pays de France,Totale,2542.9999999999995
+53,2005,200055655,CA Roissy Pays de France,Transport_R,558.2999999999998
+54,2005,200055655,CA Roissy Pays de France,Transport_A,880.0
+55,2005,200055655,CA Roissy Pays de France,Production-Energie,3.3000000000000007
+56,2005,200057958,CA Paris - Vallée de la Marne,Agriculture,0.6
+57,2005,200057958,CA Paris - Vallée de la Marne,Residentiel,273.5
+58,2005,200057958,CA Paris - Vallée de la Marne,Tertiaire,99.8
+59,2005,200057958,CA Paris - Vallée de la Marne,Totale,761.1
+60,2005,200057958,CA Paris - Vallée de la Marne,Transport_R,274.2
+61,2005,200057958,CA Paris - Vallée de la Marne,Transport_A,2.2
+62,2005,200057958,CA Paris - Vallée de la Marne,Production-Energie,3.1
+63,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Agriculture,5.8999999999999995
+64,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Residentiel,400.90000000000003
+65,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Tertiaire,193.79999999999998
+66,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Totale,1705.6000000000001
+67,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_R,670.1999999999999
+68,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_A,0.0
+69,2005,200059228,CA Grand Paris Sud Seine Essonne Sénart,Production-Energie,4.1
+70,2005,200070779,CC Brie des Rivières et Châteaux,Agriculture,28.200000000000003
+71,2005,200070779,CC Brie des Rivières et Châteaux,Residentiel,60.2
+72,2005,200070779,CC Brie des Rivières et Châteaux,Tertiaire,4.999999999999999
+73,2005,200070779,CC Brie des Rivières et Châteaux,Totale,278.4
+74,2005,200070779,CC Brie des Rivières et Châteaux,Transport_R,167.3
+75,2005,200070779,CC Brie des Rivières et Châteaux,Transport_A,0.2
+76,2005,200070779,CC Brie des Rivières et Châteaux,Production-Energie,0.1
+77,2005,200072130,CA du Pays de Meaux,Agriculture,12.2
+78,2005,200072130,CA du Pays de Meaux,Residentiel,116.60000000000001
+79,2005,200072130,CA du Pays de Meaux,Tertiaire,50.800000000000004
+80,2005,200072130,CA du Pays de Meaux,Totale,657.9
+81,2005,200072130,CA du Pays de Meaux,Transport_R,127.7
+82,2005,200072130,CA du Pays de Meaux,Transport_A,11.399999999999999
+83,2005,200072130,CA du Pays de Meaux,Production-Energie,0.5
+84,2005,200072346,CA du Pays de Fontainebleau,Agriculture,18.100000000000005
+85,2005,200072346,CA du Pays de Fontainebleau,Residentiel,154.10000000000002
+86,2005,200072346,CA du Pays de Fontainebleau,Tertiaire,31.300000000000004
+87,2005,200072346,CA du Pays de Fontainebleau,Totale,451.8999999999999
+88,2005,200072346,CA du Pays de Fontainebleau,Transport_R,228.2
+89,2005,200072346,CA du Pays de Fontainebleau,Transport_A,1.6
+90,2005,200072346,CA du Pays de Fontainebleau,Production-Energie,1.0
+91,2005,200072544,CC des Deux Morin,Agriculture,49.99999999999999
+92,2005,200072544,CC des Deux Morin,Residentiel,47.199999999999996
+93,2005,200072544,CC des Deux Morin,Tertiaire,2.7000000000000006
+94,2005,200072544,CC des Deux Morin,Totale,195.79999999999998
+95,2005,200072544,CC des Deux Morin,Transport_R,20.9
+96,2005,200072544,CC des Deux Morin,Transport_A,0.0
+97,2005,200072544,CC des Deux Morin,Production-Energie,0.2
+98,2005,200072874,CC Val Briard,Agriculture,28.000000000000007
+99,2005,200072874,CC Val Briard,Residentiel,42.8
+100,2005,200072874,CC Val Briard,Tertiaire,5.5
+101,2005,200072874,CC Val Briard,Totale,144.7
+102,2005,200072874,CC Val Briard,Transport_R,62.09999999999999
+103,2005,200072874,CC Val Briard,Transport_A,0.0
+104,2005,200072874,CC Val Briard,Production-Energie,0.2
+105,2005,200077055,CA Coulommiers Pays de Brie,Agriculture,49.800000000000004
+106,2005,200077055,CA Coulommiers Pays de Brie,Residentiel,116.7
+107,2005,200077055,CA Coulommiers Pays de Brie,Tertiaire,16.5
+108,2005,200077055,CA Coulommiers Pays de Brie,Totale,296.70000000000005
+109,2005,200077055,CA Coulommiers Pays de Brie,Transport_R,87.30000000000001
+110,2005,200077055,CA Coulommiers Pays de Brie,Transport_A,0.0
+111,2005,200077055,CA Coulommiers Pays de Brie,Production-Energie,0.5
+112,2005,247700032,CC Moret Seine et Loing,Agriculture,13.3
+113,2005,247700032,CC Moret Seine et Loing,Residentiel,65.30000000000001
+114,2005,247700032,CC Moret Seine et Loing,Tertiaire,6.9
+115,2005,247700032,CC Moret Seine et Loing,Totale,139.89999999999998
+116,2005,247700032,CC Moret Seine et Loing,Transport_R,38.800000000000004
+117,2005,247700032,CC Moret Seine et Loing,Transport_A,1.1
+118,2005,247700032,CC Moret Seine et Loing,Production-Energie,1.1
+119,2005,247700057,CA Melun Val de Seine,Agriculture,9.700000000000001
+120,2005,247700057,CA Melun Val de Seine,Residentiel,185.09999999999997
+121,2005,247700057,CA Melun Val de Seine,Tertiaire,81.6
+122,2005,247700057,CA Melun Val de Seine,Totale,661.4
+123,2005,247700057,CA Melun Val de Seine,Transport_R,303.5
+124,2005,247700057,CA Melun Val de Seine,Transport_A,0.5
+125,2005,247700057,CA Melun Val de Seine,Production-Energie,0.6000000000000001
+126,2005,247700065,CC du Pays de l'Ourcq,Agriculture,20.599999999999998
+127,2005,247700065,CC du Pays de l'Ourcq,Residentiel,27.7
+128,2005,247700065,CC du Pays de l'Ourcq,Tertiaire,3.0000000000000004
+129,2005,247700065,CC du Pays de l'Ourcq,Totale,147.6
+130,2005,247700065,CC du Pays de l'Ourcq,Transport_R,28.999999999999996
+131,2005,247700065,CC du Pays de l'Ourcq,Transport_A,0.0
+132,2005,247700065,CC du Pays de l'Ourcq,Production-Energie,0.1
+133,2005,247700107,CC Pays de Montereau,Agriculture,19.8
+134,2005,247700107,CC Pays de Montereau,Residentiel,51.099999999999994
+135,2005,247700107,CC Pays de Montereau,Tertiaire,13.6
+136,2005,247700107,CC Pays de Montereau,Totale,480.9
+137,2005,247700107,CC Pays de Montereau,Transport_R,89.8
+138,2005,247700107,CC Pays de Montereau,Transport_A,1.6
+139,2005,247700107,CC Pays de Montereau,Production-Energie,0.1
+140,2005,247700339,CA Val d'Europe Agglomération,Agriculture,1.6
+141,2005,247700339,CA Val d'Europe Agglomération,Residentiel,29.599999999999998
+142,2005,247700339,CA Val d'Europe Agglomération,Tertiaire,61.1
+143,2005,247700339,CA Val d'Europe Agglomération,Totale,184.29999999999998
+144,2005,247700339,CA Val d'Europe Agglomération,Transport_R,87.8
+145,2005,247700339,CA Val d'Europe Agglomération,Transport_A,0.0
+146,2005,247700339,CA Val d'Europe Agglomération,Production-Energie,0.5
+147,2005,247700438,CC Pays Créçois,Agriculture,11.899999999999997
+148,2005,247700438,CC Pays Créçois,Residentiel,57.39999999999999
+149,2005,247700438,CC Pays Créçois,Tertiaire,5.4
+150,2005,247700438,CC Pays Créçois,Totale,199.89999999999998
+151,2005,247700438,CC Pays Créçois,Transport_R,119.89999999999996
+152,2005,247700438,CC Pays Créçois,Transport_A,0.0
+153,2005,247700438,CC Pays Créçois,Production-Energie,0.30000000000000004
+154,2005,247700594,CA Marne et Gondoire,Agriculture,2.3000000000000003
+155,2005,247700594,CA Marne et Gondoire,Residentiel,124.70000000000002
+156,2005,247700594,CA Marne et Gondoire,Tertiaire,40.0
+157,2005,247700594,CA Marne et Gondoire,Totale,435.29999999999995
+158,2005,247700594,CA Marne et Gondoire,Transport_R,217.70000000000005
+159,2005,247700594,CA Marne et Gondoire,Transport_A,0.0
+160,2005,247700594,CA Marne et Gondoire,Production-Energie,1.3
+161,2005,247700644,CC l'Orée de la Brie,Agriculture,3.4999999999999996
+162,2005,247700644,CC l'Orée de la Brie,Residentiel,36.800000000000004
+163,2005,247700644,CC l'Orée de la Brie,Tertiaire,10.900000000000002
+164,2005,247700644,CC l'Orée de la Brie,Totale,126.80000000000001
+165,2005,247700644,CC l'Orée de la Brie,Transport_R,66.0
+166,2005,247700644,CC l'Orée de la Brie,Transport_A,0.0
+167,2005,247700644,CC l'Orée de la Brie,Production-Energie,0.4
+168,2005,247700701,CC Brie Nangissienne,Agriculture,27.5
+169,2005,247700701,CC Brie Nangissienne,Residentiel,40.19999999999999
+170,2005,247700701,CC Brie Nangissienne,Tertiaire,9.200000000000001
+171,2005,247700701,CC Brie Nangissienne,Totale,2166.2999999999993
+172,2005,247700701,CC Brie Nangissienne,Transport_R,34.1
+173,2005,247700701,CC Brie Nangissienne,Transport_A,0.0
+174,2005,247700701,CC Brie Nangissienne,Production-Energie,0.30000000000000004
+175,2005,200033173,CC de la Haute Vallée de Chevreuse,Agriculture,4.1
+176,2005,200033173,CC de la Haute Vallée de Chevreuse,Residentiel,51.4
+177,2005,200033173,CC de la Haute Vallée de Chevreuse,Tertiaire,7.8
+178,2005,200033173,CC de la Haute Vallée de Chevreuse,Totale,92.5
+179,2005,200033173,CC de la Haute Vallée de Chevreuse,Transport_R,27.799999999999997
+180,2005,200033173,CC de la Haute Vallée de Chevreuse,Transport_A,0.0
+181,2005,200033173,CC de la Haute Vallée de Chevreuse,Production-Energie,0.30000000000000004
+182,2005,200034130,CC Gally Mauldre,Agriculture,9.8
+183,2005,200034130,CC Gally Mauldre,Residentiel,49.0
+184,2005,200034130,CC Gally Mauldre,Tertiaire,3.3000000000000003
+185,2005,200034130,CC Gally Mauldre,Totale,116.5
+186,2005,200034130,CC Gally Mauldre,Transport_R,52.800000000000004
+187,2005,200034130,CC Gally Mauldre,Transport_A,0.0
+188,2005,200034130,CC Gally Mauldre,Production-Energie,0.30000000000000004
+189,2005,200058519,CA Saint-Germain Boucles de Seine,Agriculture,3.6
+190,2005,200058519,CA Saint-Germain Boucles de Seine,Residentiel,581.1999999999999
+191,2005,200058519,CA Saint-Germain Boucles de Seine,Tertiaire,125.10000000000001
+192,2005,200058519,CA Saint-Germain Boucles de Seine,Totale,1214.7
+193,2005,200058519,CA Saint-Germain Boucles de Seine,Transport_R,463.50000000000006
+194,2005,200058519,CA Saint-Germain Boucles de Seine,Transport_A,0.2
+195,2005,200058519,CA Saint-Germain Boucles de Seine,Production-Energie,4.7
+196,2005,200058782,CA de Saint-Quentin-en-Yvelines,Agriculture,4.5
+197,2005,200058782,CA de Saint-Quentin-en-Yvelines,Residentiel,286.8
+198,2005,200058782,CA de Saint-Quentin-en-Yvelines,Tertiaire,131.8
+199,2005,200058782,CA de Saint-Quentin-en-Yvelines,Totale,793.9999999999999
+200,2005,200058782,CA de Saint-Quentin-en-Yvelines,Transport_R,279.6
+201,2005,200058782,CA de Saint-Quentin-en-Yvelines,Transport_A,0.0
+202,2005,200058782,CA de Saint-Quentin-en-Yvelines,Production-Energie,4.0
+203,2005,200059889,CU Grand Paris Seine et Oise,Agriculture,26.30000000000001
+204,2005,200059889,CU Grand Paris Seine et Oise,Residentiel,565.1
+205,2005,200059889,CU Grand Paris Seine et Oise,Tertiaire,146.50000000000003
+206,2005,200059889,CU Grand Paris Seine et Oise,Totale,2628.6999999999994
+207,2005,200059889,CU Grand Paris Seine et Oise,Transport_R,690.0000000000001
+208,2005,200059889,CU Grand Paris Seine et Oise,Transport_A,2.5
+209,2005,200059889,CU Grand Paris Seine et Oise,Production-Energie,5.699999999999999
+210,2005,200071074,CC Les Portes de l'Ile de France,Agriculture,13.299999999999999
+211,2005,200071074,CC Les Portes de l'Ile de France,Residentiel,39.6
+212,2005,200071074,CC Les Portes de l'Ile de France,Tertiaire,2.9000000000000004
+213,2005,200071074,CC Les Portes de l'Ile de France,Totale,235.09999999999997
+214,2005,200071074,CC Les Portes de l'Ile de France,Transport_R,73.60000000000001
+215,2005,200071074,CC Les Portes de l'Ile de France,Transport_A,5.0
+216,2005,200071074,CC Les Portes de l'Ile de France,Production-Energie,0.6
+217,2005,200073344,CA Rambouillet Territoires,Agriculture,38.60000000000001
+218,2005,200073344,CA Rambouillet Territoires,Residentiel,135.1
+219,2005,200073344,CA Rambouillet Territoires,Tertiaire,25.900000000000002
+220,2005,200073344,CA Rambouillet Territoires,Totale,496.90000000000015
+221,2005,200073344,CA Rambouillet Territoires,Transport_R,280.99999999999994
+222,2005,200073344,CA Rambouillet Territoires,Transport_A,0.0
+223,2005,200073344,CA Rambouillet Territoires,Production-Energie,0.9
+224,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Agriculture,19.400000000000002
+225,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Residentiel,50.400000000000006
+226,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Tertiaire,8.5
+227,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Totale,122.6
+228,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_R,41.3
+229,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_A,0.0
+230,2005,247800550,CC du Pays Houdanais (C.C.P.H.),Production-Energie,0.1
+231,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Agriculture,3.8000000000000003
+232,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Residentiel,464.7999999999999
+233,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Tertiaire,167.49999999999997
+234,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Totale,1393.4000000000003
+235,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_R,538.5
+236,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_A,0.1
+237,2005,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Production-Energie,1.9000000000000004
+238,2005,247800618,CC Coeur d'Yvelines,Agriculture,18.899999999999995
+239,2005,247800618,CC Coeur d'Yvelines,Residentiel,92.2
+240,2005,247800618,CC Coeur d'Yvelines,Tertiaire,15.199999999999998
+241,2005,247800618,CC Coeur d'Yvelines,Totale,273.0
+242,2005,247800618,CC Coeur d'Yvelines,Transport_R,139.20000000000005
+243,2005,247800618,CC Coeur d'Yvelines,Transport_A,0.0
+244,2005,247800618,CC Coeur d'Yvelines,Production-Energie,0.4
+245,2005,249500109,CA de Cergy-Pontoise,Agriculture,4.0
+246,2005,249500109,CA de Cergy-Pontoise,Residentiel,242.39999999999998
+247,2005,249500109,CA de Cergy-Pontoise,Tertiaire,130.9
+248,2005,249500109,CA de Cergy-Pontoise,Totale,697.2999999999998
+249,2005,249500109,CA de Cergy-Pontoise,Transport_R,246.6
+250,2005,249500109,CA de Cergy-Pontoise,Transport_A,0.0
+251,2005,249500109,CA de Cergy-Pontoise,Production-Energie,1.7999999999999998
+252,2005,200017846,CA Étampois Sud-Essonne (CCESE),Agriculture,48.39999999999999
+253,2005,200017846,CA Étampois Sud-Essonne (CCESE),Residentiel,83.60000000000002
+254,2005,200017846,CA Étampois Sud-Essonne (CCESE),Tertiaire,16.900000000000002
+255,2005,200017846,CA Étampois Sud-Essonne (CCESE),Totale,235.4
+256,2005,200017846,CA Étampois Sud-Essonne (CCESE),Transport_R,72.60000000000001
+257,2005,200017846,CA Étampois Sud-Essonne (CCESE),Transport_A,0.0
+258,2005,200017846,CA Étampois Sud-Essonne (CCESE),Production-Energie,0.4
+259,2005,200056232,CA Communauté Paris-Saclay,Agriculture,7.8
+260,2005,200056232,CA Communauté Paris-Saclay,Residentiel,442.0
+261,2005,200056232,CA Communauté Paris-Saclay,Tertiaire,215.89999999999998
+262,2005,200056232,CA Communauté Paris-Saclay,Totale,1567.8
+263,2005,200056232,CA Communauté Paris-Saclay,Transport_R,581.5
+264,2005,200056232,CA Communauté Paris-Saclay,Transport_A,95.7
+265,2005,200056232,CA Communauté Paris-Saclay,Production-Energie,4.3
+266,2005,200057859,CA Coeur d'Essonne Agglomération,Agriculture,7.699999999999998
+267,2005,200057859,CA Coeur d'Essonne Agglomération,Residentiel,294.6000000000001
+268,2005,200057859,CA Coeur d'Essonne Agglomération,Tertiaire,84.8
+269,2005,200057859,CA Coeur d'Essonne Agglomération,Totale,799.7
+270,2005,200057859,CA Coeur d'Essonne Agglomération,Transport_R,316.09999999999997
+271,2005,200057859,CA Coeur d'Essonne Agglomération,Transport_A,0.0
+272,2005,200057859,CA Coeur d'Essonne Agglomération,Production-Energie,2.4000000000000004
+273,2005,200058477,CA Val d'Yerres Val de Seine,Agriculture,0.3
+274,2005,200058477,CA Val d'Yerres Val de Seine,Residentiel,266.59999999999997
+275,2005,200058477,CA Val d'Yerres Val de Seine,Tertiaire,64.8
+276,2005,200058477,CA Val d'Yerres Val de Seine,Totale,449.1
+277,2005,200058477,CA Val d'Yerres Val de Seine,Transport_R,105.1
+278,2005,200058477,CA Val d'Yerres Val de Seine,Transport_A,0.0
+279,2005,200058477,CA Val d'Yerres Val de Seine,Production-Energie,2.0
+280,2005,249100074,CC du Pays de Limours (CCPL),Agriculture,9.7
+281,2005,249100074,CC du Pays de Limours (CCPL),Residentiel,41.800000000000004
+282,2005,249100074,CC du Pays de Limours (CCPL),Tertiaire,7.8999999999999995
+283,2005,249100074,CC du Pays de Limours (CCPL),Totale,215.10000000000002
+284,2005,249100074,CC du Pays de Limours (CCPL),Transport_R,137.3
+285,2005,249100074,CC du Pays de Limours (CCPL),Transport_A,6.8
+286,2005,249100074,CC du Pays de Limours (CCPL),Production-Energie,0.2
+287,2005,249100157,CC des Deux Vallées,Agriculture,14.2
+288,2005,249100157,CC des Deux Vallées,Residentiel,37.199999999999996
+289,2005,249100157,CC des Deux Vallées,Tertiaire,3.5
+290,2005,249100157,CC des Deux Vallées,Totale,94.39999999999999
+291,2005,249100157,CC des Deux Vallées,Transport_R,26.200000000000003
+292,2005,249100157,CC des Deux Vallées,Transport_A,0.0
+293,2005,249100157,CC des Deux Vallées,Production-Energie,0.1
+294,2005,249100546,CC du Val d'Essonne (CCVE),Agriculture,13.1
+295,2005,249100546,CC du Val d'Essonne (CCVE),Residentiel,91.1
+296,2005,249100546,CC du Val d'Essonne (CCVE),Tertiaire,18.0
+297,2005,249100546,CC du Val d'Essonne (CCVE),Totale,483.5
+298,2005,249100546,CC du Val d'Essonne (CCVE),Transport_R,118.0
+299,2005,249100546,CC du Val d'Essonne (CCVE),Transport_A,0.0
+300,2005,249100546,CC du Val d'Essonne (CCVE),Production-Energie,0.7999999999999999
+301,2005,249100553,CC Entre Juine et Renarde (CCEJR),Agriculture,7.100000000000001
+302,2005,249100553,CC Entre Juine et Renarde (CCEJR),Residentiel,47.1
+303,2005,249100553,CC Entre Juine et Renarde (CCEJR),Tertiaire,15.499999999999998
+304,2005,249100553,CC Entre Juine et Renarde (CCEJR),Totale,130.4
+305,2005,249100553,CC Entre Juine et Renarde (CCEJR),Transport_R,49.900000000000006
+306,2005,249100553,CC Entre Juine et Renarde (CCEJR),Transport_A,0.0
+307,2005,249100553,CC Entre Juine et Renarde (CCEJR),Production-Energie,0.2
+308,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Agriculture,8.7
+309,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Residentiel,43.6
+310,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Tertiaire,10.399999999999999
+311,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Totale,106.9
+312,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_R,40.3
+313,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_A,0.0
+314,2005,249100595,CC Le Dourdannais en Hurepoix (CCDH),Production-Energie,0.30000000000000004
+315,2005,200035970,CC Vexin Centre,Agriculture,25.600000000000005
+316,2005,200035970,CC Vexin Centre,Residentiel,42.89999999999999
+317,2005,200035970,CC Vexin Centre,Tertiaire,3.8000000000000007
+318,2005,200035970,CC Vexin Centre,Totale,169.9
+319,2005,200035970,CC Vexin Centre,Transport_R,77.19999999999999
+320,2005,200035970,CC Vexin Centre,Transport_A,0.0
+321,2005,200035970,CC Vexin Centre,Production-Energie,0.1
+322,2005,200056380,CA Plaine Vallée,Agriculture,3.1
+323,2005,200056380,CA Plaine Vallée,Residentiel,286.9
+324,2005,200056380,CA Plaine Vallée,Tertiaire,43.900000000000006
+325,2005,200056380,CA Plaine Vallée,Totale,476.59999999999997
+326,2005,200056380,CA Plaine Vallée,Transport_R,105.99999999999999
+327,2005,200056380,CA Plaine Vallée,Transport_A,24.5
+328,2005,200056380,CA Plaine Vallée,Production-Energie,2.4
+329,2005,200058485,CA Val Parisis,Agriculture,6.8999999999999995
+330,2005,200058485,CA Val Parisis,Residentiel,402.6
+331,2005,200058485,CA Val Parisis,Tertiaire,81.00000000000001
+332,2005,200058485,CA Val Parisis,Totale,924.9
+333,2005,200058485,CA Val Parisis,Transport_R,332.0
+334,2005,200058485,CA Val Parisis,Transport_A,0.0
+335,2005,200058485,CA Val Parisis,Production-Energie,4.7
+336,2005,200073013,CC Carnelle Pays-De-France,Agriculture,8.7
+337,2005,200073013,CC Carnelle Pays-De-France,Residentiel,52.09999999999999
+338,2005,200073013,CC Carnelle Pays-De-France,Tertiaire,8.3
+339,2005,200073013,CC Carnelle Pays-De-France,Totale,129.3
+340,2005,200073013,CC Carnelle Pays-De-France,Transport_R,57.900000000000006
+341,2005,200073013,CC Carnelle Pays-De-France,Transport_A,0.0
+342,2005,200073013,CC Carnelle Pays-De-France,Production-Energie,0.9999999999999999
+343,2005,249500430,CC Sausseron Impressionnistes,Agriculture,12.100000000000001
+344,2005,249500430,CC Sausseron Impressionnistes,Residentiel,37.3
+345,2005,249500430,CC Sausseron Impressionnistes,Tertiaire,4.3
+346,2005,249500430,CC Sausseron Impressionnistes,Totale,71.1
+347,2005,249500430,CC Sausseron Impressionnistes,Transport_R,15.599999999999998
+348,2005,249500430,CC Sausseron Impressionnistes,Transport_A,0.0
+349,2005,249500430,CC Sausseron Impressionnistes,Production-Energie,0.2
+350,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Agriculture,2.3
+351,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Residentiel,64.9
+352,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Tertiaire,7.9
+353,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Totale,207.5
+354,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_R,117.69999999999999
+355,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_A,0.0
+356,2005,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Production-Energie,0.5
+357,2005,249500489,CC du Haut Val d'Oise,Agriculture,2.7
+358,2005,249500489,CC du Haut Val d'Oise,Residentiel,46.3
+359,2005,249500489,CC du Haut Val d'Oise,Tertiaire,12.899999999999999
+360,2005,249500489,CC du Haut Val d'Oise,Totale,115.0
+361,2005,249500489,CC du Haut Val d'Oise,Transport_R,36.300000000000004
+362,2005,249500489,CC du Haut Val d'Oise,Transport_A,0.0
+363,2005,249500489,CC du Haut Val d'Oise,Production-Energie,0.6000000000000001
+364,2005,249500513,CC du Vexin-Val de Seine,Agriculture,17.099999999999998
+365,2005,249500513,CC du Vexin-Val de Seine,Residentiel,31.1
+366,2005,249500513,CC du Vexin-Val de Seine,Tertiaire,4.0
+367,2005,249500513,CC du Vexin-Val de Seine,Totale,98.39999999999998
+368,2005,249500513,CC du Vexin-Val de Seine,Transport_R,41.3
+369,2005,249500513,CC du Vexin-Val de Seine,Transport_A,0.9
+370,2005,249500513,CC du Vexin-Val de Seine,Production-Energie,0.1
+371,2010,200054781,Métropole du Grand Paris,Agriculture,18.700000000000003
+372,2010,200054781,Métropole du Grand Paris,Residentiel,9424.6
+373,2010,200054781,Métropole du Grand Paris,Tertiaire,4095.6000000000004
+374,2010,200054781,Métropole du Grand Paris,Totale,21503.699999999986
+375,2010,200054781,Métropole du Grand Paris,Transport_R,5019.200000000001
+376,2010,200054781,Métropole du Grand Paris,Transport_A,409.69999999999993
+377,2010,200054781,Métropole du Grand Paris,Production-Energie,115.6
+378,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Agriculture,4.1000000000000005
+379,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Residentiel,66.2
+380,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Tertiaire,13.2
+381,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Totale,164.20000000000002
+382,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_R,63.7
+383,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_A,0.0
+384,2010,200023125,CC Les Portes Briardes entre Villes et Forêts,Production-Energie,0.8999999999999999
+385,2010,200023240,CC Pays de Nemours,Agriculture,14.7
+386,2010,200023240,CC Pays de Nemours,Residentiel,45.699999999999996
+387,2010,200023240,CC Pays de Nemours,Tertiaire,16.6
+388,2010,200023240,CC Pays de Nemours,Totale,224.99999999999997
+389,2010,200023240,CC Pays de Nemours,Transport_R,71.6
+390,2010,200023240,CC Pays de Nemours,Transport_A,0.0
+391,2010,200023240,CC Pays de Nemours,Production-Energie,1.0
+392,2010,200023919,CC Gâtinais Val de Loing,Agriculture,34.7
+393,2010,200023919,CC Gâtinais Val de Loing,Residentiel,27.099999999999998
+394,2010,200023919,CC Gâtinais Val de Loing,Tertiaire,2.9000000000000004
+395,2010,200023919,CC Gâtinais Val de Loing,Totale,185.3
+396,2010,200023919,CC Gâtinais Val de Loing,Transport_R,60.2
+397,2010,200023919,CC Gâtinais Val de Loing,Transport_A,0.0
+398,2010,200023919,CC Gâtinais Val de Loing,Production-Energie,0.3
+399,2010,200033090,CC Plaines et Monts de France,Agriculture,14.800000000000002
+400,2010,200033090,CC Plaines et Monts de France,Residentiel,27.400000000000006
+401,2010,200033090,CC Plaines et Monts de France,Tertiaire,4.4
+402,2010,200033090,CC Plaines et Monts de France,Totale,207.79999999999998
+403,2010,200033090,CC Plaines et Monts de France,Transport_R,68.7
+404,2010,200033090,CC Plaines et Monts de France,Transport_A,69.2
+405,2010,200033090,CC Plaines et Monts de France,Production-Energie,0.2
+406,2010,200037133,CC du Provinois,Agriculture,65.79999999999998
+407,2010,200037133,CC du Provinois,Residentiel,48.2
+408,2010,200037133,CC du Provinois,Tertiaire,10.799999999999999
+409,2010,200037133,CC du Provinois,Totale,199.29999999999998
+410,2010,200037133,CC du Provinois,Transport_R,65.89999999999999
+411,2010,200037133,CC du Provinois,Transport_A,0.0
+412,2010,200037133,CC du Provinois,Production-Energie,0.3
+413,2010,200040251,CC Bassée-Montois,Agriculture,33.4
+414,2010,200040251,CC Bassée-Montois,Residentiel,33.800000000000004
+415,2010,200040251,CC Bassée-Montois,Tertiaire,4.0
+416,2010,200040251,CC Bassée-Montois,Totale,97.2
+417,2010,200040251,CC Bassée-Montois,Transport_R,18.100000000000005
+418,2010,200040251,CC Bassée-Montois,Transport_A,0.0
+419,2010,200040251,CC Bassée-Montois,Production-Energie,0.0
+420,2010,200055655,CA Roissy Pays de France,Agriculture,27.400000000000002
+421,2010,200055655,CA Roissy Pays de France,Residentiel,404.5000000000001
+422,2010,200055655,CA Roissy Pays de France,Tertiaire,200.3
+423,2010,200055655,CA Roissy Pays de France,Totale,2315.8999999999996
+424,2010,200055655,CA Roissy Pays de France,Transport_R,556.7999999999998
+425,2010,200055655,CA Roissy Pays de France,Transport_A,853.5000000000001
+426,2010,200055655,CA Roissy Pays de France,Production-Energie,3.9000000000000004
+427,2010,200057958,CA Paris - Vallée de la Marne,Agriculture,0.7999999999999999
+428,2010,200057958,CA Paris - Vallée de la Marne,Residentiel,277.20000000000005
+429,2010,200057958,CA Paris - Vallée de la Marne,Tertiaire,108.89999999999999
+430,2010,200057958,CA Paris - Vallée de la Marne,Totale,723.1
+431,2010,200057958,CA Paris - Vallée de la Marne,Transport_R,261.29999999999995
+432,2010,200057958,CA Paris - Vallée de la Marne,Transport_A,2.2
+433,2010,200057958,CA Paris - Vallée de la Marne,Production-Energie,3.5
+434,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Agriculture,6.1
+435,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Residentiel,405.5
+436,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Tertiaire,199.09999999999997
+437,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Totale,1634.5
+438,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_R,674.6
+439,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_A,0.0
+440,2010,200059228,CA Grand Paris Sud Seine Essonne Sénart,Production-Energie,4.6
+441,2010,200070779,CC Brie des Rivières et Châteaux,Agriculture,29.800000000000008
+442,2010,200070779,CC Brie des Rivières et Châteaux,Residentiel,52.00000000000001
+443,2010,200070779,CC Brie des Rivières et Châteaux,Tertiaire,4.399999999999999
+444,2010,200070779,CC Brie des Rivières et Châteaux,Totale,274.5999999999999
+445,2010,200070779,CC Brie des Rivières et Châteaux,Transport_R,176.09999999999997
+446,2010,200070779,CC Brie des Rivières et Châteaux,Transport_A,0.3
+447,2010,200070779,CC Brie des Rivières et Châteaux,Production-Energie,0.1
+448,2010,200072130,CA du Pays de Meaux,Agriculture,12.699999999999998
+449,2010,200072130,CA du Pays de Meaux,Residentiel,109.49999999999999
+450,2010,200072130,CA du Pays de Meaux,Tertiaire,52.0
+451,2010,200072130,CA du Pays de Meaux,Totale,628.5000000000001
+452,2010,200072130,CA du Pays de Meaux,Transport_R,116.60000000000001
+453,2010,200072130,CA du Pays de Meaux,Transport_A,11.699999999999998
+454,2010,200072130,CA du Pays de Meaux,Production-Energie,0.6
+455,2010,200072346,CA du Pays de Fontainebleau,Agriculture,18.5
+456,2010,200072346,CA du Pays de Fontainebleau,Residentiel,142.79999999999998
+457,2010,200072346,CA du Pays de Fontainebleau,Tertiaire,33.599999999999994
+458,2010,200072346,CA du Pays de Fontainebleau,Totale,438.1000000000001
+459,2010,200072346,CA du Pays de Fontainebleau,Transport_R,228.60000000000005
+460,2010,200072346,CA du Pays de Fontainebleau,Transport_A,2.0
+461,2010,200072346,CA du Pays de Fontainebleau,Production-Energie,1.6
+462,2010,200072544,CC des Deux Morin,Agriculture,51.199999999999996
+463,2010,200072544,CC des Deux Morin,Residentiel,36.500000000000014
+464,2010,200072544,CC des Deux Morin,Tertiaire,2.7000000000000006
+465,2010,200072544,CC des Deux Morin,Totale,177.29999999999998
+466,2010,200072544,CC des Deux Morin,Transport_R,20.200000000000003
+467,2010,200072544,CC des Deux Morin,Transport_A,0.0
+468,2010,200072544,CC des Deux Morin,Production-Energie,0.1
+469,2010,200072874,CC Val Briard,Agriculture,28.60000000000001
+470,2010,200072874,CC Val Briard,Residentiel,37.300000000000004
+471,2010,200072874,CC Val Briard,Tertiaire,10.299999999999999
+472,2010,200072874,CC Val Briard,Totale,160.0
+473,2010,200072874,CC Val Briard,Transport_R,79.0
+474,2010,200072874,CC Val Briard,Transport_A,0.0
+475,2010,200072874,CC Val Briard,Production-Energie,0.30000000000000004
+476,2010,200077055,CA Coulommiers Pays de Brie,Agriculture,50.6
+477,2010,200077055,CA Coulommiers Pays de Brie,Residentiel,100.79999999999998
+478,2010,200077055,CA Coulommiers Pays de Brie,Tertiaire,19.400000000000002
+479,2010,200077055,CA Coulommiers Pays de Brie,Totale,274.2000000000001
+480,2010,200077055,CA Coulommiers Pays de Brie,Transport_R,87.00000000000001
+481,2010,200077055,CA Coulommiers Pays de Brie,Transport_A,0.0
+482,2010,200077055,CA Coulommiers Pays de Brie,Production-Energie,0.6
+483,2010,247700032,CC Moret Seine et Loing,Agriculture,14.0
+484,2010,247700032,CC Moret Seine et Loing,Residentiel,57.49999999999999
+485,2010,247700032,CC Moret Seine et Loing,Tertiaire,7.699999999999999
+486,2010,247700032,CC Moret Seine et Loing,Totale,129.9
+487,2010,247700032,CC Moret Seine et Loing,Transport_R,38.7
+488,2010,247700032,CC Moret Seine et Loing,Transport_A,1.5
+489,2010,247700032,CC Moret Seine et Loing,Production-Energie,0.5
+490,2010,247700057,CA Melun Val de Seine,Agriculture,10.000000000000002
+491,2010,247700057,CA Melun Val de Seine,Residentiel,176.89999999999998
+492,2010,247700057,CA Melun Val de Seine,Tertiaire,86.1
+493,2010,247700057,CA Melun Val de Seine,Totale,633.7
+494,2010,247700057,CA Melun Val de Seine,Transport_R,300.4000000000001
+495,2010,247700057,CA Melun Val de Seine,Transport_A,0.5
+496,2010,247700057,CA Melun Val de Seine,Production-Energie,0.7
+497,2010,247700065,CC du Pays de l'Ourcq,Agriculture,21.299999999999997
+498,2010,247700065,CC du Pays de l'Ourcq,Residentiel,22.699999999999996
+499,2010,247700065,CC du Pays de l'Ourcq,Tertiaire,3.5999999999999996
+500,2010,247700065,CC du Pays de l'Ourcq,Totale,138.60000000000002
+501,2010,247700065,CC du Pays de l'Ourcq,Transport_R,28.1
+502,2010,247700065,CC du Pays de l'Ourcq,Transport_A,0.0
+503,2010,247700065,CC du Pays de l'Ourcq,Production-Energie,0.1
+504,2010,247700107,CC Pays de Montereau,Agriculture,20.7
+505,2010,247700107,CC Pays de Montereau,Residentiel,48.9
+506,2010,247700107,CC Pays de Montereau,Tertiaire,14.899999999999999
+507,2010,247700107,CC Pays de Montereau,Totale,444.6000000000001
+508,2010,247700107,CC Pays de Montereau,Transport_R,90.5
+509,2010,247700107,CC Pays de Montereau,Transport_A,1.6
+510,2010,247700107,CC Pays de Montereau,Production-Energie,0.1
+511,2010,247700339,CA Val d'Europe Agglomération,Agriculture,1.7000000000000002
+512,2010,247700339,CA Val d'Europe Agglomération,Residentiel,35.1
+513,2010,247700339,CA Val d'Europe Agglomération,Tertiaire,71.49999999999999
+514,2010,247700339,CA Val d'Europe Agglomération,Totale,195.2
+515,2010,247700339,CA Val d'Europe Agglomération,Transport_R,84.0
+516,2010,247700339,CA Val d'Europe Agglomération,Transport_A,0.0
+517,2010,247700339,CA Val d'Europe Agglomération,Production-Energie,0.5
+518,2010,247700438,CC Pays Créçois,Agriculture,12.299999999999997
+519,2010,247700438,CC Pays Créçois,Residentiel,53.89999999999999
+520,2010,247700438,CC Pays Créçois,Tertiaire,5.9
+521,2010,247700438,CC Pays Créçois,Totale,182.29999999999998
+522,2010,247700438,CC Pays Créçois,Transport_R,107.4
+523,2010,247700438,CC Pays Créçois,Transport_A,0.0
+524,2010,247700438,CC Pays Créçois,Production-Energie,0.5
+525,2010,247700594,CA Marne et Gondoire,Agriculture,2.4000000000000004
+526,2010,247700594,CA Marne et Gondoire,Residentiel,127.10000000000001
+527,2010,247700594,CA Marne et Gondoire,Tertiaire,50.1
+528,2010,247700594,CA Marne et Gondoire,Totale,403.4000000000001
+529,2010,247700594,CA Marne et Gondoire,Transport_R,193.7
+530,2010,247700594,CA Marne et Gondoire,Transport_A,0.0
+531,2010,247700594,CA Marne et Gondoire,Production-Energie,1.7000000000000002
+532,2010,247700644,CC l'Orée de la Brie,Agriculture,3.6999999999999997
+533,2010,247700644,CC l'Orée de la Brie,Residentiel,38.0
+534,2010,247700644,CC l'Orée de la Brie,Tertiaire,13.100000000000001
+535,2010,247700644,CC l'Orée de la Brie,Totale,130.10000000000002
+536,2010,247700644,CC l'Orée de la Brie,Transport_R,70.4
+537,2010,247700644,CC l'Orée de la Brie,Transport_A,0.0
+538,2010,247700644,CC l'Orée de la Brie,Production-Energie,0.5
+539,2010,247700701,CC Brie Nangissienne,Agriculture,28.500000000000004
+540,2010,247700701,CC Brie Nangissienne,Residentiel,35.400000000000006
+541,2010,247700701,CC Brie Nangissienne,Tertiaire,10.4
+542,2010,247700701,CC Brie Nangissienne,Totale,1668.4999999999993
+543,2010,247700701,CC Brie Nangissienne,Transport_R,35.6
+544,2010,247700701,CC Brie Nangissienne,Transport_A,0.0
+545,2010,247700701,CC Brie Nangissienne,Production-Energie,0.5
+546,2010,200033173,CC de la Haute Vallée de Chevreuse,Agriculture,4.2
+547,2010,200033173,CC de la Haute Vallée de Chevreuse,Residentiel,46.4
+548,2010,200033173,CC de la Haute Vallée de Chevreuse,Tertiaire,9.0
+549,2010,200033173,CC de la Haute Vallée de Chevreuse,Totale,88.60000000000001
+550,2010,200033173,CC de la Haute Vallée de Chevreuse,Transport_R,27.599999999999998
+551,2010,200033173,CC de la Haute Vallée de Chevreuse,Transport_A,0.0
+552,2010,200033173,CC de la Haute Vallée de Chevreuse,Production-Energie,0.5
+553,2010,200034130,CC Gally Mauldre,Agriculture,9.8
+554,2010,200034130,CC Gally Mauldre,Residentiel,44.699999999999996
+555,2010,200034130,CC Gally Mauldre,Tertiaire,3.0
+556,2010,200034130,CC Gally Mauldre,Totale,114.4
+557,2010,200034130,CC Gally Mauldre,Transport_R,55.3
+558,2010,200034130,CC Gally Mauldre,Transport_A,0.0
+559,2010,200034130,CC Gally Mauldre,Production-Energie,0.30000000000000004
+560,2010,200058519,CA Saint-Germain Boucles de Seine,Agriculture,3.5
+561,2010,200058519,CA Saint-Germain Boucles de Seine,Residentiel,523.3
+562,2010,200058519,CA Saint-Germain Boucles de Seine,Tertiaire,136.79999999999998
+563,2010,200058519,CA Saint-Germain Boucles de Seine,Totale,1178.3
+564,2010,200058519,CA Saint-Germain Boucles de Seine,Transport_R,476.8
+565,2010,200058519,CA Saint-Germain Boucles de Seine,Transport_A,0.2
+566,2010,200058519,CA Saint-Germain Boucles de Seine,Production-Energie,5.700000000000001
+567,2010,200058782,CA de Saint-Quentin-en-Yvelines,Agriculture,4.5
+568,2010,200058782,CA de Saint-Quentin-en-Yvelines,Residentiel,283.09999999999997
+569,2010,200058782,CA de Saint-Quentin-en-Yvelines,Tertiaire,129.70000000000002
+570,2010,200058782,CA de Saint-Quentin-en-Yvelines,Totale,777.4000000000001
+571,2010,200058782,CA de Saint-Quentin-en-Yvelines,Transport_R,279.0
+572,2010,200058782,CA de Saint-Quentin-en-Yvelines,Transport_A,0.0
+573,2010,200058782,CA de Saint-Quentin-en-Yvelines,Production-Energie,4.7
+574,2010,200059889,CU Grand Paris Seine et Oise,Agriculture,26.900000000000013
+575,2010,200059889,CU Grand Paris Seine et Oise,Residentiel,519.5
+576,2010,200059889,CU Grand Paris Seine et Oise,Tertiaire,170.80000000000004
+577,2010,200059889,CU Grand Paris Seine et Oise,Totale,2413.4
+578,2010,200059889,CU Grand Paris Seine et Oise,Transport_R,684.6999999999998
+579,2010,200059889,CU Grand Paris Seine et Oise,Transport_A,2.6
+580,2010,200059889,CU Grand Paris Seine et Oise,Production-Energie,5.8
+581,2010,200071074,CC Les Portes de l'Ile de France,Agriculture,13.2
+582,2010,200071074,CC Les Portes de l'Ile de France,Residentiel,30.7
+583,2010,200071074,CC Les Portes de l'Ile de France,Tertiaire,3.0000000000000004
+584,2010,200071074,CC Les Portes de l'Ile de France,Totale,207.1
+585,2010,200071074,CC Les Portes de l'Ile de France,Transport_R,72.0
+586,2010,200071074,CC Les Portes de l'Ile de France,Transport_A,5.0
+587,2010,200071074,CC Les Portes de l'Ile de France,Production-Energie,0.30000000000000004
+588,2010,200073344,CA Rambouillet Territoires,Agriculture,39.50000000000001
+589,2010,200073344,CA Rambouillet Territoires,Residentiel,117.8
+590,2010,200073344,CA Rambouillet Territoires,Tertiaire,29.4
+591,2010,200073344,CA Rambouillet Territoires,Totale,486.7999999999999
+592,2010,200073344,CA Rambouillet Territoires,Transport_R,285.6
+593,2010,200073344,CA Rambouillet Territoires,Transport_A,0.0
+594,2010,200073344,CA Rambouillet Territoires,Production-Energie,0.9
+595,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Agriculture,19.5
+596,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Residentiel,41.10000000000001
+597,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Tertiaire,9.2
+598,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Totale,115.00000000000003
+599,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_R,42.500000000000014
+600,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_A,0.0
+601,2010,247800550,CC du Pays Houdanais (C.C.P.H.),Production-Energie,0.2
+602,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Agriculture,4.0
+603,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Residentiel,423.1
+604,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Tertiaire,185.3
+605,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Totale,1308.3000000000002
+606,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_R,511.09999999999997
+607,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_A,0.1
+608,2010,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Production-Energie,2.3000000000000003
+609,2010,247800618,CC Coeur d'Yvelines,Agriculture,19.299999999999994
+610,2010,247800618,CC Coeur d'Yvelines,Residentiel,79.2
+611,2010,247800618,CC Coeur d'Yvelines,Tertiaire,16.499999999999996
+612,2010,247800618,CC Coeur d'Yvelines,Totale,267.09999999999997
+613,2010,247800618,CC Coeur d'Yvelines,Transport_R,147.1
+614,2010,247800618,CC Coeur d'Yvelines,Transport_A,0.0
+615,2010,247800618,CC Coeur d'Yvelines,Production-Energie,0.4
+616,2010,249500109,CA de Cergy-Pontoise,Agriculture,4.1
+617,2010,249500109,CA de Cergy-Pontoise,Residentiel,239.40000000000003
+618,2010,249500109,CA de Cergy-Pontoise,Tertiaire,131.8
+619,2010,249500109,CA de Cergy-Pontoise,Totale,669.1
+620,2010,249500109,CA de Cergy-Pontoise,Transport_R,240.5
+621,2010,249500109,CA de Cergy-Pontoise,Transport_A,0.0
+622,2010,249500109,CA de Cergy-Pontoise,Production-Energie,2.1
+623,2010,200017846,CA Étampois Sud-Essonne (CCESE),Agriculture,47.49999999999999
+624,2010,200017846,CA Étampois Sud-Essonne (CCESE),Residentiel,72.59999999999998
+625,2010,200017846,CA Étampois Sud-Essonne (CCESE),Tertiaire,18.3
+626,2010,200017846,CA Étampois Sud-Essonne (CCESE),Totale,225.8
+627,2010,200017846,CA Étampois Sud-Essonne (CCESE),Transport_R,75.99999999999999
+628,2010,200017846,CA Étampois Sud-Essonne (CCESE),Transport_A,0.0
+629,2010,200017846,CA Étampois Sud-Essonne (CCESE),Production-Energie,0.6
+630,2010,200056232,CA Communauté Paris-Saclay,Agriculture,7.399999999999999
+631,2010,200056232,CA Communauté Paris-Saclay,Residentiel,420.2000000000001
+632,2010,200056232,CA Communauté Paris-Saclay,Tertiaire,232.3
+633,2010,200056232,CA Communauté Paris-Saclay,Totale,1503.7000000000003
+634,2010,200056232,CA Communauté Paris-Saclay,Transport_R,563.1999999999999
+635,2010,200056232,CA Communauté Paris-Saclay,Transport_A,93.4
+636,2010,200056232,CA Communauté Paris-Saclay,Production-Energie,4.8999999999999995
+637,2010,200057859,CA Coeur d'Essonne Agglomération,Agriculture,7.3
+638,2010,200057859,CA Coeur d'Essonne Agglomération,Residentiel,271.7
+639,2010,200057859,CA Coeur d'Essonne Agglomération,Tertiaire,110.3
+640,2010,200057859,CA Coeur d'Essonne Agglomération,Totale,756.5
+641,2010,200057859,CA Coeur d'Essonne Agglomération,Transport_R,304.40000000000003
+642,2010,200057859,CA Coeur d'Essonne Agglomération,Transport_A,0.0
+643,2010,200057859,CA Coeur d'Essonne Agglomération,Production-Energie,3.300000000000001
+644,2010,200058477,CA Val d'Yerres Val de Seine,Agriculture,0.3
+645,2010,200058477,CA Val d'Yerres Val de Seine,Residentiel,248.90000000000003
+646,2010,200058477,CA Val d'Yerres Val de Seine,Tertiaire,70.6
+647,2010,200058477,CA Val d'Yerres Val de Seine,Totale,442.4
+648,2010,200058477,CA Val d'Yerres Val de Seine,Transport_R,112.39999999999999
+649,2010,200058477,CA Val d'Yerres Val de Seine,Transport_A,0.0
+650,2010,200058477,CA Val d'Yerres Val de Seine,Production-Energie,2.8
+651,2010,249100074,CC du Pays de Limours (CCPL),Agriculture,9.5
+652,2010,249100074,CC du Pays de Limours (CCPL),Residentiel,38.9
+653,2010,249100074,CC du Pays de Limours (CCPL),Tertiaire,7.699999999999998
+654,2010,249100074,CC du Pays de Limours (CCPL),Totale,210.39999999999995
+655,2010,249100074,CC du Pays de Limours (CCPL),Transport_R,137.70000000000002
+656,2010,249100074,CC du Pays de Limours (CCPL),Transport_A,6.699999999999999
+657,2010,249100074,CC du Pays de Limours (CCPL),Production-Energie,0.2
+658,2010,249100157,CC des Deux Vallées,Agriculture,13.999999999999998
+659,2010,249100157,CC des Deux Vallées,Residentiel,32.8
+660,2010,249100157,CC des Deux Vallées,Tertiaire,3.4
+661,2010,249100157,CC des Deux Vallées,Totale,86.80000000000001
+662,2010,249100157,CC des Deux Vallées,Transport_R,26.600000000000005
+663,2010,249100157,CC des Deux Vallées,Transport_A,0.0
+664,2010,249100157,CC des Deux Vallées,Production-Energie,0.1
+665,2010,249100546,CC du Val d'Essonne (CCVE),Agriculture,12.8
+666,2010,249100546,CC du Val d'Essonne (CCVE),Residentiel,86.40000000000002
+667,2010,249100546,CC du Val d'Essonne (CCVE),Tertiaire,20.9
+668,2010,249100546,CC du Val d'Essonne (CCVE),Totale,447.59999999999997
+669,2010,249100546,CC du Val d'Essonne (CCVE),Transport_R,115.79999999999998
+670,2010,249100546,CC du Val d'Essonne (CCVE),Transport_A,0.0
+671,2010,249100546,CC du Val d'Essonne (CCVE),Production-Energie,1.0
+672,2010,249100553,CC Entre Juine et Renarde (CCEJR),Agriculture,7.100000000000001
+673,2010,249100553,CC Entre Juine et Renarde (CCEJR),Residentiel,42.4
+674,2010,249100553,CC Entre Juine et Renarde (CCEJR),Tertiaire,14.999999999999996
+675,2010,249100553,CC Entre Juine et Renarde (CCEJR),Totale,123.5
+676,2010,249100553,CC Entre Juine et Renarde (CCEJR),Transport_R,49.29999999999999
+677,2010,249100553,CC Entre Juine et Renarde (CCEJR),Transport_A,0.0
+678,2010,249100553,CC Entre Juine et Renarde (CCEJR),Production-Energie,0.30000000000000004
+679,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Agriculture,8.5
+680,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Residentiel,40.4
+681,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Tertiaire,13.0
+682,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Totale,104.70000000000002
+683,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_R,39.3
+684,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_A,0.0
+685,2010,249100595,CC Le Dourdannais en Hurepoix (CCDH),Production-Energie,0.4
+686,2010,200035970,CC Vexin Centre,Agriculture,25.599999999999998
+687,2010,200035970,CC Vexin Centre,Residentiel,35.3
+688,2010,200035970,CC Vexin Centre,Tertiaire,3.6000000000000005
+689,2010,200035970,CC Vexin Centre,Totale,154.00000000000003
+690,2010,200035970,CC Vexin Centre,Transport_R,74.2
+691,2010,200035970,CC Vexin Centre,Transport_A,0.0
+692,2010,200035970,CC Vexin Centre,Production-Energie,0.1
+693,2010,200056380,CA Plaine Vallée,Agriculture,3.0
+694,2010,200056380,CA Plaine Vallée,Residentiel,267.9
+695,2010,200056380,CA Plaine Vallée,Tertiaire,48.4
+696,2010,200056380,CA Plaine Vallée,Totale,455.8
+697,2010,200056380,CA Plaine Vallée,Transport_R,102.60000000000001
+698,2010,200056380,CA Plaine Vallée,Transport_A,25.0
+699,2010,200056380,CA Plaine Vallée,Production-Energie,3.3000000000000003
+700,2010,200058485,CA Val Parisis,Agriculture,6.1
+701,2010,200058485,CA Val Parisis,Residentiel,379.2
+702,2010,200058485,CA Val Parisis,Tertiaire,85.79999999999998
+703,2010,200058485,CA Val Parisis,Totale,862.0000000000001
+704,2010,200058485,CA Val Parisis,Transport_R,307.7
+705,2010,200058485,CA Val Parisis,Transport_A,0.0
+706,2010,200058485,CA Val Parisis,Production-Energie,5.1000000000000005
+707,2010,200073013,CC Carnelle Pays-De-France,Agriculture,8.5
+708,2010,200073013,CC Carnelle Pays-De-France,Residentiel,49.7
+709,2010,200073013,CC Carnelle Pays-De-France,Tertiaire,9.500000000000002
+710,2010,200073013,CC Carnelle Pays-De-France,Totale,127.09999999999998
+711,2010,200073013,CC Carnelle Pays-De-France,Transport_R,56.90000000000001
+712,2010,200073013,CC Carnelle Pays-De-France,Transport_A,0.0
+713,2010,200073013,CC Carnelle Pays-De-France,Production-Energie,0.4
+714,2010,249500430,CC Sausseron Impressionnistes,Agriculture,12.3
+715,2010,249500430,CC Sausseron Impressionnistes,Residentiel,33.6
+716,2010,249500430,CC Sausseron Impressionnistes,Tertiaire,5.199999999999999
+717,2010,249500430,CC Sausseron Impressionnistes,Totale,67.60000000000001
+718,2010,249500430,CC Sausseron Impressionnistes,Transport_R,15.399999999999999
+719,2010,249500430,CC Sausseron Impressionnistes,Transport_A,0.0
+720,2010,249500430,CC Sausseron Impressionnistes,Production-Energie,0.2
+721,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Agriculture,2.3
+722,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Residentiel,60.79999999999999
+723,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Tertiaire,8.799999999999999
+724,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Totale,213.5
+725,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_R,121.10000000000001
+726,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_A,0.0
+727,2010,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Production-Energie,0.7
+728,2010,249500489,CC du Haut Val d'Oise,Agriculture,2.9000000000000004
+729,2010,249500489,CC du Haut Val d'Oise,Residentiel,44.9
+730,2010,249500489,CC du Haut Val d'Oise,Tertiaire,14.3
+731,2010,249500489,CC du Haut Val d'Oise,Totale,110.6
+732,2010,249500489,CC du Haut Val d'Oise,Transport_R,36.800000000000004
+733,2010,249500489,CC du Haut Val d'Oise,Transport_A,0.0
+734,2010,249500489,CC du Haut Val d'Oise,Production-Energie,0.6000000000000001
+735,2010,249500513,CC du Vexin-Val de Seine,Agriculture,17.299999999999997
+736,2010,249500513,CC du Vexin-Val de Seine,Residentiel,23.799999999999997
+737,2010,249500513,CC du Vexin-Val de Seine,Tertiaire,4.9
+738,2010,249500513,CC du Vexin-Val de Seine,Totale,89.9
+739,2010,249500513,CC du Vexin-Val de Seine,Transport_R,40.40000000000001
+740,2010,249500513,CC du Vexin-Val de Seine,Transport_A,1.0
+741,2010,249500513,CC du Vexin-Val de Seine,Production-Energie,0.1
+742,2012,200054781,Métropole du Grand Paris,Agriculture,16.399999999999995
+743,2012,200054781,Métropole du Grand Paris,Residentiel,8437.299999999996
+744,2012,200054781,Métropole du Grand Paris,Tertiaire,3667.4000000000005
+745,2012,200054781,Métropole du Grand Paris,Totale,19210.999999999993
+746,2012,200054781,Métropole du Grand Paris,Transport_R,4707.0999999999985
+747,2012,200054781,Métropole du Grand Paris,Transport_A,372.8
+748,2012,200054781,Métropole du Grand Paris,Production-Energie,109.60000000000002
+749,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Agriculture,4.0
+750,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Residentiel,58.800000000000004
+751,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Tertiaire,11.2
+752,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Totale,149.7
+753,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_R,60.3
+754,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_A,0.0
+755,2012,200023125,CC Les Portes Briardes entre Villes et Forêts,Production-Energie,0.8999999999999999
+756,2012,200023240,CC Pays de Nemours,Agriculture,14.299999999999997
+757,2012,200023240,CC Pays de Nemours,Residentiel,42.5
+758,2012,200023240,CC Pays de Nemours,Tertiaire,13.6
+759,2012,200023240,CC Pays de Nemours,Totale,231.49999999999997
+760,2012,200023240,CC Pays de Nemours,Transport_R,75.1
+761,2012,200023240,CC Pays de Nemours,Transport_A,0.0
+762,2012,200023240,CC Pays de Nemours,Production-Energie,1.0
+763,2012,200023919,CC Gâtinais Val de Loing,Agriculture,34.199999999999996
+764,2012,200023919,CC Gâtinais Val de Loing,Residentiel,24.899999999999995
+765,2012,200023919,CC Gâtinais Val de Loing,Tertiaire,2.4000000000000004
+766,2012,200023919,CC Gâtinais Val de Loing,Totale,123.90000000000002
+767,2012,200023919,CC Gâtinais Val de Loing,Transport_R,61.4
+768,2012,200023919,CC Gâtinais Val de Loing,Transport_A,0.0
+769,2012,200023919,CC Gâtinais Val de Loing,Production-Energie,0.3
+770,2012,200033090,CC Plaines et Monts de France,Agriculture,14.500000000000004
+771,2012,200033090,CC Plaines et Monts de France,Residentiel,25.099999999999998
+772,2012,200033090,CC Plaines et Monts de France,Tertiaire,4.3
+773,2012,200033090,CC Plaines et Monts de France,Totale,212.39999999999998
+774,2012,200033090,CC Plaines et Monts de France,Transport_R,70.8
+775,2012,200033090,CC Plaines et Monts de France,Transport_A,76.5
+776,2012,200033090,CC Plaines et Monts de France,Production-Energie,0.2
+777,2012,200037133,CC du Provinois,Agriculture,65.39999999999998
+778,2012,200037133,CC du Provinois,Residentiel,44.10000000000001
+779,2012,200037133,CC du Provinois,Tertiaire,9.7
+780,2012,200037133,CC du Provinois,Totale,195.40000000000003
+781,2012,200037133,CC du Provinois,Transport_R,67.6
+782,2012,200037133,CC du Provinois,Transport_A,0.0
+783,2012,200037133,CC du Provinois,Production-Energie,0.3
+784,2012,200040251,CC Bassée-Montois,Agriculture,32.9
+785,2012,200040251,CC Bassée-Montois,Residentiel,30.899999999999995
+786,2012,200040251,CC Bassée-Montois,Tertiaire,3.4000000000000004
+787,2012,200040251,CC Bassée-Montois,Totale,95.79999999999998
+788,2012,200040251,CC Bassée-Montois,Transport_R,18.300000000000004
+789,2012,200040251,CC Bassée-Montois,Transport_A,0.0
+790,2012,200040251,CC Bassée-Montois,Production-Energie,0.0
+791,2012,200055655,CA Roissy Pays de France,Agriculture,27.400000000000002
+792,2012,200055655,CA Roissy Pays de France,Residentiel,354.30000000000007
+793,2012,200055655,CA Roissy Pays de France,Tertiaire,174.4
+794,2012,200055655,CA Roissy Pays de France,Totale,2162.1000000000004
+795,2012,200055655,CA Roissy Pays de France,Transport_R,539.2999999999998
+796,2012,200055655,CA Roissy Pays de France,Transport_A,820.4999999999999
+797,2012,200055655,CA Roissy Pays de France,Production-Energie,3.7
+798,2012,200057958,CA Paris - Vallée de la Marne,Agriculture,0.7
+799,2012,200057958,CA Paris - Vallée de la Marne,Residentiel,246.2
+800,2012,200057958,CA Paris - Vallée de la Marne,Tertiaire,92.8
+801,2012,200057958,CA Paris - Vallée de la Marne,Totale,664.3999999999999
+802,2012,200057958,CA Paris - Vallée de la Marne,Transport_R,270.8
+803,2012,200057958,CA Paris - Vallée de la Marne,Transport_A,2.4000000000000004
+804,2012,200057958,CA Paris - Vallée de la Marne,Production-Energie,3.6
+805,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Agriculture,5.999999999999999
+806,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Residentiel,366.99999999999994
+807,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Tertiaire,169.1
+808,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Totale,1365.1
+809,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_R,653.2999999999998
+810,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_A,0.0
+811,2012,200059228,CA Grand Paris Sud Seine Essonne Sénart,Production-Energie,4.699999999999999
+812,2012,200070779,CC Brie des Rivières et Châteaux,Agriculture,29.50000000000001
+813,2012,200070779,CC Brie des Rivières et Châteaux,Residentiel,48.8
+814,2012,200070779,CC Brie des Rivières et Châteaux,Tertiaire,4.1
+815,2012,200070779,CC Brie des Rivières et Châteaux,Totale,265.8
+816,2012,200070779,CC Brie des Rivières et Châteaux,Transport_R,172.20000000000002
+817,2012,200070779,CC Brie des Rivières et Châteaux,Transport_A,0.3
+818,2012,200070779,CC Brie des Rivières et Châteaux,Production-Energie,0.1
+819,2012,200072130,CA du Pays de Meaux,Agriculture,12.499999999999998
+820,2012,200072130,CA du Pays de Meaux,Residentiel,105.39999999999999
+821,2012,200072130,CA du Pays de Meaux,Tertiaire,41.20000000000002
+822,2012,200072130,CA du Pays de Meaux,Totale,486.59999999999997
+823,2012,200072130,CA du Pays de Meaux,Transport_R,114.50000000000003
+824,2012,200072130,CA du Pays de Meaux,Transport_A,13.299999999999997
+825,2012,200072130,CA du Pays de Meaux,Production-Energie,0.6
+826,2012,200072346,CA du Pays de Fontainebleau,Agriculture,18.400000000000002
+827,2012,200072346,CA du Pays de Fontainebleau,Residentiel,125.8
+828,2012,200072346,CA du Pays de Fontainebleau,Tertiaire,30.6
+829,2012,200072346,CA du Pays de Fontainebleau,Totale,418.7
+830,2012,200072346,CA du Pays de Fontainebleau,Transport_R,229.60000000000005
+831,2012,200072346,CA du Pays de Fontainebleau,Transport_A,2.1
+832,2012,200072346,CA du Pays de Fontainebleau,Production-Energie,1.7000000000000002
+833,2012,200072544,CC des Deux Morin,Agriculture,50.89999999999999
+834,2012,200072544,CC des Deux Morin,Residentiel,32.900000000000006
+835,2012,200072544,CC des Deux Morin,Tertiaire,2.6000000000000005
+836,2012,200072544,CC des Deux Morin,Totale,129.39999999999998
+837,2012,200072544,CC des Deux Morin,Transport_R,20.9
+838,2012,200072544,CC des Deux Morin,Transport_A,0.0
+839,2012,200072544,CC des Deux Morin,Production-Energie,0.1
+840,2012,200072874,CC Val Briard,Agriculture,28.300000000000004
+841,2012,200072874,CC Val Briard,Residentiel,33.900000000000006
+842,2012,200072874,CC Val Briard,Tertiaire,9.3
+843,2012,200072874,CC Val Briard,Totale,157.8
+844,2012,200072874,CC Val Briard,Transport_R,82.0
+845,2012,200072874,CC Val Briard,Transport_A,0.0
+846,2012,200072874,CC Val Briard,Production-Energie,0.2
+847,2012,200077055,CA Coulommiers Pays de Brie,Agriculture,49.6
+848,2012,200077055,CA Coulommiers Pays de Brie,Residentiel,91.5
+849,2012,200077055,CA Coulommiers Pays de Brie,Tertiaire,17.299999999999994
+850,2012,200077055,CA Coulommiers Pays de Brie,Totale,262.4
+851,2012,200077055,CA Coulommiers Pays de Brie,Transport_R,89.39999999999999
+852,2012,200077055,CA Coulommiers Pays de Brie,Transport_A,0.1
+853,2012,200077055,CA Coulommiers Pays de Brie,Production-Energie,0.5
+854,2012,247700032,CC Moret Seine et Loing,Agriculture,13.8
+855,2012,247700032,CC Moret Seine et Loing,Residentiel,51.899999999999984
+856,2012,247700032,CC Moret Seine et Loing,Tertiaire,6.8999999999999995
+857,2012,247700032,CC Moret Seine et Loing,Totale,119.9
+858,2012,247700032,CC Moret Seine et Loing,Transport_R,38.7
+859,2012,247700032,CC Moret Seine et Loing,Transport_A,1.6
+860,2012,247700032,CC Moret Seine et Loing,Production-Energie,0.4
+861,2012,247700057,CA Melun Val de Seine,Agriculture,10.000000000000002
+862,2012,247700057,CA Melun Val de Seine,Residentiel,159.09999999999997
+863,2012,247700057,CA Melun Val de Seine,Tertiaire,63.099999999999994
+864,2012,247700057,CA Melun Val de Seine,Totale,611.5000000000001
+865,2012,247700057,CA Melun Val de Seine,Transport_R,296.20000000000005
+866,2012,247700057,CA Melun Val de Seine,Transport_A,0.7
+867,2012,247700057,CA Melun Val de Seine,Production-Energie,0.7
+868,2012,247700065,CC du Pays de l'Ourcq,Agriculture,20.999999999999996
+869,2012,247700065,CC du Pays de l'Ourcq,Residentiel,21.2
+870,2012,247700065,CC du Pays de l'Ourcq,Tertiaire,3.0
+871,2012,247700065,CC du Pays de l'Ourcq,Totale,78.49999999999999
+872,2012,247700065,CC du Pays de l'Ourcq,Transport_R,28.899999999999995
+873,2012,247700065,CC du Pays de l'Ourcq,Transport_A,0.1
+874,2012,247700065,CC du Pays de l'Ourcq,Production-Energie,0.1
+875,2012,247700107,CC Pays de Montereau,Agriculture,20.6
+876,2012,247700107,CC Pays de Montereau,Residentiel,44.49999999999999
+877,2012,247700107,CC Pays de Montereau,Tertiaire,13.8
+878,2012,247700107,CC Pays de Montereau,Totale,411.6
+879,2012,247700107,CC Pays de Montereau,Transport_R,89.6
+880,2012,247700107,CC Pays de Montereau,Transport_A,1.5
+881,2012,247700107,CC Pays de Montereau,Production-Energie,0.1
+882,2012,247700339,CA Val d'Europe Agglomération,Agriculture,1.6
+883,2012,247700339,CA Val d'Europe Agglomération,Residentiel,34.599999999999994
+884,2012,247700339,CA Val d'Europe Agglomération,Tertiaire,66.7
+885,2012,247700339,CA Val d'Europe Agglomération,Totale,193.5
+886,2012,247700339,CA Val d'Europe Agglomération,Transport_R,87.7
+887,2012,247700339,CA Val d'Europe Agglomération,Transport_A,0.0
+888,2012,247700339,CA Val d'Europe Agglomération,Production-Energie,0.6
+889,2012,247700438,CC Pays Créçois,Agriculture,12.099999999999996
+890,2012,247700438,CC Pays Créçois,Residentiel,48.49999999999999
+891,2012,247700438,CC Pays Créçois,Tertiaire,5.0
+892,2012,247700438,CC Pays Créçois,Totale,178.0
+893,2012,247700438,CC Pays Créçois,Transport_R,108.59999999999998
+894,2012,247700438,CC Pays Créçois,Transport_A,0.0
+895,2012,247700438,CC Pays Créçois,Production-Energie,0.4
+896,2012,247700594,CA Marne et Gondoire,Agriculture,2.3000000000000003
+897,2012,247700594,CA Marne et Gondoire,Residentiel,116.59999999999998
+898,2012,247700594,CA Marne et Gondoire,Tertiaire,48.5
+899,2012,247700594,CA Marne et Gondoire,Totale,408.20000000000005
+900,2012,247700594,CA Marne et Gondoire,Transport_R,209.5
+901,2012,247700594,CA Marne et Gondoire,Transport_A,0.0
+902,2012,247700594,CA Marne et Gondoire,Production-Energie,1.6
+903,2012,247700644,CC l'Orée de la Brie,Agriculture,3.6
+904,2012,247700644,CC l'Orée de la Brie,Residentiel,34.5
+905,2012,247700644,CC l'Orée de la Brie,Tertiaire,11.799999999999999
+906,2012,247700644,CC l'Orée de la Brie,Totale,121.1
+907,2012,247700644,CC l'Orée de la Brie,Transport_R,66.89999999999999
+908,2012,247700644,CC l'Orée de la Brie,Transport_A,0.0
+909,2012,247700644,CC l'Orée de la Brie,Production-Energie,0.6
+910,2012,247700701,CC Brie Nangissienne,Agriculture,28.300000000000004
+911,2012,247700701,CC Brie Nangissienne,Residentiel,31.900000000000002
+912,2012,247700701,CC Brie Nangissienne,Tertiaire,9.5
+913,2012,247700701,CC Brie Nangissienne,Totale,933.3000000000001
+914,2012,247700701,CC Brie Nangissienne,Transport_R,35.900000000000006
+915,2012,247700701,CC Brie Nangissienne,Transport_A,0.0
+916,2012,247700701,CC Brie Nangissienne,Production-Energie,0.5
+917,2012,200033173,CC de la Haute Vallée de Chevreuse,Agriculture,4.2
+918,2012,200033173,CC de la Haute Vallée de Chevreuse,Residentiel,41.699999999999996
+919,2012,200033173,CC de la Haute Vallée de Chevreuse,Tertiaire,8.0
+920,2012,200033173,CC de la Haute Vallée de Chevreuse,Totale,83.10000000000001
+921,2012,200033173,CC de la Haute Vallée de Chevreuse,Transport_R,27.699999999999996
+922,2012,200033173,CC de la Haute Vallée de Chevreuse,Transport_A,0.0
+923,2012,200033173,CC de la Haute Vallée de Chevreuse,Production-Energie,0.5
+924,2012,200034130,CC Gally Mauldre,Agriculture,9.0
+925,2012,200034130,CC Gally Mauldre,Residentiel,40.2
+926,2012,200034130,CC Gally Mauldre,Tertiaire,2.7
+927,2012,200034130,CC Gally Mauldre,Totale,108.20000000000002
+928,2012,200034130,CC Gally Mauldre,Transport_R,54.8
+929,2012,200034130,CC Gally Mauldre,Transport_A,0.0
+930,2012,200034130,CC Gally Mauldre,Production-Energie,0.30000000000000004
+931,2012,200058519,CA Saint-Germain Boucles de Seine,Agriculture,3.3
+932,2012,200058519,CA Saint-Germain Boucles de Seine,Residentiel,467.2
+933,2012,200058519,CA Saint-Germain Boucles de Seine,Tertiaire,117.1
+934,2012,200058519,CA Saint-Germain Boucles de Seine,Totale,1122.3999999999999
+935,2012,200058519,CA Saint-Germain Boucles de Seine,Transport_R,500.59999999999997
+936,2012,200058519,CA Saint-Germain Boucles de Seine,Transport_A,0.5
+937,2012,200058519,CA Saint-Germain Boucles de Seine,Production-Energie,5.6000000000000005
+938,2012,200058782,CA de Saint-Quentin-en-Yvelines,Agriculture,4.3999999999999995
+939,2012,200058782,CA de Saint-Quentin-en-Yvelines,Residentiel,252.89999999999998
+940,2012,200058782,CA de Saint-Quentin-en-Yvelines,Tertiaire,113.2
+941,2012,200058782,CA de Saint-Quentin-en-Yvelines,Totale,718.7
+942,2012,200058782,CA de Saint-Quentin-en-Yvelines,Transport_R,277.1
+943,2012,200058782,CA de Saint-Quentin-en-Yvelines,Transport_A,0.0
+944,2012,200058782,CA de Saint-Quentin-en-Yvelines,Production-Energie,4.7
+945,2012,200059889,CU Grand Paris Seine et Oise,Agriculture,26.400000000000013
+946,2012,200059889,CU Grand Paris Seine et Oise,Residentiel,468.9999999999999
+947,2012,200059889,CU Grand Paris Seine et Oise,Tertiaire,147.40000000000006
+948,2012,200059889,CU Grand Paris Seine et Oise,Totale,1584.5000000000005
+949,2012,200059889,CU Grand Paris Seine et Oise,Transport_R,695.0999999999999
+950,2012,200059889,CU Grand Paris Seine et Oise,Transport_A,2.9000000000000004
+951,2012,200059889,CU Grand Paris Seine et Oise,Production-Energie,5.699999999999999
+952,2012,200071074,CC Les Portes de l'Ile de France,Agriculture,13.399999999999999
+953,2012,200071074,CC Les Portes de l'Ile de France,Residentiel,28.4
+954,2012,200071074,CC Les Portes de l'Ile de France,Tertiaire,2.8000000000000003
+955,2012,200071074,CC Les Portes de l'Ile de France,Totale,173.00000000000003
+956,2012,200071074,CC Les Portes de l'Ile de France,Transport_R,73.4
+957,2012,200071074,CC Les Portes de l'Ile de France,Transport_A,5.2
+958,2012,200071074,CC Les Portes de l'Ile de France,Production-Energie,0.30000000000000004
+959,2012,200073344,CA Rambouillet Territoires,Agriculture,39.000000000000014
+960,2012,200073344,CA Rambouillet Territoires,Residentiel,106.50000000000001
+961,2012,200073344,CA Rambouillet Territoires,Tertiaire,25.599999999999998
+962,2012,200073344,CA Rambouillet Territoires,Totale,467.69999999999993
+963,2012,200073344,CA Rambouillet Territoires,Transport_R,283.3
+964,2012,200073344,CA Rambouillet Territoires,Transport_A,0.0
+965,2012,200073344,CA Rambouillet Territoires,Production-Energie,1.0
+966,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Agriculture,19.700000000000003
+967,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Residentiel,37.50000000000001
+968,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Tertiaire,5.5
+969,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Totale,108.70000000000002
+970,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_R,42.60000000000001
+971,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_A,0.0
+972,2012,247800550,CC du Pays Houdanais (C.C.P.H.),Production-Energie,0.2
+973,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Agriculture,3.7
+974,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Residentiel,379.8
+975,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Tertiaire,159.0
+976,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Totale,1221.6000000000001
+977,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_R,509.7
+978,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_A,0.1
+979,2012,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Production-Energie,2.3000000000000003
+980,2012,247800618,CC Coeur d'Yvelines,Agriculture,18.899999999999995
+981,2012,247800618,CC Coeur d'Yvelines,Residentiel,72.2
+982,2012,247800618,CC Coeur d'Yvelines,Tertiaire,13.899999999999997
+983,2012,247800618,CC Coeur d'Yvelines,Totale,249.20000000000002
+984,2012,247800618,CC Coeur d'Yvelines,Transport_R,139.90000000000003
+985,2012,247800618,CC Coeur d'Yvelines,Transport_A,0.0
+986,2012,247800618,CC Coeur d'Yvelines,Production-Energie,0.4
+987,2012,249500109,CA de Cergy-Pontoise,Agriculture,4.1
+988,2012,249500109,CA de Cergy-Pontoise,Residentiel,213.79999999999995
+989,2012,249500109,CA de Cergy-Pontoise,Tertiaire,111.99999999999999
+990,2012,249500109,CA de Cergy-Pontoise,Totale,635.2
+991,2012,249500109,CA de Cergy-Pontoise,Transport_R,242.6
+992,2012,249500109,CA de Cergy-Pontoise,Transport_A,0.0
+993,2012,249500109,CA de Cergy-Pontoise,Production-Energie,2.1
+994,2012,200017846,CA Étampois Sud-Essonne (CCESE),Agriculture,46.00000000000001
+995,2012,200017846,CA Étampois Sud-Essonne (CCESE),Residentiel,66.80000000000001
+996,2012,200017846,CA Étampois Sud-Essonne (CCESE),Tertiaire,14.999999999999998
+997,2012,200017846,CA Étampois Sud-Essonne (CCESE),Totale,214.40000000000003
+998,2012,200017846,CA Étampois Sud-Essonne (CCESE),Transport_R,76.2
+999,2012,200017846,CA Étampois Sud-Essonne (CCESE),Transport_A,0.0
+1000,2012,200017846,CA Étampois Sud-Essonne (CCESE),Production-Energie,0.6
+1001,2012,200056232,CA Communauté Paris-Saclay,Agriculture,7.299999999999999
+1002,2012,200056232,CA Communauté Paris-Saclay,Residentiel,371.90000000000003
+1003,2012,200056232,CA Communauté Paris-Saclay,Tertiaire,195.10000000000002
+1004,2012,200056232,CA Communauté Paris-Saclay,Totale,1386.3
+1005,2012,200056232,CA Communauté Paris-Saclay,Transport_R,548.8000000000001
+1006,2012,200056232,CA Communauté Paris-Saclay,Transport_A,103.8
+1007,2012,200056232,CA Communauté Paris-Saclay,Production-Energie,4.8999999999999995
+1008,2012,200057859,CA Coeur d'Essonne Agglomération,Agriculture,6.199999999999999
+1009,2012,200057859,CA Coeur d'Essonne Agglomération,Residentiel,244.2
+1010,2012,200057859,CA Coeur d'Essonne Agglomération,Tertiaire,106.6
+1011,2012,200057859,CA Coeur d'Essonne Agglomération,Totale,701.8999999999999
+1012,2012,200057859,CA Coeur d'Essonne Agglomération,Transport_R,299.90000000000003
+1013,2012,200057859,CA Coeur d'Essonne Agglomération,Transport_A,0.0
+1014,2012,200057859,CA Coeur d'Essonne Agglomération,Production-Energie,3.100000000000001
+1015,2012,200058477,CA Val d'Yerres Val de Seine,Agriculture,0.2
+1016,2012,200058477,CA Val d'Yerres Val de Seine,Residentiel,221.79999999999998
+1017,2012,200058477,CA Val d'Yerres Val de Seine,Tertiaire,64.8
+1018,2012,200058477,CA Val d'Yerres Val de Seine,Totale,407.20000000000005
+1019,2012,200058477,CA Val d'Yerres Val de Seine,Transport_R,110.0
+1020,2012,200058477,CA Val d'Yerres Val de Seine,Transport_A,0.0
+1021,2012,200058477,CA Val d'Yerres Val de Seine,Production-Energie,2.7
+1022,2012,249100074,CC du Pays de Limours (CCPL),Agriculture,8.799999999999999
+1023,2012,249100074,CC du Pays de Limours (CCPL),Residentiel,35.7
+1024,2012,249100074,CC du Pays de Limours (CCPL),Tertiaire,6.3999999999999995
+1025,2012,249100074,CC du Pays de Limours (CCPL),Totale,195.80000000000004
+1026,2012,249100074,CC du Pays de Limours (CCPL),Transport_R,135.89999999999998
+1027,2012,249100074,CC du Pays de Limours (CCPL),Transport_A,7.3
+1028,2012,249100074,CC du Pays de Limours (CCPL),Production-Energie,0.2
+1029,2012,249100157,CC des Deux Vallées,Agriculture,13.799999999999999
+1030,2012,249100157,CC des Deux Vallées,Residentiel,29.700000000000003
+1031,2012,249100157,CC des Deux Vallées,Tertiaire,2.6000000000000005
+1032,2012,249100157,CC des Deux Vallées,Totale,84.39999999999999
+1033,2012,249100157,CC des Deux Vallées,Transport_R,26.5
+1034,2012,249100157,CC des Deux Vallées,Transport_A,0.0
+1035,2012,249100157,CC des Deux Vallées,Production-Energie,0.1
+1036,2012,249100546,CC du Val d'Essonne (CCVE),Agriculture,12.3
+1037,2012,249100546,CC du Val d'Essonne (CCVE),Residentiel,79.10000000000002
+1038,2012,249100546,CC du Val d'Essonne (CCVE),Tertiaire,20.700000000000003
+1039,2012,249100546,CC du Val d'Essonne (CCVE),Totale,365.4
+1040,2012,249100546,CC du Val d'Essonne (CCVE),Transport_R,114.9
+1041,2012,249100546,CC du Val d'Essonne (CCVE),Transport_A,0.0
+1042,2012,249100546,CC du Val d'Essonne (CCVE),Production-Energie,1.0
+1043,2012,249100553,CC Entre Juine et Renarde (CCEJR),Agriculture,6.800000000000002
+1044,2012,249100553,CC Entre Juine et Renarde (CCEJR),Residentiel,38.3
+1045,2012,249100553,CC Entre Juine et Renarde (CCEJR),Tertiaire,13.299999999999999
+1046,2012,249100553,CC Entre Juine et Renarde (CCEJR),Totale,107.99999999999999
+1047,2012,249100553,CC Entre Juine et Renarde (CCEJR),Transport_R,48.1
+1048,2012,249100553,CC Entre Juine et Renarde (CCEJR),Transport_A,0.0
+1049,2012,249100553,CC Entre Juine et Renarde (CCEJR),Production-Energie,0.30000000000000004
+1050,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Agriculture,8.399999999999999
+1051,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Residentiel,37.1
+1052,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Tertiaire,12.3
+1053,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Totale,99.8
+1054,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_R,39.3
+1055,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_A,0.0
+1056,2012,249100595,CC Le Dourdannais en Hurepoix (CCDH),Production-Energie,0.4
+1057,2012,200035970,CC Vexin Centre,Agriculture,25.300000000000004
+1058,2012,200035970,CC Vexin Centre,Residentiel,32.6
+1059,2012,200035970,CC Vexin Centre,Tertiaire,2.8000000000000003
+1060,2012,200035970,CC Vexin Centre,Totale,149.2
+1061,2012,200035970,CC Vexin Centre,Transport_R,74.90000000000002
+1062,2012,200035970,CC Vexin Centre,Transport_A,0.0
+1063,2012,200035970,CC Vexin Centre,Production-Energie,0.1
+1064,2012,200056380,CA Plaine Vallée,Agriculture,2.9
+1065,2012,200056380,CA Plaine Vallée,Residentiel,238.6
+1066,2012,200056380,CA Plaine Vallée,Tertiaire,43.699999999999996
+1067,2012,200056380,CA Plaine Vallée,Totale,425.29999999999995
+1068,2012,200056380,CA Plaine Vallée,Transport_R,103.2
+1069,2012,200056380,CA Plaine Vallée,Transport_A,27.3
+1070,2012,200056380,CA Plaine Vallée,Production-Energie,3.3000000000000003
+1071,2012,200058485,CA Val Parisis,Agriculture,5.5
+1072,2012,200058485,CA Val Parisis,Residentiel,333.09999999999997
+1073,2012,200058485,CA Val Parisis,Tertiaire,72.60000000000001
+1074,2012,200058485,CA Val Parisis,Totale,745.1999999999998
+1075,2012,200058485,CA Val Parisis,Transport_R,311.5
+1076,2012,200058485,CA Val Parisis,Transport_A,0.2
+1077,2012,200058485,CA Val Parisis,Production-Energie,5.1000000000000005
+1078,2012,200073013,CC Carnelle Pays-De-France,Agriculture,8.299999999999999
+1079,2012,200073013,CC Carnelle Pays-De-France,Residentiel,44.7
+1080,2012,200073013,CC Carnelle Pays-De-France,Tertiaire,7.900000000000001
+1081,2012,200073013,CC Carnelle Pays-De-France,Totale,118.39999999999999
+1082,2012,200073013,CC Carnelle Pays-De-France,Transport_R,55.800000000000004
+1083,2012,200073013,CC Carnelle Pays-De-France,Transport_A,0.0
+1084,2012,200073013,CC Carnelle Pays-De-France,Production-Energie,0.4
+1085,2012,249500430,CC Sausseron Impressionnistes,Agriculture,12.200000000000001
+1086,2012,249500430,CC Sausseron Impressionnistes,Residentiel,30.2
+1087,2012,249500430,CC Sausseron Impressionnistes,Tertiaire,4.6
+1088,2012,249500430,CC Sausseron Impressionnistes,Totale,64.3
+1089,2012,249500430,CC Sausseron Impressionnistes,Transport_R,15.599999999999998
+1090,2012,249500430,CC Sausseron Impressionnistes,Transport_A,0.0
+1091,2012,249500430,CC Sausseron Impressionnistes,Production-Energie,0.2
+1092,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Agriculture,2.2
+1093,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Residentiel,55.29999999999999
+1094,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Tertiaire,7.2
+1095,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Totale,199.10000000000002
+1096,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_R,122.2
+1097,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_A,0.1
+1098,2012,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Production-Energie,0.7
+1099,2012,249500489,CC du Haut Val d'Oise,Agriculture,2.9000000000000004
+1100,2012,249500489,CC du Haut Val d'Oise,Residentiel,40.6
+1101,2012,249500489,CC du Haut Val d'Oise,Tertiaire,13.5
+1102,2012,249500489,CC du Haut Val d'Oise,Totale,102.4
+1103,2012,249500489,CC du Haut Val d'Oise,Transport_R,36.7
+1104,2012,249500489,CC du Haut Val d'Oise,Transport_A,0.0
+1105,2012,249500489,CC du Haut Val d'Oise,Production-Energie,0.6000000000000001
+1106,2012,249500513,CC du Vexin-Val de Seine,Agriculture,16.599999999999998
+1107,2012,249500513,CC du Vexin-Val de Seine,Residentiel,22.1
+1108,2012,249500513,CC du Vexin-Val de Seine,Tertiaire,4.6000000000000005
+1109,2012,249500513,CC du Vexin-Val de Seine,Totale,86.70000000000003
+1110,2012,249500513,CC du Vexin-Val de Seine,Transport_R,41.10000000000001
+1111,2012,249500513,CC du Vexin-Val de Seine,Transport_A,1.0
+1112,2012,249500513,CC du Vexin-Val de Seine,Production-Energie,0.1
+1113,2015,200054781,Métropole du Grand Paris,Agriculture,14.999999999999996
+1114,2015,200054781,Métropole du Grand Paris,Residentiel,7716.7
+1115,2015,200054781,Métropole du Grand Paris,Tertiaire,3385.900000000001
+1116,2015,200054781,Métropole du Grand Paris,Totale,17358.2
+1117,2015,200054781,Métropole du Grand Paris,Transport_R,4397.299999999999
+1118,2015,200054781,Métropole du Grand Paris,Transport_A,355.6
+1119,2015,200054781,Métropole du Grand Paris,Production-Energie,88.89999999999995
+1120,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Agriculture,3.9000000000000004
+1121,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Residentiel,53.1
+1122,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Tertiaire,10.1
+1123,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Totale,140.0
+1124,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_R,60.099999999999994
+1125,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_A,0.0
+1126,2015,200023125,CC Les Portes Briardes entre Villes et Forêts,Production-Energie,0.5
+1127,2015,200023240,CC Pays de Nemours,Agriculture,13.999999999999996
+1128,2015,200023240,CC Pays de Nemours,Residentiel,38.099999999999994
+1129,2015,200023240,CC Pays de Nemours,Tertiaire,8.9
+1130,2015,200023240,CC Pays de Nemours,Totale,185.2
+1131,2015,200023240,CC Pays de Nemours,Transport_R,69.3
+1132,2015,200023240,CC Pays de Nemours,Transport_A,0.0
+1133,2015,200023240,CC Pays de Nemours,Production-Energie,0.8999999999999999
+1134,2015,200023919,CC Gâtinais Val de Loing,Agriculture,34.10000000000001
+1135,2015,200023919,CC Gâtinais Val de Loing,Residentiel,22.7
+1136,2015,200023919,CC Gâtinais Val de Loing,Tertiaire,2.6
+1137,2015,200023919,CC Gâtinais Val de Loing,Totale,118.60000000000002
+1138,2015,200023919,CC Gâtinais Val de Loing,Transport_R,58.10000000000001
+1139,2015,200023919,CC Gâtinais Val de Loing,Transport_A,0.0
+1140,2015,200023919,CC Gâtinais Val de Loing,Production-Energie,0.3
+1141,2015,200033090,CC Plaines et Monts de France,Agriculture,14.500000000000004
+1142,2015,200033090,CC Plaines et Monts de France,Residentiel,23.3
+1143,2015,200033090,CC Plaines et Monts de France,Tertiaire,4.0
+1144,2015,200033090,CC Plaines et Monts de France,Totale,212.30000000000007
+1145,2015,200033090,CC Plaines et Monts de France,Transport_R,77.89999999999999
+1146,2015,200033090,CC Plaines et Monts de France,Transport_A,71.2
+1147,2015,200033090,CC Plaines et Monts de France,Production-Energie,0.1
+1148,2015,200037133,CC du Provinois,Agriculture,64.89999999999999
+1149,2015,200037133,CC du Provinois,Residentiel,40.300000000000004
+1150,2015,200037133,CC du Provinois,Tertiaire,9.799999999999999
+1151,2015,200037133,CC du Provinois,Totale,188.4
+1152,2015,200037133,CC du Provinois,Transport_R,65.39999999999999
+1153,2015,200037133,CC du Provinois,Transport_A,0.0
+1154,2015,200037133,CC du Provinois,Production-Energie,0.2
+1155,2015,200040251,CC Bassée-Montois,Agriculture,32.400000000000006
+1156,2015,200040251,CC Bassée-Montois,Residentiel,27.9
+1157,2015,200040251,CC Bassée-Montois,Tertiaire,3.2000000000000006
+1158,2015,200040251,CC Bassée-Montois,Totale,88.20000000000002
+1159,2015,200040251,CC Bassée-Montois,Transport_R,18.500000000000004
+1160,2015,200040251,CC Bassée-Montois,Transport_A,0.0
+1161,2015,200040251,CC Bassée-Montois,Production-Energie,0.0
+1162,2015,200055655,CA Roissy Pays de France,Agriculture,26.7
+1163,2015,200055655,CA Roissy Pays de France,Residentiel,324.69999999999993
+1164,2015,200055655,CA Roissy Pays de France,Tertiaire,185.5
+1165,2015,200055655,CA Roissy Pays de France,Totale,1957.8999999999999
+1166,2015,200055655,CA Roissy Pays de France,Transport_R,509.39999999999986
+1167,2015,200055655,CA Roissy Pays de France,Transport_A,762.9
+1168,2015,200055655,CA Roissy Pays de France,Production-Energie,3.1000000000000005
+1169,2015,200057958,CA Paris - Vallée de la Marne,Agriculture,0.8999999999999999
+1170,2015,200057958,CA Paris - Vallée de la Marne,Residentiel,220.9
+1171,2015,200057958,CA Paris - Vallée de la Marne,Tertiaire,77.4
+1172,2015,200057958,CA Paris - Vallée de la Marne,Totale,620.9000000000001
+1173,2015,200057958,CA Paris - Vallée de la Marne,Transport_R,272.09999999999997
+1174,2015,200057958,CA Paris - Vallée de la Marne,Transport_A,2.3000000000000003
+1175,2015,200057958,CA Paris - Vallée de la Marne,Production-Energie,3.0
+1176,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Agriculture,6.1
+1177,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Residentiel,346.6
+1178,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Tertiaire,143.4
+1179,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Totale,1263.7999999999997
+1180,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_R,640.3999999999999
+1181,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_A,0.0
+1182,2015,200059228,CA Grand Paris Sud Seine Essonne Sénart,Production-Energie,4.000000000000001
+1183,2015,200070779,CC Brie des Rivières et Châteaux,Agriculture,28.600000000000005
+1184,2015,200070779,CC Brie des Rivières et Châteaux,Residentiel,45.20000000000001
+1185,2015,200070779,CC Brie des Rivières et Châteaux,Tertiaire,4.5
+1186,2015,200070779,CC Brie des Rivières et Châteaux,Totale,259.9000000000001
+1187,2015,200070779,CC Brie des Rivières et Châteaux,Transport_R,171.10000000000002
+1188,2015,200070779,CC Brie des Rivières et Châteaux,Transport_A,0.3
+1189,2015,200070779,CC Brie des Rivières et Châteaux,Production-Energie,0.1
+1190,2015,200072130,CA du Pays de Meaux,Agriculture,12.499999999999998
+1191,2015,200072130,CA du Pays de Meaux,Residentiel,87.1
+1192,2015,200072130,CA du Pays de Meaux,Tertiaire,38.60000000000001
+1193,2015,200072130,CA du Pays de Meaux,Totale,418.4000000000001
+1194,2015,200072130,CA du Pays de Meaux,Transport_R,129.89999999999998
+1195,2015,200072130,CA du Pays de Meaux,Transport_A,12.499999999999998
+1196,2015,200072130,CA du Pays de Meaux,Production-Energie,0.5
+1197,2015,200072346,CA du Pays de Fontainebleau,Agriculture,17.800000000000004
+1198,2015,200072346,CA du Pays de Fontainebleau,Residentiel,114.20000000000002
+1199,2015,200072346,CA du Pays de Fontainebleau,Tertiaire,27.099999999999998
+1200,2015,200072346,CA du Pays de Fontainebleau,Totale,401.2999999999999
+1201,2015,200072346,CA du Pays de Fontainebleau,Transport_R,228.3
+1202,2015,200072346,CA du Pays de Fontainebleau,Transport_A,2.1
+1203,2015,200072346,CA du Pays de Fontainebleau,Production-Energie,1.0
+1204,2015,200072544,CC des Deux Morin,Agriculture,49.5
+1205,2015,200072544,CC des Deux Morin,Residentiel,30.199999999999996
+1206,2015,200072544,CC des Deux Morin,Tertiaire,2.6000000000000005
+1207,2015,200072544,CC des Deux Morin,Totale,129.4
+1208,2015,200072544,CC des Deux Morin,Transport_R,21.2
+1209,2015,200072544,CC des Deux Morin,Transport_A,0.0
+1210,2015,200072544,CC des Deux Morin,Production-Energie,0.1
+1211,2015,200072874,CC Val Briard,Agriculture,28.700000000000003
+1212,2015,200072874,CC Val Briard,Residentiel,31.199999999999996
+1213,2015,200072874,CC Val Briard,Tertiaire,8.799999999999999
+1214,2015,200072874,CC Val Briard,Totale,154.39999999999998
+1215,2015,200072874,CC Val Briard,Transport_R,81.4
+1216,2015,200072874,CC Val Briard,Transport_A,0.0
+1217,2015,200072874,CC Val Briard,Production-Energie,0.2
+1218,2015,200077055,CA Coulommiers Pays de Brie,Agriculture,48.500000000000014
+1219,2015,200077055,CA Coulommiers Pays de Brie,Residentiel,85.00000000000003
+1220,2015,200077055,CA Coulommiers Pays de Brie,Tertiaire,14.399999999999995
+1221,2015,200077055,CA Coulommiers Pays de Brie,Totale,251.39999999999995
+1222,2015,200077055,CA Coulommiers Pays de Brie,Transport_R,90.8
+1223,2015,200077055,CA Coulommiers Pays de Brie,Transport_A,0.1
+1224,2015,200077055,CA Coulommiers Pays de Brie,Production-Energie,0.4
+1225,2015,247700032,CC Moret Seine et Loing,Agriculture,13.399999999999999
+1226,2015,247700032,CC Moret Seine et Loing,Residentiel,47.3
+1227,2015,247700032,CC Moret Seine et Loing,Tertiaire,6.5
+1228,2015,247700032,CC Moret Seine et Loing,Totale,115.7
+1229,2015,247700032,CC Moret Seine et Loing,Transport_R,39.599999999999994
+1230,2015,247700032,CC Moret Seine et Loing,Transport_A,1.5
+1231,2015,247700032,CC Moret Seine et Loing,Production-Energie,0.4
+1232,2015,247700057,CA Melun Val de Seine,Agriculture,9.700000000000001
+1233,2015,247700057,CA Melun Val de Seine,Residentiel,144.09999999999997
+1234,2015,247700057,CA Melun Val de Seine,Tertiaire,56.7
+1235,2015,247700057,CA Melun Val de Seine,Totale,569.3
+1236,2015,247700057,CA Melun Val de Seine,Transport_R,311.5
+1237,2015,247700057,CA Melun Val de Seine,Transport_A,0.6
+1238,2015,247700057,CA Melun Val de Seine,Production-Energie,0.6000000000000001
+1239,2015,247700065,CC du Pays de l'Ourcq,Agriculture,20.9
+1240,2015,247700065,CC du Pays de l'Ourcq,Residentiel,19.200000000000003
+1241,2015,247700065,CC du Pays de l'Ourcq,Tertiaire,3.7000000000000006
+1242,2015,247700065,CC du Pays de l'Ourcq,Totale,75.3
+1243,2015,247700065,CC du Pays de l'Ourcq,Transport_R,28.999999999999996
+1244,2015,247700065,CC du Pays de l'Ourcq,Transport_A,0.1
+1245,2015,247700065,CC du Pays de l'Ourcq,Production-Energie,0.1
+1246,2015,247700107,CC Pays de Montereau,Agriculture,20.3
+1247,2015,247700107,CC Pays de Montereau,Residentiel,40.50000000000001
+1248,2015,247700107,CC Pays de Montereau,Tertiaire,11.9
+1249,2015,247700107,CC Pays de Montereau,Totale,344.4
+1250,2015,247700107,CC Pays de Montereau,Transport_R,88.69999999999996
+1251,2015,247700107,CC Pays de Montereau,Transport_A,1.3
+1252,2015,247700107,CC Pays de Montereau,Production-Energie,0.1
+1253,2015,247700339,CA Val d'Europe Agglomération,Agriculture,2.3
+1254,2015,247700339,CA Val d'Europe Agglomération,Residentiel,33.5
+1255,2015,247700339,CA Val d'Europe Agglomération,Tertiaire,61.400000000000006
+1256,2015,247700339,CA Val d'Europe Agglomération,Totale,192.29999999999998
+1257,2015,247700339,CA Val d'Europe Agglomération,Transport_R,92.0
+1258,2015,247700339,CA Val d'Europe Agglomération,Transport_A,0.0
+1259,2015,247700339,CA Val d'Europe Agglomération,Production-Energie,0.5
+1260,2015,247700438,CC Pays Créçois,Agriculture,11.799999999999997
+1261,2015,247700438,CC Pays Créçois,Residentiel,43.8
+1262,2015,247700438,CC Pays Créçois,Tertiaire,4.5
+1263,2015,247700438,CC Pays Créçois,Totale,185.9
+1264,2015,247700438,CC Pays Créçois,Transport_R,122.5
+1265,2015,247700438,CC Pays Créçois,Transport_A,0.0
+1266,2015,247700438,CC Pays Créçois,Production-Energie,0.30000000000000004
+1267,2015,247700594,CA Marne et Gondoire,Agriculture,2.3000000000000003
+1268,2015,247700594,CA Marne et Gondoire,Residentiel,108.40000000000002
+1269,2015,247700594,CA Marne et Gondoire,Tertiaire,43.9
+1270,2015,247700594,CA Marne et Gondoire,Totale,402.69999999999993
+1271,2015,247700594,CA Marne et Gondoire,Transport_R,219.6
+1272,2015,247700594,CA Marne et Gondoire,Transport_A,0.0
+1273,2015,247700594,CA Marne et Gondoire,Production-Energie,1.3
+1274,2015,247700644,CC l'Orée de la Brie,Agriculture,3.6
+1275,2015,247700644,CC l'Orée de la Brie,Residentiel,31.200000000000003
+1276,2015,247700644,CC l'Orée de la Brie,Tertiaire,11.4
+1277,2015,247700644,CC l'Orée de la Brie,Totale,116.60000000000001
+1278,2015,247700644,CC l'Orée de la Brie,Transport_R,66.10000000000001
+1279,2015,247700644,CC l'Orée de la Brie,Transport_A,0.0
+1280,2015,247700644,CC l'Orée de la Brie,Production-Energie,0.4
+1281,2015,247700701,CC Brie Nangissienne,Agriculture,28.000000000000004
+1282,2015,247700701,CC Brie Nangissienne,Residentiel,29.299999999999997
+1283,2015,247700701,CC Brie Nangissienne,Tertiaire,8.1
+1284,2015,247700701,CC Brie Nangissienne,Totale,715.3
+1285,2015,247700701,CC Brie Nangissienne,Transport_R,35.7
+1286,2015,247700701,CC Brie Nangissienne,Transport_A,0.0
+1287,2015,247700701,CC Brie Nangissienne,Production-Energie,0.4
+1288,2015,200033173,CC de la Haute Vallée de Chevreuse,Agriculture,4.0
+1289,2015,200033173,CC de la Haute Vallée de Chevreuse,Residentiel,37.7
+1290,2015,200033173,CC de la Haute Vallée de Chevreuse,Tertiaire,7.6
+1291,2015,200033173,CC de la Haute Vallée de Chevreuse,Totale,77.7
+1292,2015,200033173,CC de la Haute Vallée de Chevreuse,Transport_R,27.2
+1293,2015,200033173,CC de la Haute Vallée de Chevreuse,Transport_A,0.0
+1294,2015,200033173,CC de la Haute Vallée de Chevreuse,Production-Energie,0.30000000000000004
+1295,2015,200034130,CC Gally Mauldre,Agriculture,8.100000000000001
+1296,2015,200034130,CC Gally Mauldre,Residentiel,36.5
+1297,2015,200034130,CC Gally Mauldre,Tertiaire,2.6
+1298,2015,200034130,CC Gally Mauldre,Totale,101.0
+1299,2015,200034130,CC Gally Mauldre,Transport_R,52.400000000000006
+1300,2015,200034130,CC Gally Mauldre,Transport_A,0.0
+1301,2015,200034130,CC Gally Mauldre,Production-Energie,0.30000000000000004
+1302,2015,200058519,CA Saint-Germain Boucles de Seine,Agriculture,2.7000000000000006
+1303,2015,200058519,CA Saint-Germain Boucles de Seine,Residentiel,433.8
+1304,2015,200058519,CA Saint-Germain Boucles de Seine,Tertiaire,107.10000000000001
+1305,2015,200058519,CA Saint-Germain Boucles de Seine,Totale,1040.8999999999999
+1306,2015,200058519,CA Saint-Germain Boucles de Seine,Transport_R,467.40000000000003
+1307,2015,200058519,CA Saint-Germain Boucles de Seine,Transport_A,0.5
+1308,2015,200058519,CA Saint-Germain Boucles de Seine,Production-Energie,4.6000000000000005
+1309,2015,200058782,CA de Saint-Quentin-en-Yvelines,Agriculture,4.3
+1310,2015,200058782,CA de Saint-Quentin-en-Yvelines,Residentiel,228.00000000000003
+1311,2015,200058782,CA de Saint-Quentin-en-Yvelines,Tertiaire,107.6
+1312,2015,200058782,CA de Saint-Quentin-en-Yvelines,Totale,663.3
+1313,2015,200058782,CA de Saint-Quentin-en-Yvelines,Transport_R,265.8
+1314,2015,200058782,CA de Saint-Quentin-en-Yvelines,Transport_A,0.0
+1315,2015,200058782,CA de Saint-Quentin-en-Yvelines,Production-Energie,3.7
+1316,2015,200059889,CU Grand Paris Seine et Oise,Agriculture,26.20000000000001
+1317,2015,200059889,CU Grand Paris Seine et Oise,Residentiel,431.29999999999984
+1318,2015,200059889,CU Grand Paris Seine et Oise,Tertiaire,140.20000000000007
+1319,2015,200059889,CU Grand Paris Seine et Oise,Totale,1447.3
+1320,2015,200059889,CU Grand Paris Seine et Oise,Transport_R,675.2
+1321,2015,200059889,CU Grand Paris Seine et Oise,Transport_A,2.7
+1322,2015,200059889,CU Grand Paris Seine et Oise,Production-Energie,4.7
+1323,2015,200071074,CC Les Portes de l'Ile de France,Agriculture,12.9
+1324,2015,200071074,CC Les Portes de l'Ile de France,Residentiel,26.399999999999995
+1325,2015,200071074,CC Les Portes de l'Ile de France,Tertiaire,3.4000000000000004
+1326,2015,200071074,CC Les Portes de l'Ile de France,Totale,158.20000000000002
+1327,2015,200071074,CC Les Portes de l'Ile de France,Transport_R,70.5
+1328,2015,200071074,CC Les Portes de l'Ile de France,Transport_A,4.8
+1329,2015,200071074,CC Les Portes de l'Ile de France,Production-Energie,0.2
+1330,2015,200073344,CA Rambouillet Territoires,Agriculture,38.70000000000002
+1331,2015,200073344,CA Rambouillet Territoires,Residentiel,97.89999999999999
+1332,2015,200073344,CA Rambouillet Territoires,Tertiaire,21.700000000000003
+1333,2015,200073344,CA Rambouillet Territoires,Totale,448.8999999999999
+1334,2015,200073344,CA Rambouillet Territoires,Transport_R,280.7
+1335,2015,200073344,CA Rambouillet Territoires,Transport_A,0.0
+1336,2015,200073344,CA Rambouillet Territoires,Production-Energie,0.7999999999999999
+1337,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Agriculture,19.099999999999998
+1338,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Residentiel,35.1
+1339,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Tertiaire,4.6
+1340,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Totale,104.5
+1341,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_R,42.4
+1342,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_A,0.0
+1343,2015,247800550,CC du Pays Houdanais (C.C.P.H.),Production-Energie,0.1
+1344,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Agriculture,3.6
+1345,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Residentiel,340.6000000000001
+1346,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Tertiaire,142.59999999999997
+1347,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Totale,1122.4
+1348,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_R,485.99999999999994
+1349,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_A,0.1
+1350,2015,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Production-Energie,1.7000000000000004
+1351,2015,247800618,CC Coeur d'Yvelines,Agriculture,18.9
+1352,2015,247800618,CC Coeur d'Yvelines,Residentiel,71.9
+1353,2015,247800618,CC Coeur d'Yvelines,Tertiaire,13.799999999999997
+1354,2015,247800618,CC Coeur d'Yvelines,Totale,253.9
+1355,2015,247800618,CC Coeur d'Yvelines,Transport_R,144.10000000000002
+1356,2015,247800618,CC Coeur d'Yvelines,Transport_A,0.0
+1357,2015,247800618,CC Coeur d'Yvelines,Production-Energie,0.2
+1358,2015,249500109,CA de Cergy-Pontoise,Agriculture,3.9
+1359,2015,249500109,CA de Cergy-Pontoise,Residentiel,216.0
+1360,2015,249500109,CA de Cergy-Pontoise,Tertiaire,105.5
+1361,2015,249500109,CA de Cergy-Pontoise,Totale,605.2
+1362,2015,249500109,CA de Cergy-Pontoise,Transport_R,239.29999999999998
+1363,2015,249500109,CA de Cergy-Pontoise,Transport_A,0.0
+1364,2015,249500109,CA de Cergy-Pontoise,Production-Energie,1.5999999999999999
+1365,2015,200017846,CA Étampois Sud-Essonne (CCESE),Agriculture,45.3
+1366,2015,200017846,CA Étampois Sud-Essonne (CCESE),Residentiel,61.40000000000001
+1367,2015,200017846,CA Étampois Sud-Essonne (CCESE),Tertiaire,15.199999999999998
+1368,2015,200017846,CA Étampois Sud-Essonne (CCESE),Totale,208.89999999999995
+1369,2015,200017846,CA Étampois Sud-Essonne (CCESE),Transport_R,76.99999999999997
+1370,2015,200017846,CA Étampois Sud-Essonne (CCESE),Transport_A,0.0
+1371,2015,200017846,CA Étampois Sud-Essonne (CCESE),Production-Energie,0.4
+1372,2015,200056232,CA Communauté Paris-Saclay,Agriculture,6.699999999999999
+1373,2015,200056232,CA Communauté Paris-Saclay,Residentiel,344.4
+1374,2015,200056232,CA Communauté Paris-Saclay,Tertiaire,191.29999999999998
+1375,2015,200056232,CA Communauté Paris-Saclay,Totale,1300.7
+1376,2015,200056232,CA Communauté Paris-Saclay,Transport_R,571.7000000000002
+1377,2015,200056232,CA Communauté Paris-Saclay,Transport_A,101.3
+1378,2015,200056232,CA Communauté Paris-Saclay,Production-Energie,4.000000000000001
+1379,2015,200057859,CA Coeur d'Essonne Agglomération,Agriculture,5.6
+1380,2015,200057859,CA Coeur d'Essonne Agglomération,Residentiel,226.1
+1381,2015,200057859,CA Coeur d'Essonne Agglomération,Tertiaire,86.49999999999999
+1382,2015,200057859,CA Coeur d'Essonne Agglomération,Totale,675.9000000000001
+1383,2015,200057859,CA Coeur d'Essonne Agglomération,Transport_R,309.59999999999997
+1384,2015,200057859,CA Coeur d'Essonne Agglomération,Transport_A,0.0
+1385,2015,200057859,CA Coeur d'Essonne Agglomération,Production-Energie,2.6000000000000005
+1386,2015,200058477,CA Val d'Yerres Val de Seine,Agriculture,0.2
+1387,2015,200058477,CA Val d'Yerres Val de Seine,Residentiel,199.60000000000002
+1388,2015,200058477,CA Val d'Yerres Val de Seine,Tertiaire,60.3
+1389,2015,200058477,CA Val d'Yerres Val de Seine,Totale,379.9
+1390,2015,200058477,CA Val d'Yerres Val de Seine,Transport_R,107.5
+1391,2015,200058477,CA Val d'Yerres Val de Seine,Transport_A,0.0
+1392,2015,200058477,CA Val d'Yerres Val de Seine,Production-Energie,2.0
+1393,2015,249100074,CC du Pays de Limours (CCPL),Agriculture,9.3
+1394,2015,249100074,CC du Pays de Limours (CCPL),Residentiel,32.3
+1395,2015,249100074,CC du Pays de Limours (CCPL),Tertiaire,6.399999999999999
+1396,2015,249100074,CC du Pays de Limours (CCPL),Totale,188.2
+1397,2015,249100074,CC du Pays de Limours (CCPL),Transport_R,131.3
+1398,2015,249100074,CC du Pays de Limours (CCPL),Transport_A,7.199999999999999
+1399,2015,249100074,CC du Pays de Limours (CCPL),Production-Energie,0.2
+1400,2015,249100157,CC des Deux Vallées,Agriculture,13.599999999999998
+1401,2015,249100157,CC des Deux Vallées,Residentiel,27.0
+1402,2015,249100157,CC des Deux Vallées,Tertiaire,2.1
+1403,2015,249100157,CC des Deux Vallées,Totale,81.30000000000001
+1404,2015,249100157,CC des Deux Vallées,Transport_R,27.000000000000004
+1405,2015,249100157,CC des Deux Vallées,Transport_A,0.0
+1406,2015,249100157,CC des Deux Vallées,Production-Energie,0.1
+1407,2015,249100546,CC du Val d'Essonne (CCVE),Agriculture,11.9
+1408,2015,249100546,CC du Val d'Essonne (CCVE),Residentiel,72.5
+1409,2015,249100546,CC du Val d'Essonne (CCVE),Tertiaire,18.5
+1410,2015,249100546,CC du Val d'Essonne (CCVE),Totale,341.09999999999997
+1411,2015,249100546,CC du Val d'Essonne (CCVE),Transport_R,117.4
+1412,2015,249100546,CC du Val d'Essonne (CCVE),Transport_A,0.0
+1413,2015,249100546,CC du Val d'Essonne (CCVE),Production-Energie,0.5
+1414,2015,249100553,CC Entre Juine et Renarde (CCEJR),Agriculture,6.500000000000001
+1415,2015,249100553,CC Entre Juine et Renarde (CCEJR),Residentiel,35.199999999999996
+1416,2015,249100553,CC Entre Juine et Renarde (CCEJR),Tertiaire,12.399999999999997
+1417,2015,249100553,CC Entre Juine et Renarde (CCEJR),Totale,106.59999999999998
+1418,2015,249100553,CC Entre Juine et Renarde (CCEJR),Transport_R,50.999999999999986
+1419,2015,249100553,CC Entre Juine et Renarde (CCEJR),Transport_A,0.0
+1420,2015,249100553,CC Entre Juine et Renarde (CCEJR),Production-Energie,0.2
+1421,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Agriculture,8.2
+1422,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Residentiel,33.0
+1423,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Tertiaire,10.5
+1424,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Totale,93.80000000000001
+1425,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_R,39.400000000000006
+1426,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_A,0.0
+1427,2015,249100595,CC Le Dourdannais en Hurepoix (CCDH),Production-Energie,0.30000000000000004
+1428,2015,200035970,CC Vexin Centre,Agriculture,25.000000000000007
+1429,2015,200035970,CC Vexin Centre,Residentiel,29.799999999999997
+1430,2015,200035970,CC Vexin Centre,Tertiaire,2.7
+1431,2015,200035970,CC Vexin Centre,Totale,143.50000000000003
+1432,2015,200035970,CC Vexin Centre,Transport_R,73.6
+1433,2015,200035970,CC Vexin Centre,Transport_A,0.0
+1434,2015,200035970,CC Vexin Centre,Production-Energie,0.1
+1435,2015,200056380,CA Plaine Vallée,Agriculture,2.5000000000000004
+1436,2015,200056380,CA Plaine Vallée,Residentiel,212.6
+1437,2015,200056380,CA Plaine Vallée,Tertiaire,41.699999999999996
+1438,2015,200056380,CA Plaine Vallée,Totale,391.4
+1439,2015,200056380,CA Plaine Vallée,Transport_R,99.3
+1440,2015,200056380,CA Plaine Vallée,Transport_A,25.6
+1441,2015,200056380,CA Plaine Vallée,Production-Energie,2.3000000000000003
+1442,2015,200058485,CA Val Parisis,Agriculture,4.8
+1443,2015,200058485,CA Val Parisis,Residentiel,305.20000000000005
+1444,2015,200058485,CA Val Parisis,Tertiaire,69.80000000000001
+1445,2015,200058485,CA Val Parisis,Totale,718.5
+1446,2015,200058485,CA Val Parisis,Transport_R,317.0
+1447,2015,200058485,CA Val Parisis,Transport_A,0.2
+1448,2015,200058485,CA Val Parisis,Production-Energie,3.9
+1449,2015,200073013,CC Carnelle Pays-De-France,Agriculture,7.999999999999998
+1450,2015,200073013,CC Carnelle Pays-De-France,Residentiel,40.900000000000006
+1451,2015,200073013,CC Carnelle Pays-De-France,Tertiaire,6.6
+1452,2015,200073013,CC Carnelle Pays-De-France,Totale,110.5
+1453,2015,200073013,CC Carnelle Pays-De-France,Transport_R,53.20000000000002
+1454,2015,200073013,CC Carnelle Pays-De-France,Transport_A,0.0
+1455,2015,200073013,CC Carnelle Pays-De-France,Production-Energie,0.30000000000000004
+1456,2015,249500430,CC Sausseron Impressionnistes,Agriculture,11.700000000000001
+1457,2015,249500430,CC Sausseron Impressionnistes,Residentiel,27.999999999999996
+1458,2015,249500430,CC Sausseron Impressionnistes,Tertiaire,4.5
+1459,2015,249500430,CC Sausseron Impressionnistes,Totale,61.599999999999994
+1460,2015,249500430,CC Sausseron Impressionnistes,Transport_R,15.899999999999999
+1461,2015,249500430,CC Sausseron Impressionnistes,Transport_A,0.0
+1462,2015,249500430,CC Sausseron Impressionnistes,Production-Energie,0.2
+1463,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Agriculture,2.0999999999999996
+1464,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Residentiel,50.1
+1465,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Tertiaire,6.3
+1466,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Totale,205.39999999999998
+1467,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_R,123.5
+1468,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_A,0.1
+1469,2015,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Production-Energie,0.5
+1470,2015,249500489,CC du Haut Val d'Oise,Agriculture,2.6000000000000005
+1471,2015,249500489,CC du Haut Val d'Oise,Residentiel,36.2
+1472,2015,249500489,CC du Haut Val d'Oise,Tertiaire,13.8
+1473,2015,249500489,CC du Haut Val d'Oise,Totale,98.3
+1474,2015,249500489,CC du Haut Val d'Oise,Transport_R,36.6
+1475,2015,249500489,CC du Haut Val d'Oise,Transport_A,0.0
+1476,2015,249500489,CC du Haut Val d'Oise,Production-Energie,0.6000000000000001
+1477,2015,249500513,CC du Vexin-Val de Seine,Agriculture,15.999999999999998
+1478,2015,249500513,CC du Vexin-Val de Seine,Residentiel,20.200000000000006
+1479,2015,249500513,CC du Vexin-Val de Seine,Tertiaire,3.9
+1480,2015,249500513,CC du Vexin-Val de Seine,Totale,83.00000000000001
+1481,2015,249500513,CC du Vexin-Val de Seine,Transport_R,40.2
+1482,2015,249500513,CC du Vexin-Val de Seine,Transport_A,0.9
+1483,2015,249500513,CC du Vexin-Val de Seine,Production-Energie,0.1
+1484,2017,200054781,Métropole du Grand Paris,Agriculture,15.999999999999998
+1485,2017,200054781,Métropole du Grand Paris,Residentiel,7966.999999999995
+1486,2017,200054781,Métropole du Grand Paris,Tertiaire,3373.7000000000007
+1487,2017,200054781,Métropole du Grand Paris,Totale,17404.100000000002
+1488,2017,200054781,Métropole du Grand Paris,Transport_R,4118.9000000000015
+1489,2017,200054781,Métropole du Grand Paris,Transport_A,372.2000000000001
+1490,2017,200054781,Métropole du Grand Paris,Production-Energie,88.89999999999995
+1491,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Agriculture,3.9000000000000004
+1492,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Residentiel,55.400000000000006
+1493,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Tertiaire,10.2
+1494,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Totale,136.0
+1495,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_R,53.9
+1496,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Transport_A,0.0
+1497,2017,200023125,CC Les Portes Briardes entre Villes et Forêts,Production-Energie,0.5
+1498,2017,200023240,CC Pays de Nemours,Agriculture,13.999999999999996
+1499,2017,200023240,CC Pays de Nemours,Residentiel,39.599999999999994
+1500,2017,200023240,CC Pays de Nemours,Tertiaire,9.399999999999999
+1501,2017,200023240,CC Pays de Nemours,Totale,178.89999999999998
+1502,2017,200023240,CC Pays de Nemours,Transport_R,63.4
+1503,2017,200023240,CC Pays de Nemours,Transport_A,0.0
+1504,2017,200023240,CC Pays de Nemours,Production-Energie,0.8999999999999999
+1505,2017,200023919,CC Gâtinais Val de Loing,Agriculture,33.5
+1506,2017,200023919,CC Gâtinais Val de Loing,Residentiel,23.999999999999996
+1507,2017,200023919,CC Gâtinais Val de Loing,Tertiaire,2.7
+1508,2017,200023919,CC Gâtinais Val de Loing,Totale,117.5
+1509,2017,200023919,CC Gâtinais Val de Loing,Transport_R,56.30000000000001
+1510,2017,200023919,CC Gâtinais Val de Loing,Transport_A,0.0
+1511,2017,200023919,CC Gâtinais Val de Loing,Production-Energie,0.3
+1512,2017,200033090,CC Plaines et Monts de France,Agriculture,14.300000000000004
+1513,2017,200033090,CC Plaines et Monts de France,Residentiel,24.099999999999998
+1514,2017,200033090,CC Plaines et Monts de France,Tertiaire,4.1
+1515,2017,200033090,CC Plaines et Monts de France,Totale,213.80000000000004
+1516,2017,200033090,CC Plaines et Monts de France,Transport_R,79.6
+1517,2017,200033090,CC Plaines et Monts de France,Transport_A,72.9
+1518,2017,200033090,CC Plaines et Monts de France,Production-Energie,0.1
+1519,2017,200037133,CC du Provinois,Agriculture,64.8
+1520,2017,200037133,CC du Provinois,Residentiel,42.10000000000001
+1521,2017,200037133,CC du Provinois,Tertiaire,9.899999999999999
+1522,2017,200037133,CC du Provinois,Totale,185.49999999999997
+1523,2017,200037133,CC du Provinois,Transport_R,60.499999999999986
+1524,2017,200037133,CC du Provinois,Transport_A,0.0
+1525,2017,200037133,CC du Provinois,Production-Energie,0.2
+1526,2017,200040251,CC Bassée-Montois,Agriculture,32.2
+1527,2017,200040251,CC Bassée-Montois,Residentiel,29.599999999999994
+1528,2017,200040251,CC Bassée-Montois,Tertiaire,3.3000000000000003
+1529,2017,200040251,CC Bassée-Montois,Totale,89.10000000000001
+1530,2017,200040251,CC Bassée-Montois,Transport_R,18.200000000000003
+1531,2017,200040251,CC Bassée-Montois,Transport_A,0.0
+1532,2017,200040251,CC Bassée-Montois,Production-Energie,0.0
+1533,2017,200055655,CA Roissy Pays de France,Agriculture,25.4
+1534,2017,200055655,CA Roissy Pays de France,Residentiel,330.9
+1535,2017,200055655,CA Roissy Pays de France,Tertiaire,177.9
+1536,2017,200055655,CA Roissy Pays de France,Totale,1969.0000000000002
+1537,2017,200055655,CA Roissy Pays de France,Transport_R,515.0999999999999
+1538,2017,200055655,CA Roissy Pays de France,Transport_A,776.8000000000002
+1539,2017,200055655,CA Roissy Pays de France,Production-Energie,3.1000000000000005
+1540,2017,200057958,CA Paris - Vallée de la Marne,Agriculture,0.7
+1541,2017,200057958,CA Paris - Vallée de la Marne,Residentiel,229.60000000000002
+1542,2017,200057958,CA Paris - Vallée de la Marne,Tertiaire,75.4
+1543,2017,200057958,CA Paris - Vallée de la Marne,Totale,637.6
+1544,2017,200057958,CA Paris - Vallée de la Marne,Transport_R,281.7
+1545,2017,200057958,CA Paris - Vallée de la Marne,Transport_A,2.4000000000000004
+1546,2017,200057958,CA Paris - Vallée de la Marne,Production-Energie,3.0
+1547,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Agriculture,6.2
+1548,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Residentiel,365.90000000000003
+1549,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Tertiaire,143.00000000000003
+1550,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Totale,1312.6000000000001
+1551,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_R,667.9000000000001
+1552,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Transport_A,0.0
+1553,2017,200059228,CA Grand Paris Sud Seine Essonne Sénart,Production-Energie,4.000000000000001
+1554,2017,200070779,CC Brie des Rivières et Châteaux,Agriculture,28.700000000000006
+1555,2017,200070779,CC Brie des Rivières et Châteaux,Residentiel,47.0
+1556,2017,200070779,CC Brie des Rivières et Châteaux,Tertiaire,3.7000000000000006
+1557,2017,200070779,CC Brie des Rivières et Châteaux,Totale,260.8
+1558,2017,200070779,CC Brie des Rivières et Châteaux,Transport_R,171.0
+1559,2017,200070779,CC Brie des Rivières et Châteaux,Transport_A,0.3
+1560,2017,200070779,CC Brie des Rivières et Châteaux,Production-Energie,0.1
+1561,2017,200072130,CA du Pays de Meaux,Agriculture,12.399999999999999
+1562,2017,200072130,CA du Pays de Meaux,Residentiel,97.19999999999997
+1563,2017,200072130,CA du Pays de Meaux,Tertiaire,39.80000000000001
+1564,2017,200072130,CA du Pays de Meaux,Totale,441.40000000000003
+1565,2017,200072130,CA du Pays de Meaux,Transport_R,125.30000000000003
+1566,2017,200072130,CA du Pays de Meaux,Transport_A,12.799999999999997
+1567,2017,200072130,CA du Pays de Meaux,Production-Energie,0.5
+1568,2017,200072346,CA du Pays de Fontainebleau,Agriculture,17.600000000000005
+1569,2017,200072346,CA du Pays de Fontainebleau,Residentiel,122.20000000000002
+1570,2017,200072346,CA du Pays de Fontainebleau,Tertiaire,26.700000000000003
+1571,2017,200072346,CA du Pays de Fontainebleau,Totale,400.8
+1572,2017,200072346,CA du Pays de Fontainebleau,Transport_R,220.60000000000002
+1573,2017,200072346,CA du Pays de Fontainebleau,Transport_A,2.1
+1574,2017,200072346,CA du Pays de Fontainebleau,Production-Energie,1.0
+1575,2017,200072544,CC des Deux Morin,Agriculture,49.5
+1576,2017,200072544,CC des Deux Morin,Residentiel,31.300000000000004
+1577,2017,200072544,CC des Deux Morin,Tertiaire,2.7
+1578,2017,200072544,CC des Deux Morin,Totale,129.20000000000002
+1579,2017,200072544,CC des Deux Morin,Transport_R,20.3
+1580,2017,200072544,CC des Deux Morin,Transport_A,0.0
+1581,2017,200072544,CC des Deux Morin,Production-Energie,0.1
+1582,2017,200072874,CC Val Briard,Agriculture,28.800000000000004
+1583,2017,200072874,CC Val Briard,Residentiel,32.2
+1584,2017,200072874,CC Val Briard,Tertiaire,9.400000000000002
+1585,2017,200072874,CC Val Briard,Totale,138.89999999999998
+1586,2017,200072874,CC Val Briard,Transport_R,63.099999999999994
+1587,2017,200072874,CC Val Briard,Transport_A,0.0
+1588,2017,200072874,CC Val Briard,Production-Energie,0.2
+1589,2017,200077055,CA Coulommiers Pays de Brie,Agriculture,47.60000000000001
+1590,2017,200077055,CA Coulommiers Pays de Brie,Residentiel,87.50000000000001
+1591,2017,200077055,CA Coulommiers Pays de Brie,Tertiaire,13.999999999999996
+1592,2017,200077055,CA Coulommiers Pays de Brie,Totale,253.00000000000003
+1593,2017,200077055,CA Coulommiers Pays de Brie,Transport_R,88.80000000000003
+1594,2017,200077055,CA Coulommiers Pays de Brie,Transport_A,0.1
+1595,2017,200077055,CA Coulommiers Pays de Brie,Production-Energie,0.4
+1596,2017,247700032,CC Moret Seine et Loing,Agriculture,13.299999999999999
+1597,2017,247700032,CC Moret Seine et Loing,Residentiel,49.699999999999996
+1598,2017,247700032,CC Moret Seine et Loing,Tertiaire,7.0
+1599,2017,247700032,CC Moret Seine et Loing,Totale,115.89999999999999
+1600,2017,247700032,CC Moret Seine et Loing,Transport_R,38.2
+1601,2017,247700032,CC Moret Seine et Loing,Transport_A,1.5
+1602,2017,247700032,CC Moret Seine et Loing,Production-Energie,0.4
+1603,2017,247700057,CA Melun Val de Seine,Agriculture,9.700000000000001
+1604,2017,247700057,CA Melun Val de Seine,Residentiel,148.29999999999998
+1605,2017,247700057,CA Melun Val de Seine,Tertiaire,64.99999999999999
+1606,2017,247700057,CA Melun Val de Seine,Totale,742.2
+1607,2017,247700057,CA Melun Val de Seine,Transport_R,299.90000000000003
+1608,2017,247700057,CA Melun Val de Seine,Transport_A,0.6
+1609,2017,247700057,CA Melun Val de Seine,Production-Energie,0.6000000000000001
+1610,2017,247700065,CC du Pays de l'Ourcq,Agriculture,20.9
+1611,2017,247700065,CC du Pays de l'Ourcq,Residentiel,19.7
+1612,2017,247700065,CC du Pays de l'Ourcq,Tertiaire,3.6000000000000005
+1613,2017,247700065,CC du Pays de l'Ourcq,Totale,75.89999999999999
+1614,2017,247700065,CC du Pays de l'Ourcq,Transport_R,28.7
+1615,2017,247700065,CC du Pays de l'Ourcq,Transport_A,0.1
+1616,2017,247700065,CC du Pays de l'Ourcq,Production-Energie,0.1
+1617,2017,247700107,CC Pays de Montereau,Agriculture,20.5
+1618,2017,247700107,CC Pays de Montereau,Residentiel,42.2
+1619,2017,247700107,CC Pays de Montereau,Tertiaire,12.599999999999998
+1620,2017,247700107,CC Pays de Montereau,Totale,367.00000000000006
+1621,2017,247700107,CC Pays de Montereau,Transport_R,88.29999999999998
+1622,2017,247700107,CC Pays de Montereau,Transport_A,1.3
+1623,2017,247700107,CC Pays de Montereau,Production-Energie,0.1
+1624,2017,247700339,CA Val d'Europe Agglomération,Agriculture,2.3
+1625,2017,247700339,CA Val d'Europe Agglomération,Residentiel,35.599999999999994
+1626,2017,247700339,CA Val d'Europe Agglomération,Tertiaire,69.89999999999999
+1627,2017,247700339,CA Val d'Europe Agglomération,Totale,201.39999999999998
+1628,2017,247700339,CA Val d'Europe Agglomération,Transport_R,90.60000000000001
+1629,2017,247700339,CA Val d'Europe Agglomération,Transport_A,0.0
+1630,2017,247700339,CA Val d'Europe Agglomération,Production-Energie,0.5
+1631,2017,247700438,CC Pays Créçois,Agriculture,11.799999999999997
+1632,2017,247700438,CC Pays Créçois,Residentiel,45.49999999999999
+1633,2017,247700438,CC Pays Créçois,Tertiaire,4.3
+1634,2017,247700438,CC Pays Créçois,Totale,185.3
+1635,2017,247700438,CC Pays Créçois,Transport_R,120.59999999999998
+1636,2017,247700438,CC Pays Créçois,Transport_A,0.0
+1637,2017,247700438,CC Pays Créçois,Production-Energie,0.30000000000000004
+1638,2017,247700594,CA Marne et Gondoire,Agriculture,2.3000000000000003
+1639,2017,247700594,CA Marne et Gondoire,Residentiel,113.49999999999999
+1640,2017,247700594,CA Marne et Gondoire,Tertiaire,40.900000000000006
+1641,2017,247700594,CA Marne et Gondoire,Totale,409.8
+1642,2017,247700594,CA Marne et Gondoire,Transport_R,226.7
+1643,2017,247700594,CA Marne et Gondoire,Transport_A,0.0
+1644,2017,247700594,CA Marne et Gondoire,Production-Energie,1.3
+1645,2017,247700644,CC l'Orée de la Brie,Agriculture,3.6
+1646,2017,247700644,CC l'Orée de la Brie,Residentiel,33.4
+1647,2017,247700644,CC l'Orée de la Brie,Tertiaire,11.299999999999999
+1648,2017,247700644,CC l'Orée de la Brie,Totale,123.39999999999999
+1649,2017,247700644,CC l'Orée de la Brie,Transport_R,70.7
+1650,2017,247700644,CC l'Orée de la Brie,Transport_A,0.0
+1651,2017,247700644,CC l'Orée de la Brie,Production-Energie,0.4
+1652,2017,247700701,CC Brie Nangissienne,Agriculture,28.1
+1653,2017,247700701,CC Brie Nangissienne,Residentiel,30.000000000000004
+1654,2017,247700701,CC Brie Nangissienne,Tertiaire,8.4
+1655,2017,247700701,CC Brie Nangissienne,Totale,713.4
+1656,2017,247700701,CC Brie Nangissienne,Transport_R,34.3
+1657,2017,247700701,CC Brie Nangissienne,Transport_A,0.0
+1658,2017,247700701,CC Brie Nangissienne,Production-Energie,0.4
+1659,2017,200033173,CC de la Haute Vallée de Chevreuse,Agriculture,3.9000000000000004
+1660,2017,200033173,CC de la Haute Vallée de Chevreuse,Residentiel,39.0
+1661,2017,200033173,CC de la Haute Vallée de Chevreuse,Tertiaire,8.3
+1662,2017,200033173,CC de la Haute Vallée de Chevreuse,Totale,79.2
+1663,2017,200033173,CC de la Haute Vallée de Chevreuse,Transport_R,26.6
+1664,2017,200033173,CC de la Haute Vallée de Chevreuse,Transport_A,0.0
+1665,2017,200033173,CC de la Haute Vallée de Chevreuse,Production-Energie,0.30000000000000004
+1666,2017,200034130,CC Gally Mauldre,Agriculture,8.3
+1667,2017,200034130,CC Gally Mauldre,Residentiel,37.8
+1668,2017,200034130,CC Gally Mauldre,Tertiaire,2.4000000000000004
+1669,2017,200034130,CC Gally Mauldre,Totale,100.0
+1670,2017,200034130,CC Gally Mauldre,Transport_R,50.2
+1671,2017,200034130,CC Gally Mauldre,Transport_A,0.0
+1672,2017,200034130,CC Gally Mauldre,Production-Energie,0.30000000000000004
+1673,2017,200058519,CA Saint-Germain Boucles de Seine,Agriculture,2.9
+1674,2017,200058519,CA Saint-Germain Boucles de Seine,Residentiel,446.0
+1675,2017,200058519,CA Saint-Germain Boucles de Seine,Tertiaire,107.2
+1676,2017,200058519,CA Saint-Germain Boucles de Seine,Totale,1008.9000000000001
+1677,2017,200058519,CA Saint-Germain Boucles de Seine,Transport_R,422.0
+1678,2017,200058519,CA Saint-Germain Boucles de Seine,Transport_A,0.5
+1679,2017,200058519,CA Saint-Germain Boucles de Seine,Production-Energie,4.6000000000000005
+1680,2017,200058782,CA de Saint-Quentin-en-Yvelines,Agriculture,4.4
+1681,2017,200058782,CA de Saint-Quentin-en-Yvelines,Residentiel,230.4
+1682,2017,200058782,CA de Saint-Quentin-en-Yvelines,Tertiaire,110.00000000000001
+1683,2017,200058782,CA de Saint-Quentin-en-Yvelines,Totale,671.6000000000001
+1684,2017,200058782,CA de Saint-Quentin-en-Yvelines,Transport_R,261.3
+1685,2017,200058782,CA de Saint-Quentin-en-Yvelines,Transport_A,0.0
+1686,2017,200058782,CA de Saint-Quentin-en-Yvelines,Production-Energie,3.7
+1687,2017,200059889,CU Grand Paris Seine et Oise,Agriculture,25.80000000000001
+1688,2017,200059889,CU Grand Paris Seine et Oise,Residentiel,443.79999999999995
+1689,2017,200059889,CU Grand Paris Seine et Oise,Tertiaire,139.60000000000005
+1690,2017,200059889,CU Grand Paris Seine et Oise,Totale,1459.0000000000002
+1691,2017,200059889,CU Grand Paris Seine et Oise,Transport_R,650.4000000000001
+1692,2017,200059889,CU Grand Paris Seine et Oise,Transport_A,2.7
+1693,2017,200059889,CU Grand Paris Seine et Oise,Production-Energie,4.7
+1694,2017,200071074,CC Les Portes de l'Ile de France,Agriculture,12.700000000000001
+1695,2017,200071074,CC Les Portes de l'Ile de France,Residentiel,27.099999999999994
+1696,2017,200071074,CC Les Portes de l'Ile de France,Tertiaire,3.3000000000000007
+1697,2017,200071074,CC Les Portes de l'Ile de France,Totale,158.50000000000003
+1698,2017,200071074,CC Les Portes de l'Ile de France,Transport_R,69.10000000000001
+1699,2017,200071074,CC Les Portes de l'Ile de France,Transport_A,4.8
+1700,2017,200071074,CC Les Portes de l'Ile de France,Production-Energie,0.2
+1701,2017,200073344,CA Rambouillet Territoires,Agriculture,38.500000000000014
+1702,2017,200073344,CA Rambouillet Territoires,Residentiel,100.8
+1703,2017,200073344,CA Rambouillet Territoires,Tertiaire,21.900000000000002
+1704,2017,200073344,CA Rambouillet Territoires,Totale,447.29999999999995
+1705,2017,200073344,CA Rambouillet Territoires,Transport_R,277.59999999999997
+1706,2017,200073344,CA Rambouillet Territoires,Transport_A,0.0
+1707,2017,200073344,CA Rambouillet Territoires,Production-Energie,0.7999999999999999
+1708,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Agriculture,19.2
+1709,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Residentiel,34.900000000000006
+1710,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Tertiaire,4.800000000000001
+1711,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Totale,104.50000000000001
+1712,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_R,42.70000000000001
+1713,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Transport_A,0.0
+1714,2017,247800550,CC du Pays Houdanais (C.C.P.H.),Production-Energie,0.1
+1715,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Agriculture,3.6
+1716,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Residentiel,353.0
+1717,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Tertiaire,156.60000000000002
+1718,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Totale,1139.8
+1719,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_R,485.6
+1720,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Transport_A,0.1
+1721,2017,247800584,CA Versailles Grand Parc (C.A.V.G.P.),Production-Energie,1.7000000000000004
+1722,2017,247800618,CC Coeur d'Yvelines,Agriculture,18.299999999999997
+1723,2017,247800618,CC Coeur d'Yvelines,Residentiel,72.0
+1724,2017,247800618,CC Coeur d'Yvelines,Tertiaire,14.199999999999998
+1725,2017,247800618,CC Coeur d'Yvelines,Totale,251.2
+1726,2017,247800618,CC Coeur d'Yvelines,Transport_R,140.6
+1727,2017,247800618,CC Coeur d'Yvelines,Transport_A,0.0
+1728,2017,247800618,CC Coeur d'Yvelines,Production-Energie,0.2
+1729,2017,249500109,CA de Cergy-Pontoise,Agriculture,3.8
+1730,2017,249500109,CA de Cergy-Pontoise,Residentiel,216.09999999999997
+1731,2017,249500109,CA de Cergy-Pontoise,Tertiaire,104.20000000000002
+1732,2017,249500109,CA de Cergy-Pontoise,Totale,612.6
+1733,2017,249500109,CA de Cergy-Pontoise,Transport_R,249.2
+1734,2017,249500109,CA de Cergy-Pontoise,Transport_A,0.0
+1735,2017,249500109,CA de Cergy-Pontoise,Production-Energie,1.5999999999999999
+1736,2017,200017846,CA Étampois Sud-Essonne (CCESE),Agriculture,45.199999999999996
+1737,2017,200017846,CA Étampois Sud-Essonne (CCESE),Residentiel,62.90000000000001
+1738,2017,200017846,CA Étampois Sud-Essonne (CCESE),Tertiaire,15.5
+1739,2017,200017846,CA Étampois Sud-Essonne (CCESE),Totale,208.59999999999997
+1740,2017,200017846,CA Étampois Sud-Essonne (CCESE),Transport_R,73.59999999999998
+1741,2017,200017846,CA Étampois Sud-Essonne (CCESE),Transport_A,0.0
+1742,2017,200017846,CA Étampois Sud-Essonne (CCESE),Production-Energie,0.4
+1743,2017,200056232,CA Communauté Paris-Saclay,Agriculture,6.599999999999999
+1744,2017,200056232,CA Communauté Paris-Saclay,Residentiel,356.4
+1745,2017,200056232,CA Communauté Paris-Saclay,Tertiaire,199.09999999999997
+1746,2017,200056232,CA Communauté Paris-Saclay,Totale,1343.7000000000005
+1747,2017,200056232,CA Communauté Paris-Saclay,Transport_R,581.8000000000001
+1748,2017,200056232,CA Communauté Paris-Saclay,Transport_A,109.19999999999999
+1749,2017,200056232,CA Communauté Paris-Saclay,Production-Energie,4.000000000000001
+1750,2017,200057859,CA Coeur d'Essonne Agglomération,Agriculture,5.5
+1751,2017,200057859,CA Coeur d'Essonne Agglomération,Residentiel,232.30000000000004
+1752,2017,200057859,CA Coeur d'Essonne Agglomération,Tertiaire,86.30000000000001
+1753,2017,200057859,CA Coeur d'Essonne Agglomération,Totale,672.2
+1754,2017,200057859,CA Coeur d'Essonne Agglomération,Transport_R,301.2
+1755,2017,200057859,CA Coeur d'Essonne Agglomération,Transport_A,0.0
+1756,2017,200057859,CA Coeur d'Essonne Agglomération,Production-Energie,2.6000000000000005
+1757,2017,200058477,CA Val d'Yerres Val de Seine,Agriculture,0.2
+1758,2017,200058477,CA Val d'Yerres Val de Seine,Residentiel,209.3
+1759,2017,200058477,CA Val d'Yerres Val de Seine,Tertiaire,52.50000000000001
+1760,2017,200058477,CA Val d'Yerres Val de Seine,Totale,382.0
+1761,2017,200058477,CA Val d'Yerres Val de Seine,Transport_R,107.9
+1762,2017,200058477,CA Val d'Yerres Val de Seine,Transport_A,0.0
+1763,2017,200058477,CA Val d'Yerres Val de Seine,Production-Energie,2.0
+1764,2017,249100074,CC du Pays de Limours (CCPL),Agriculture,9.400000000000002
+1765,2017,249100074,CC du Pays de Limours (CCPL),Residentiel,33.400000000000006
+1766,2017,249100074,CC du Pays de Limours (CCPL),Tertiaire,6.499999999999999
+1767,2017,249100074,CC du Pays de Limours (CCPL),Totale,186.89999999999998
+1768,2017,249100074,CC du Pays de Limours (CCPL),Transport_R,128.59999999999997
+1769,2017,249100074,CC du Pays de Limours (CCPL),Transport_A,7.5
+1770,2017,249100074,CC du Pays de Limours (CCPL),Production-Energie,0.2
+1771,2017,249100157,CC des Deux Vallées,Agriculture,13.7
+1772,2017,249100157,CC des Deux Vallées,Residentiel,28.099999999999998
+1773,2017,249100157,CC des Deux Vallées,Tertiaire,2.1
+1774,2017,249100157,CC des Deux Vallées,Totale,82.89999999999999
+1775,2017,249100157,CC des Deux Vallées,Transport_R,26.3
+1776,2017,249100157,CC des Deux Vallées,Transport_A,0.0
+1777,2017,249100157,CC des Deux Vallées,Production-Energie,0.1
+1778,2017,249100546,CC du Val d'Essonne (CCVE),Agriculture,11.5
+1779,2017,249100546,CC du Val d'Essonne (CCVE),Residentiel,74.80000000000001
+1780,2017,249100546,CC du Val d'Essonne (CCVE),Tertiaire,18.799999999999997
+1781,2017,249100546,CC du Val d'Essonne (CCVE),Totale,351.09999999999997
+1782,2017,249100546,CC du Val d'Essonne (CCVE),Transport_R,116.60000000000001
+1783,2017,249100546,CC du Val d'Essonne (CCVE),Transport_A,0.0
+1784,2017,249100546,CC du Val d'Essonne (CCVE),Production-Energie,0.5
+1785,2017,249100553,CC Entre Juine et Renarde (CCEJR),Agriculture,6.400000000000001
+1786,2017,249100553,CC Entre Juine et Renarde (CCEJR),Residentiel,36.4
+1787,2017,249100553,CC Entre Juine et Renarde (CCEJR),Tertiaire,13.199999999999998
+1788,2017,249100553,CC Entre Juine et Renarde (CCEJR),Totale,107.1
+1789,2017,249100553,CC Entre Juine et Renarde (CCEJR),Transport_R,49.5
+1790,2017,249100553,CC Entre Juine et Renarde (CCEJR),Transport_A,0.0
+1791,2017,249100553,CC Entre Juine et Renarde (CCEJR),Production-Energie,0.2
+1792,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Agriculture,8.1
+1793,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Residentiel,35.0
+1794,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Tertiaire,10.199999999999998
+1795,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Totale,94.8
+1796,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_R,38.5
+1797,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Transport_A,0.0
+1798,2017,249100595,CC Le Dourdannais en Hurepoix (CCDH),Production-Energie,0.30000000000000004
+1799,2017,200035970,CC Vexin Centre,Agriculture,25.000000000000007
+1800,2017,200035970,CC Vexin Centre,Residentiel,30.500000000000004
+1801,2017,200035970,CC Vexin Centre,Tertiaire,2.6
+1802,2017,200035970,CC Vexin Centre,Totale,145.7
+1803,2017,200035970,CC Vexin Centre,Transport_R,73.9
+1804,2017,200035970,CC Vexin Centre,Transport_A,0.0
+1805,2017,200035970,CC Vexin Centre,Production-Energie,0.1
+1806,2017,200056380,CA Plaine Vallée,Agriculture,2.5000000000000004
+1807,2017,200056380,CA Plaine Vallée,Residentiel,217.39999999999998
+1808,2017,200056380,CA Plaine Vallée,Tertiaire,43.0
+1809,2017,200056380,CA Plaine Vallée,Totale,399.5
+1810,2017,200056380,CA Plaine Vallée,Transport_R,100.5
+1811,2017,200056380,CA Plaine Vallée,Transport_A,26.6
+1812,2017,200056380,CA Plaine Vallée,Production-Energie,2.3000000000000003
+1813,2017,200058485,CA Val Parisis,Agriculture,4.9
+1814,2017,200058485,CA Val Parisis,Residentiel,310.9
+1815,2017,200058485,CA Val Parisis,Tertiaire,70.4
+1816,2017,200058485,CA Val Parisis,Totale,721.0999999999999
+1817,2017,200058485,CA Val Parisis,Transport_R,315.9
+1818,2017,200058485,CA Val Parisis,Transport_A,0.2
+1819,2017,200058485,CA Val Parisis,Production-Energie,3.9
+1820,2017,200073013,CC Carnelle Pays-De-France,Agriculture,7.999999999999998
+1821,2017,200073013,CC Carnelle Pays-De-France,Residentiel,41.2
+1822,2017,200073013,CC Carnelle Pays-De-France,Tertiaire,6.800000000000001
+1823,2017,200073013,CC Carnelle Pays-De-France,Totale,112.50000000000001
+1824,2017,200073013,CC Carnelle Pays-De-France,Transport_R,54.10000000000001
+1825,2017,200073013,CC Carnelle Pays-De-France,Transport_A,0.0
+1826,2017,200073013,CC Carnelle Pays-De-France,Production-Energie,0.30000000000000004
+1827,2017,249500430,CC Sausseron Impressionnistes,Agriculture,11.700000000000001
+1828,2017,249500430,CC Sausseron Impressionnistes,Residentiel,28.799999999999997
+1829,2017,249500430,CC Sausseron Impressionnistes,Tertiaire,3.6
+1830,2017,249500430,CC Sausseron Impressionnistes,Totale,61.199999999999996
+1831,2017,249500430,CC Sausseron Impressionnistes,Transport_R,15.599999999999998
+1832,2017,249500430,CC Sausseron Impressionnistes,Transport_A,0.0
+1833,2017,249500430,CC Sausseron Impressionnistes,Production-Energie,0.2
+1834,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Agriculture,2.0999999999999996
+1835,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Residentiel,50.900000000000006
+1836,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Tertiaire,6.8
+1837,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Totale,204.59999999999997
+1838,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_R,123.4
+1839,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Transport_A,0.1
+1840,2017,249500455,CC de la Vallée de l'Oise et des Trois Forêts,Production-Energie,0.5
+1841,2017,249500489,CC du Haut Val d'Oise,Agriculture,2.7
+1842,2017,249500489,CC du Haut Val d'Oise,Residentiel,36.0
+1843,2017,249500489,CC du Haut Val d'Oise,Tertiaire,15.5
+1844,2017,249500489,CC du Haut Val d'Oise,Totale,99.8
+1845,2017,249500489,CC du Haut Val d'Oise,Transport_R,35.900000000000006
+1846,2017,249500489,CC du Haut Val d'Oise,Transport_A,0.0
+1847,2017,249500489,CC du Haut Val d'Oise,Production-Energie,0.6000000000000001
+1848,2017,249500513,CC du Vexin-Val de Seine,Agriculture,16.099999999999998
+1849,2017,249500513,CC du Vexin-Val de Seine,Residentiel,20.900000000000002
+1850,2017,249500513,CC du Vexin-Val de Seine,Tertiaire,4.0
+1851,2017,249500513,CC du Vexin-Val de Seine,Totale,83.90000000000002
+1852,2017,249500513,CC du Vexin-Val de Seine,Transport_R,40.10000000000001
+1853,2017,249500513,CC du Vexin-Val de Seine,Transport_A,0.9
+1854,2017,249500513,CC du Vexin-Val de Seine,Production-Energie,0.1

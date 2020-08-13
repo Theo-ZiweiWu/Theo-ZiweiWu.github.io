@@ -52,52 +52,7 @@
             </div>
             <div class="face face2">
                 <div class="contenu">
-                    <p id="consomm_3_des_sup">-12% par rapport au 2005</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="production" class="bloc-general">
-        <img src="img/prod_logo.png" id="prod_logo" alt="logo" class="logo">
-        <div class="block">
-            <div class="face face1">
-                <div class="contenu">
-                    <h3 id="production_1_chiffre">-</h3>
-                    <h4 id="production_1_mot_cle">-</h4>
-                    <p id="production_1_description">-</p>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="contenu">
-                    <p id="production_1_des_sup">-</p>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <div class="face face1">
-                <div class="contenu">
-                    <h3 id="production_2_chiffre">-</h3>
-                    <h4 id="production_2_mot_cle">-</h4>
-                    <p id="production_2_description">-</p>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="contenu">
-                    <p id="production_2_des_sup">-</p>
-                </div>
-            </div>
-        </div>
-        <div class="block">
-            <div class="face face1">
-                <div class="contenu">
-                    <h3 id="production_3_chiffre">-</h3>
-                    <h4 id="production_3_mot_cle">-</h4>
-                    <p id="production_3_description">-</p>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="contenu">
-                    <p id="production_3_des_sup">-</p>
+                    <p id="consomm_3_des_sup">-</p>
                 </div>
             </div>
         </div>
@@ -143,6 +98,51 @@
             <div class="face face2">
                 <div class="contenu">
                     <p id="emission_3_des_sup">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="precarite" class="bloc-general">
+        <img src="img/precarite_logo.png" id="precarite_logo" alt="logo" class="logo">
+        <div class="block">
+            <div class="face face1">
+                <div class="contenu">
+                    <h3 id="precarite_1_chiffre">-</h3>
+                    <h4 id="precarite_1_mot_cle">-</h4>
+                    <p id="precarite_1_description">-</p>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="contenu">
+                    <p id="precarite_1_des_sup">-</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="face face1">
+                <div class="contenu">
+                    <h3 id="precarite_2_chiffre">-</h3>
+                    <h4 id="precarite_2_mot_cle">-</h4>
+                    <p id="precarite_2_description">-</p>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="contenu">
+                    <p id="precarite_2_des_sup">-</p>
+                </div>
+            </div>
+        </div>
+        <div class="block">
+            <div class="face face1">
+                <div class="contenu">
+                    <h3 id="precarite_3_chiffre">-</h3>
+                    <h4 id="precarite_3_mot_cle">-</h4>
+                    <p id="precarite_3_description">-</p>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="contenu">
+                    <p id="precarite_3_des_sup">-</p>
                 </div>
             </div>
         </div>
@@ -331,12 +331,14 @@
             </div>
         </div>
     </div>
-    
+
     <div class="seperateur">
         <h1>BILAN DE LA CONSOMMATION  ENERGETIQUE</h1>
     </div>
-    <img src="img/page_consomm1.png" alt="page_consomm1" style="width: 1000px; height: 580px;">
+    
+    <div id="treemap"></div>
     <div id="container-general">
+        <div id="equilibre-regional" style="width: 900px; height: 400px;"></div>
         <div id="button-annee">
             <h4>Années disponibles</h4>
             <div class="sep_small"></div>
@@ -352,25 +354,87 @@
         <svg id="container_pie" height="200" width="220">
             <g id="piechart" transform="translate(100,100)"></g>
         </svg>
-        <svg id="container_linechart" height="270" width="360">
+        <svg id="container_treemap" height="300" width="400"></svg>
+        <svg id="container_linechart" height="270" width="420">
             <g class="xAxis" />
             <g class="yAxis" />
             <g class="body">
                 <path style="stroke: black" />
             </g>
         </svg>
-
-        <div id="tooltip">Tooltip</div>
-        <div id="tooltip2">Tooltip</div>
+        <div class="seperateur">
+            <h1>EMISSION DE GES SUR L'ILE-DE-FRANCE</h1>
+        </div>
+        <svg id="emission_container" height="500" width="600">
+            <g id="body_emiss"></g>
+        </svg>
+        <svg id="container_pie_emiss" height="200" width="220">
+            <g id="piechart_emiss" transform="translate(100,100)"></g>
+        </svg>
+        
+        <div class="seperateur">
+            <h1>RENOVATION ENERGETIQUE DU BATIMENT</h1>
+        </div>
+        <div id="CEE-stackchart"></div>
+        <svg id="sankey_chart" style="width: 700px; height: 350px;"></svg>
+        <div class="seperateur">
+            <h1>MOBILITE EN L'ILE-DE-FRANCE</h1>
+        </div>
+        <div id="mobilite_critair"></div>
+        <div id="piechart_energie"></div>
+        <div id="linechart_NO2"></div>
+        <div id="mixchart_ges"></div>
+        <div class="seperateur">
+            <h1>CHALEUR RENOUVELABLE</h1>
+        </div>
+        <svg id="chaleur_container_1" height="500" width="600">
+            <g id="body_chaleur_gth"></g>
+        </svg>
+        <svg id="chaleur_container_2" height="500" width="600">
+            <g id="body_chaleur_biomasse"></g>
+        </svg>
+        <div class="seperateur">
+            <h1>PRODUCTION DES AUTRES ENR&R</h1>
+        </div>
+        <svg id="production_container" height="500" width="600">
+            <g id="body_prod"></g>
+        </svg>
+        
+        <svg id="container_pie_prod" height="200" width="220">
+            <g id="piechart_prod" transform="translate(100,100)"></g>
+        </svg>
+        <svg id="linechart_prod" height="270" width="420">
+            <g class="xAxis" />
+            <g class="yAxis" />
+            <g class="body">
+                <path style="stroke: black" />
+            </g>
+        </svg>
+        <div class="seperateur">
+            <h1>PRECARITE ENERGETIQUE</h1>
+        </div>
+        <img src="img/precarite_idf.png" alt="precarite_idf" style="width: 800px; height: 540px;">
+        <img src="img/classe_dpe_IDF.png" alt="classe_dpe_IDF" style="width: 360px; height: 340px;">
+        <div id="tooltip_equilibre" class="tt">Tooltip</div>
+        <div id="tooltip" class="tt">Tooltip</div>
+        <div id="tooltip2" class="tt">Tooltip</div>
+        <div id="tooltip_emission" class="tt">Tooltip</div>
+        <div id="tooltip_prod" class="tt">Tooltip</div>
+        <div id="tooltip_chaleur" class="tt">Tooltip</div>
+        <div id="tooltip_biomasse" class="tt">Tooltip</div>
     </div>
-    <img src="img/page_emission1.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
-    <img src="img/page_production1.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
-    <img src="img/page_bati.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
-    <img src="img/page_transport.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
-    <img src="img/page_chaleur.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
-    <img src="img/page_ENR.png" alt="page_consomm1" style="width: 1000px; height: 625px;">
 </body>
-<script src="d3.js"></script>
+<!-- <script src="d3.js"></script> -->
+
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="sankey.js"></script>
 <script src="http://dimplejs.org/dist/dimple.v2.3.0.min.js"></script>
 <script src="page1_consomm.js"></script>
+<script src="page1_equilibre.js"></script>
+<script src="page2_emission.js"></script>
+<script src="page3_production.js"></script>
+<script src="page4_batiment.js"></script>
+<script src="page5_mobilite.js"></script>
+<script src="page6_chaleur_GTH.js"></script>
+<script src="page6_chaleur_biomasse.js"></script>
 </html>

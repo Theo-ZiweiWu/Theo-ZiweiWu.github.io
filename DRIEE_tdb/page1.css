@@ -47,7 +47,7 @@ h2{
     margin-bottom: 2em;
 }
 
-#tooltip {
+.tt {
     font-size: 10px;
     position: absolute;
     top: 10px;
@@ -57,16 +57,8 @@ h2{
     border: solid 1px black;
     display: none;
 }
-#tooltip2 {
-    font-size: 10px;
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: solid 1px black;
-    display: none;
-}
+
+
 
 #button-annee{
     margin: 2em 2em 0 0;
@@ -177,3 +169,23 @@ h2{
     font-weight: 500;
 }
 
+.node rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+   
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+  }
+   
+  .link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+  }
+   
+  .link:hover {
+    stroke-opacity: .5;
+  }
