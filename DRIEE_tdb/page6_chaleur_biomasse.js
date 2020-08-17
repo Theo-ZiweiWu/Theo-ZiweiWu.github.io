@@ -8,9 +8,37 @@ Promise.all([
 ]).then((datasources)=>{
     mapInfo_bio = datasources[1];
     data_bio = datasources[0];
+    evolution_bio = get_history_bio(data_bio);
+    bioLineChart(evolution_bio);
     prepare_bio_data(mapInfo_bio, data_bio);
     drawProdMap_bio(data_bio, mapInfo_bio);
 })
+
+function get_history_bio(data){
+    let years = data.map(function(d){return d.Annee;});
+    years = [...new Set(years)]
+    let history_bio = []
+    for (let y of years){
+        history_bio.push({
+            year: y,
+            value: d3.sum(data.filter(function(d){return d.Annee <= y;}),
+                d=>d.Production_estim_MWh) 
+        })
+    }
+    return history_bio;
+}
+
+function bioLineChart(data){
+    var svg_bio = d3.select("#chaleur_container_2_2")
+    var bio = new dimple.chart(svg_bio, data);
+    bio.setBounds(60, 20, 370, 230);
+    var x = bio.addCategoryAxis("x", "year");
+    x.addOrderRule("year");
+    bio.addMeasureAxis("y", "value");
+    var s = bio.addSeries(null, dimple.plot.line);
+    s.lineMarkers = true;
+    bio.draw();
+}
 
 function prepare_bio_data(mapInfo_bio, data){
     let prod_biomasse = {};
@@ -41,9 +69,9 @@ function drawProdMap_bio(data, mapInfo_bio){
         .domain([0, midProd_bio, maxProd_bio])
         .range(["#FFD29B","#FFB55F", "#FF8900"]);
 
-    let projection = d3.geoMercator()
-        .center([3.1, 48.7])
-        .scale(15000);
+        let projection = d3.geoMercator()
+        .center([3.9, 48.4])
+        .scale(10600);
 
     let path = d3.geoPath()
         .projection(projection);

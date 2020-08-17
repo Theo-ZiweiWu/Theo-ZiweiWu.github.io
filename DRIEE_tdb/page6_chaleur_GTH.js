@@ -4,13 +4,34 @@ let body_chaleur_gth = d3.select("#body_chaleur_gth");
 
 Promise.all([
     d3.csv("chaleur_GTH.csv"),
-    d3.json("departements-ile-de-france.geojson")
+    d3.json("departements-ile-de-france.geojson"),
 ]).then((datasources)=>{
     mapInfo_gth = datasources[1];
     data_gth = datasources[0];
+    draw_gth_line();
     prepare_gth_data(mapInfo_gth, data_gth);
     drawProdMap_gth(data_gth, mapInfo_gth);
 })
+
+function draw_gth_line(){
+    var svg_gth = dimple.newSvg("#linechart_gth", 450, 400);
+    d3.csv("chaleur_GTH_nb_logement.csv").then((data)=>{
+        var line_gth = new dimple.chart(svg_gth, data);
+        line_gth.setBounds(60, 30, 330, 230);
+        var x = line_gth.addCategoryAxis("x", "ANNEE");
+        y1 = line_gth.addMeasureAxis("y", "NB_LOGEMENT");
+        y2 = line_gth.addMeasureAxis("y", "PRODUCTION");
+        var ges = line_gth.addSeries(null, dimple.plot.line,[x, y2]);
+        ges.lineMarkers = true;
+        line_gth.defaultColors = [
+            new dimple.color("#FF8900", "#EA8000", 1)
+        ];
+
+        line_gth.addSeries(null, dimple.plot.line, [x, y1]);
+        line_gth.draw();
+    });
+}
+
 
 function prepare_gth_data(mapInfo_gth, data){
     let dataEnergie = {};
@@ -43,8 +64,8 @@ function drawProdMap_gth(data, mapInfo_gth){
         .range(["#FFD29B","#FFB55F", "#FF8900"]);
 
     let projection = d3.geoMercator()
-        .center([3.1, 48.7])
-        .scale(15000);
+        .center([3.9, 48.4])
+        .scale(10600);
 
     let path = d3.geoPath()
         .projection(projection);

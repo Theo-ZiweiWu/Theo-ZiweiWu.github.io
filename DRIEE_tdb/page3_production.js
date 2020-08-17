@@ -11,6 +11,8 @@ Promise.all([
     let prod_history = get_prod_history(data_prod);
     drawProdLine(prod_history);
     data_prod = annee_filter(data_prod);
+    prod_par_sec = get_ProdInfo(data_prod);
+    drawPieProd(prod_par_sec);
     prepare_prod_data(mapInfo, data_prod);
     drawProdMap(data_prod, mapInfo, "prod_tot");
 })
@@ -47,6 +49,26 @@ function drawProdLine(data){
 
 function annee_filter(data){
     return data.filter(function(d){return d.annee === annee_c;});
+}
+
+function get_ProdInfo(data){
+    var prod_info = [{
+        "Secteur": "Photovoltaïque",
+        "Production": d3.sum(data.filter(d=>d.secteur === "pv"),d=>d.production)
+    },{
+        "Secteur": "Hydrolique",
+        "Production": d3.sum(data.filter(d=>d.secteur === "hyd"),d=>d.production)
+    },{
+        "Secteur": "Eolien",
+        "Production": d3.sum(data.filter(d=>d.secteur === "eol"),d=>d.production)
+    },{
+        "Secteur": "Bioenérgie",
+        "Production": d3.sum(data.filter(d=>d.secteur === "bionrj"),d=>d.production)
+    },{
+        "Secteur": "Autres",
+        "Production": d3.sum(data.filter(d=>d.secteur === "autres"),d=>d.production)
+    }];
+    return prod_info;
 }
 
 function prepare_prod_data(mapInfo, data){
@@ -96,9 +118,9 @@ function drawProdMap(data, mapInfo, sec){
     let bodyWidth = height;
 
     let projection = d3.geoMercator()
-        .center([3.1, 48.7])
-        .scale(15000);
-
+        .center([3.9, 48.4])
+        .scale(10600);
+        
     let path = d3.geoPath()
         .projection(projection);
 
@@ -108,34 +130,13 @@ function drawProdMap(data, mapInfo, sec){
         .attr('d', d=>path(d))
         .attr("stroke", "white")
         .attr("fill",d => d.properties[sec] ?
-            cScale(d.properties[sec]): "white")
+            cScale(d.properties[sec]): "#E0E0E0")
         .on("mouseover", (d)=>{
             showPordTooltip(d.properties.nom, d.properties[sec],
                 [d3.event.pageX + 30, d3.event.pageY - 30]);
         })
         .on("mouseleave", d=>{
             d3.select("#tooltip_prod").style("display","none")
-        })
-        .on("click", d=> {
-            selectedEPCI = d.properties.nom;
-            let pie_data = [{
-                "Secteur": "Photovoltaïque",
-                "Production": d.properties.prod_pv
-            },{
-                "Secteur": "Hydrolique",
-                "Production": d.properties.prod_hyd
-            },{
-                "Secteur": "Eolien",
-                "Production": d.properties.prod_eol
-            },{
-                "Secteur": "Bioenérgie",
-                "Production": d.properties.prod_bionrj
-            },{
-                "Secteur": "Autres",
-                "Production": d.properties.prod_autres
-            }];
-        drawPieProd(pie_data);
-
         });
 }
 

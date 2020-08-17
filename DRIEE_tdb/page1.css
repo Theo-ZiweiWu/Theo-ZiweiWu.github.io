@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:400,600");
 
 body{
-    width : 100%;
+    width : 1000px;
     min-width: 800px;
     height: 100%;
     min-height: 800px;
     margin: 0 auto;
     font-family:'Montserrat', sans-serif;
-    padding-left: 10em;
+    padding-left: 12em;
+    padding-right: 6em;
 }
 
 h1{
@@ -16,35 +17,56 @@ h1{
 
 h2{
     color: #474747;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
+h3{
+    color: #696969;
+    margin: 3em 0 1em 0;
+}
+
+h4{
+    color: #696969;
+    margin-bottom: 1em;
+}
+
 
 #container_linechart{
-    margin-bottom: 3em;
+    margin-bottom: 0em;
 
 }
-#container{
+
+#container_inner_cartes{
+    margin: 0 auto;
+    text-align: center;
+}
+.container{
+    display: flex;
     margin-right: 3em;
+    float: left;
+}
+
+#container_conso{
+    margin-bottom: 3em;
 }
 
 #container_general{
     margin-top: 14em;
-    display: flex;
 }
 
 .seperateur {
-    margin: 3em 0 4em 0;
-    width: 60%;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    width: 900px;
     height: 1px;
     border-top: solid #ACC0D8 1px;
 }
 
 .sep_small{
-    width: 10%;
+    width: 200px;
     height: 1px;
     border-top: solid #ACC0D8 1px;
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .tt {
@@ -53,12 +75,33 @@ h2{
     top: 10px;
     left: 0px;
     padding: 5px;
+    border-radius:5px;
     background-color: rgba(255, 255, 255, 0.8);
     border: solid 1px black;
     display: none;
 }
 
+.mobilite-container{
+    width: 900px;
+    height: 400px;
+    display: inline-flex;
+}
 
+.mobilite-carte{
+    width:450;
+    height: 330;
+}
+
+.chaleur-container{
+    width: 900px;
+    height: 400px;
+    display: inline-flex;
+}
+
+#emission_cartes{
+    position:relative; 
+    top:-320px; left:500px;
+}
 
 #button-annee{
     margin: 2em 2em 0 0;

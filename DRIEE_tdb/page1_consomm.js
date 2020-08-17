@@ -15,7 +15,7 @@ var selectedEPCI = undefined;
 
 
 Promise.all([
-    d3.csv(data_url),
+    d3.csv("airparif_consommation_epci.csv"),
     d3.json(geojson_url)
 ]).then((datasources)=>{
     update_chiffre_cles();
@@ -23,6 +23,10 @@ Promise.all([
     data = datasources[0];
     let line_data = get_history(data);
     data = annee_filter(data);
+    var sec_info = get_secteurInfo(data);
+    var eng_info = get_energieInfo(data);
+    drawTreemap(eng_info);
+    drawPie(sec_info);
     prepare_data(mapInfo, data);
     drawMap(data, mapInfo, "conso_tot");
     drawLineChart(line_data);
@@ -30,6 +34,47 @@ Promise.all([
 
 function set_html(id, text){
     document.getElementById(id).innerHTML = text;
+}
+
+function get_secteurInfo(data){
+    var sec_info = [{
+        "Secteur": "Agriculture",
+        "Consommation": d3.sum(data.filter(d=>d.secteur === "AGR"),d=>d.consommation)
+    },{
+        "Secteur": "Tertiaire",
+        "Consommation": d3.sum(data.filter(d=>d.secteur === "TER"),d=>d.consommation)
+    },{
+        "Secteur": "Industrie",
+        "Consommation": d3.sum(data.filter(d=>d.secteur === "IND"),d=>d.consommation)
+    },{
+        "Secteur": "Residentiel",
+        "Consommation": d3.sum(data.filter(d=>d.secteur === "RES"),d=>d.consommation)
+    },{
+        "Secteur": "Transport Routier",
+        "Consommation": d3.sum(data.filter(d=>d.secteur === "TRAF"),d=>d.consommation)
+    }];
+    return sec_info;
+}
+
+function get_energieInfo(data){
+    var eng_info = [{
+        "Energie": "Electricité", 
+        "Consommation": d3.sum(data.filter(d=>d.energie === "ELEC"),d=>d.consommation)
+    },{
+        "Energie": "Gaz Naturel", 
+        "Consommation": d3.sum(data.filter(d=>d.energie === "GN"),d=>d.consommation)
+    },{
+        "Energie": "Produit pétrolier et charbon", 
+        "Consommation": d3.sum(data.filter(d=>d.energie === "PP_CMS"),d=>d.consommation)
+    },{
+        "Energie": "URB", 
+        "Consommation": d3.sum(data.filter(d=>d.energie === "URB"),d=>d.consommation)
+    },{
+        "Energie": "Bois", 
+        "Consommation": d3.sum(data.filter(d=>d.energie === "BOIS"),d=>d.consommation)
+    }];
+    console.log(eng_info);
+    return eng_info;
 }
 
 function update_chiffre_cles(){
@@ -175,11 +220,15 @@ function showTooltipPie(sec, conso, coords){
 }
 
 function drawTreemap(data){
-    let width_map = 400;
-    let height_map = 300;
+    let width_map = 900;
+    let height_map = 250;
     console.log(data);
-    var svg = d3.select("#container_treemap")
+    var svg_tree = d3.select("#container_treemap")
         .attr("transform", "translate(" + 10 + ", " + 10 + ")");
+        
+    var color_tree = d3.scaleOrdinal()
+    .domain(["Electricité", "Produit pétrolier et charbon", "Gaz Naturel", "URB", "Bois"])
+    .range(["#18A1CD", "#525252", "#09BB9F", "#F67272", "#09A785"]);
 
     root = {};
     root["name"] = "root";
@@ -203,7 +252,7 @@ function drawTreemap(data){
     .padding(4)
     (tree)
 
-    svg
+    svg_tree
         .selectAll("rect")
         .data(tree.leaves())
         .enter()
@@ -212,11 +261,11 @@ function drawTreemap(data){
         .attr('y', function (d) { return d.y0; })
         .attr('width', function (d) { return d.x1 - d.x0; })
         .attr('height', function (d) { return d.y1 - d.y0; })
-        .style("stroke", "black")
-        .style("fill", "#69b3a2");
+        .style("stroke", "white")
+        .style("fill", function(d) { return color_tree(d.data.energie);});
     
     // and to add the text labels
-    svg
+    svg_tree
         .selectAll("text")
         .data(tree.leaves())
         .enter()
@@ -254,22 +303,22 @@ function drawPie(data){
     g.append("path")
         .attr("d", arc)
         .attr("fill", d => {
-            return colorScale(d.data.secteur)
-        })
+            return colorScale(d.data.secteur)})
         .on("mousemove", (d)=>{
             console.log(d.data.secteur);
-            showTooltipPie(d.data.secteur, d.data.consommation,[d3.event.pageX + 30, d3.event.pageY - 30]);
-        })
+            showTooltipPie(d.data.secteur, d.data.consommation,[d3.event.pageX + 30, d3.event.pageY - 30]);})
         .on("mouseleave", d=>{
-            d3.select("#tooltip2").style("display","none")
-        });
+            d3.select("#tooltip2").style("display","none")});
 }
 
 function change_year(a){
     d3.csv("airparif_consommation_epci.csv").then((data_s)=>{
         annee_c = a;
         data = annee_filter(data_s);
-        console.log(data);
+        var sec_info = get_secteurInfo(data);
+        var eng_info = get_energieInfo(data);
+        drawTreemap(eng_info);
+        drawPie(sec_info);
         prepare_data(mapInfo, data);
         drawMap(data, mapInfo,"conso_tot");
     })
@@ -330,10 +379,12 @@ function get_history(data){
     let history = []
     for (let y of years){
         history.push({
-            year: y,
-            value: d3.sum(data.filter(function(d){return d.annee === y;}),
-                d=>d.consommation) 
-        })
+            Annee: y,
+            Consommation_totale: d3.sum(data.filter(function(d){return d.annee === y;}),
+                d=>d.consommation)/1000,
+            Consommation_moyenne: d3.sum(data.filter(function(d){return d.annee === y;}),
+            d=>d.consommation)/12150
+        });
     }
     console.log(history)
     return history;
@@ -342,47 +393,18 @@ function get_history(data){
 function drawLineChart(data){
     var svg = d3.select("#container_linechart")
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(60, 20, 380, 200);
-    var x = myChart.addCategoryAxis("x", "year");
-    x.addOrderRule("year");
-    myChart.addMeasureAxis("y", "value");
-    var s = myChart.addSeries(null, dimple.plot.line);
-    s.lineMarkers = true;
+    myChart.setBounds(50, 20, 300, 140);
+    var x = myChart.addCategoryAxis("x", "Annee");
+    x.addOrderRule("Annee");
+    var y1 = myChart.addMeasureAxis("y", "Consommation_totale");
+    var y2 = myChart.addMeasureAxis("y", "Consommation_moyenne");
+    var s = myChart.addSeries(null, dimple.plot.bar,[x,y1]);
+    var t = myChart.addSeries(null, dimple.plot.line,[x,y2]);
+    t.lineMarkers = true;
+    myChart.defaultColors = [
+        new dimple.color("#09A785", "#FF483A", 1),
+    ];
     myChart.draw();
-    
-    /*let width = 300;
-    let height = 200;
-    let margin = { left: 40, bottom: 20, right: 20, top: 20 }
-    let bodyWidth = width - margin.left - margin.right;
-    let bodyHeight = height - margin.top - margin.bottom;
-
-    let xScale = d3.scaleLinear()
-        .range([0, bodyWidth])
-        .domain(d3.extent(data, d => d.year))
-
-    let yScale = d3.scaleLinear()
-        .range([bodyHeight, 0])
-        .domain([0, d3.max(data, d => d.value)])
-
-    let lineGenerator = d3.line()
-        .x(d => xScale(d.year))
-        .y(d => yScale(d.value))
-
-    let linechart = d3.select("#container_linechart")
-
-    linechart.select(".body")
-        .attr("transform", `translate(${margin.left},${margin.top})`)
-        .select("path").datum(data)
-        .attr("d", lineGenerator)
-
-    linechart.select(".xAxis")
-        .attr("transform", `translate(${margin.left},${height - margin.bottom})`)
-        .call(d3.axisBottom(xScale).ticks(5))
-
-    linechart.select(".yAxis")
-        .attr("transform", `translate(${margin.left},${margin.top})`)
-        .call(d3.axisLeft(yScale).ticks(5).tickFormat(d => (d / 1e6) + "M"))
-    */
 }
 
 function drawMap(data, mapInfo, sec){
@@ -402,8 +424,8 @@ function drawMap(data, mapInfo, sec){
     let bodyWidth = height;
 
     let projection = d3.geoMercator()
-        .center([3.1, 48.7])
-        .scale(15000);
+        .center([3.9, 48.4])
+        .scale(10600);
 
     let path = d3.geoPath()
         .projection(projection);
@@ -420,7 +442,7 @@ function drawMap(data, mapInfo, sec){
                 [d3.event.pageX + 30, d3.event.pageY - 30]);
         })
         .on("mouseleave", d=>{
-            d3.select("#tooltip").style("display","none")
+            d3.select("#tooltip").style("display","none");
         })
         .on("click", d=> {
             selectedEPCI = d.properties.nom;
@@ -458,7 +480,6 @@ function drawMap(data, mapInfo, sec){
                 "Consommation": d.properties.conso_bois
             }];
             drawTreemap(tree_data);
-            console.log(tree_data);
             drawPie(pie_data);
         })
         

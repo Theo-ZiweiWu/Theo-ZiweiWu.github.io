@@ -42,7 +42,7 @@ d3.csv("equilibre-regional-TDB.csv").then((data)=>{
   // color palette = one color per subgroup
   var color = d3.scaleOrdinal()
   .domain(subgroups)
-  .range(['#FF8900','#529A99','#52B8D9'])
+  .range(['#52B8D9','#FF8900','#529A99'])
 
   //stack the data? --> stack per subgroup
   var stackedData = d3.stack()
@@ -55,16 +55,18 @@ d3.csv("equilibre-regional-TDB.csv").then((data)=>{
   // ----------------
   // Create a tooltip
   // ----------------
+
   var tooltip = d3.select("#tooltip_equilibre")
   .append("div")
   .style("position","absolute")
+  .style("font-size", "10px")
   .style("opacity", 0)
   .attr("class", "tooltip")
-  .style("background-color", "white")
+  .style("background-color", "rgba(255, 255, 255, 0.8)")
   .style("border", "solid")
   .style("border-width", "1px")
   .style("border-radius", "5px")
-  .style("padding", "10px");
+  .style("padding", "5px");
 
   console.log(tooltip);
   // Three function that change the tooltip when user hover / move / leave a cell

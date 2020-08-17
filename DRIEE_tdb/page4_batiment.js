@@ -34,7 +34,7 @@ d3.json("demo.json").then((graph)=>{
   sankey
       .nodes(graph.nodes)
       .links(graph.links)
-      .layout(32);
+      .layout(0);
  
  console.log(graph);
 // add in the links
@@ -52,8 +52,8 @@ d3.json("demo.json").then((graph)=>{
       	return d.source.name + " → " + 
                 d.target.name + "\n" + format(d.value); });
  
+
 // add in the nodes
-  
   var node = svg_sankey.append("g").selectAll(".node")
       .data(graph.nodes)
     .enter().append("g")
@@ -61,13 +61,20 @@ d3.json("demo.json").then((graph)=>{
       .attr("transform", function(d) { 
 		  return "translate(" + d.x + "," + d.y + ")"; })
     
- 
+ var color_nodes = d3.scaleOrdinal()
+    .domain([">2000","1980-2000","1960-1980","1940-1960","<1940","Non connu",
+    "A_ges","B_ges","C_ges","D_ges","E_ges","F_ges","G_ges","N_ges",
+    "A_consomm","B_consomm","C_consomm","D_consomm","E_consomm","F_consomm","G_consomm","N_consomm"])
+    .range(["#2C5A9C", "#3984B6", "#47AED0", "#83CACF", "#C6E3CB","E0E0E0",
+    "#32984F","#96CE5D", "#DAEE88","#FFFEBD","#FBDF88","#F58C55","#D02D20","E0E0E0",
+    "#EEF8FB","#C1D3E7", "#A1BDDB","#8D97C7","#8A6CB2","#85439E","#6A056C","E0E0E0"]);
+
  console.log(node);
 // add the rectangles for the nodes
   node.append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
-      .style("fill", "blue")
+      .style("fill", function(d) { return color_nodes(d.name);})
       .style("stroke", "black")
     .append("title")
       .text(function(d) { 
@@ -88,10 +95,14 @@ d3.json("demo.json").then((graph)=>{
 });
 
 
-var svg_cee = dimple.newSvg("#CEE-stackchart", 590, 400);
+var svg_cee = dimple.newSvg("#CEE-stackchart", 700, 330);
 d3.csv("CEE_simplifiee.csv").then((data)=>{
   var cee_chart = new dimple.chart(svg_cee, data);
-  cee_chart.setBounds(60, 30, 505, 305);
+  cee_chart.setBounds(50, 30, 660, 255);
+  cee_chart.defaultColors = [
+    new dimple.color("#FF8900", "#FF8900", 1), 
+    new dimple.color("#09A785", "#09A785", 1)
+];
   var x = cee_chart.addCategoryAxis("x", "DATE");
   x.addOrderRule("DATE");
   cee_chart.addMeasureAxis("y", "MOTANT");

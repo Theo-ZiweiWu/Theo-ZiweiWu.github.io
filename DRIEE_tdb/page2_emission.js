@@ -8,7 +8,10 @@ Promise.all([
 ]).then((datasources)=>{
     mapInfo = datasources[1];
     data_emiss = datasources[0];
-    data_emiss = annee_filter(data_emiss);
+    data_emiss = annee_filter_emission(data_emiss);
+    var sec_info = get_emissionInfo(data_emiss);
+    console.log(sec_info);
+    drawPieEmiss(sec_info);
     prepare_emiss_data(mapInfo, data_emiss);
     drawEmissMap(data_emiss, mapInfo, "emiss_tot");
 })
@@ -16,7 +19,7 @@ Promise.all([
 var annee_c = "2017";
 var selectedEPCI = undefined;
 
-function annee_filter(data){
+function annee_filter_emission(data){
     return data.filter(function(d){return d.annee === annee_c;});
 }
 
@@ -67,8 +70,8 @@ function drawEmissMap(data, mapInfo, sec){
     let bodyWidth = height;
 
     let projection = d3.geoMercator()
-        .center([3.1, 48.7])
-        .scale(15000);
+        .center([3.9, 48.4])
+        .scale(10600);
 
     let path = d3.geoPath()
         .projection(projection);
@@ -162,4 +165,39 @@ function drawPieEmiss(data){
             d3.select("#tooltip2").style("display","none")
         });
         */
+}
+
+
+function change_year_emission(a){
+    d3.csv("airparif_emission_epci.csv").then((data_s)=>{
+        annee_c = a;
+        data_emiss = annee_filter_emission(data_s);
+        var sec_info = get_emissionInfo(data_emiss);
+        drawPieEmiss(sec_info);
+        prepare_emiss_data(mapInfo, data_emiss);
+        drawEmissMap(data_emiss, mapInfo, "emiss_tot");
+    })
+}
+
+function get_emissionInfo(data){
+    var sec_info = [{
+        "Secteur": "Agriculture",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Agriculture"),d=>d.emission)
+    },{
+        "Secteur": "Tertiaire",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Tertiaire"),d=>d.emission)
+    },{
+        "Secteur": "Industrie",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Industrie"),d=>d.emission)
+    },{
+        "Secteur": "Residentiel",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Residentiel"),d=>d.emission)
+    },{
+        "Secteur": "Transport Routier",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Transport_R"),d=>d.emission)
+    },{
+        "Secteur": "Transport Autres",
+        "Emission": d3.sum(data.filter(d=>d.secteur === "Transport_A"),d=>d.emission)
+    }];
+    return sec_info;
 }
