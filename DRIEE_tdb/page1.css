@@ -81,6 +81,7 @@ h4{
     display: none;
 }
 
+
 .mobilite-container{
     width: 900px;
     height: 400px;
@@ -88,7 +89,7 @@ h4{
 }
 
 .mobilite-carte{
-    width:450;
+    width: 450px;
     height: 330;
 }
 
@@ -98,10 +99,17 @@ h4{
     display: inline-flex;
 }
 
+.container-enr{
+    width: 900px;
+    height: 450px;
+    display: inline-flex;
+}   
+
 #emission_cartes{
     position:relative; 
     top:-320px; left:500px;
 }
+
 
 #button-annee{
     margin: 2em 2em 0 0;
