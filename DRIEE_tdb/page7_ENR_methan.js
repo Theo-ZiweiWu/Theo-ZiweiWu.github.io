@@ -48,7 +48,7 @@ function get_history_methan(data){
 function methanLineChart(data){
     var svg_methan = d3.select("#enr_container_1_2")
     var methan = new dimple.chart(svg_methan, data);
-    methan.setBounds(60, 20, 380, 200);
+    methan.setBounds(60, 20, 360, 230);
     var x = methan.addCategoryAxis("x", "year");
     x.addOrderRule("year");
     methan.addMeasureAxis("y", "value");

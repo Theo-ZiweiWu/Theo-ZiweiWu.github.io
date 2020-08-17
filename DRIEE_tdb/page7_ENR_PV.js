@@ -74,6 +74,6 @@ function showpvTooltip(nom, prod, coords){
         .style("top", (y)+"px")
         .style("left", (x)+"px")
         .html("<b>Département : </b>" + nom + "<br>"
-                    + "<b>Nombre de site de PV: </b>" + prod )
+                    + "<b>Nombre de site de PV en 2017: </b>" + prod )
         
 }

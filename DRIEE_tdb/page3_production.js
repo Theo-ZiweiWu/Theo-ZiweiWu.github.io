@@ -38,7 +38,7 @@ function drawProdLine(data){
     console.log(data);
     var svg = d3.select("#linechart_prod")
     var myChart = new dimple.chart(svg, data);
-    myChart.setBounds(60, 20, 350, 200);
+    myChart.setBounds(60, 20, 350, 140);
     var x = myChart.addCategoryAxis("x", "year");
     x.addOrderRule("year");
     myChart.addMeasureAxis("y", "value");

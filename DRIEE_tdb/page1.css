@@ -12,6 +12,7 @@ body{
 }
 
 h1{
+    margin: 0.5em 0 0 0;
     color: #474747;
 }
 
@@ -21,7 +22,7 @@ h2{
 }
 h3{
     color: #696969;
-    margin: 3em 0 1em 0;
+    margin: 1em 0 1em 0;
 }
 
 h4{
@@ -43,6 +44,36 @@ h4{
     display: flex;
     margin-right: 3em;
     float: left;
+}
+
+.container-chiffres{
+    width: 1000px;
+    height: 400px;
+    display: inline-flex;
+}
+
+.chiffre-gros{
+    font-size: 60px;
+}
+
+.mots-cles{
+    font-size: 30px;
+}
+
+.description{
+    font-size: 20px;    
+}
+
+.chiffre-cles{
+    width: 240px;
+    height: 320px;
+    font-size: 10px;
+    background-color: #ffffff;
+    border: solid #ff8900 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2em;
+    text-align: center;
 }
 
 #container_conso{

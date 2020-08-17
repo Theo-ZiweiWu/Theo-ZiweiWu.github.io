@@ -19,6 +19,7 @@ Promise.all([
     d3.json(geojson_url)
 ]).then((datasources)=>{
     update_chiffre_cles();
+    update_chiffre_consommation();
     mapInfo = datasources[1];
     data = datasources[0];
     let line_data = get_history(data);
@@ -75,6 +76,23 @@ function get_energieInfo(data){
     }];
     console.log(eng_info);
     return eng_info;
+}
+
+function update_chiffre_consommation(){
+    d3.csv("page1_chiffres_cles.csv").then((data)=>{
+        chiffre_01 = data.filter(function(d){return d.id === "chiffre_1";});
+        chiffre_02 = data.filter(function(d){return d.id === "chiffre_2";});
+        chiffre_03 = data.filter(function(d){return d.id === "chiffre_3";});
+        set_html("page1_chiffre1", chiffre_01[0].chiffre_cles);
+        set_html("page1_chiffre2", chiffre_02[0].chiffre_cles);
+        set_html("page1_chiffre3", chiffre_03[0].chiffre_cles);
+        set_html("page1_mot1", chiffre_01[0].mots_cles);
+        set_html("page1_mot2", chiffre_02[0].mots_cles);
+        set_html("page1_mot3", chiffre_03[0].mots_cles);
+        set_html("page1_des1", chiffre_01[0].description);
+        set_html("page1_des2", chiffre_02[0].description);
+        set_html("page1_des3", chiffre_03[0].description);
+    })
 }
 
 function update_chiffre_cles(){
