@@ -54,14 +54,17 @@ h4{
 
 .chiffre-gros{
     font-size: 60px;
+    color:  #ff8900;
 }
 
 .mots-cles{
     font-size: 30px;
+    color:  #ff8900;
 }
 
 .description{
-    font-size: 20px;    
+    font-size: 20px;
+    color:  #ff8900;
 }
 
 .chiffre-cles{
