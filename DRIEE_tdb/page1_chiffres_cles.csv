@@ -1,5 +1,6 @@
 ﻿id,chiffre_cles,mots_cles,description,description_sup,source
-chiffre_1,92%,Importée,d’énergie consommée sur l’Ile-de-France est importée.,"Seul 8% de l'énergie consommée est produite localement.
+chiffre_1,92%,Importée,"d’énergie consommée sur l’Ile-de-France est importée. Seul 8% est produite localement.
+Source: SDES (2017)","Seul 8% de l'énergie consommée est produite localement.
 Source: SDES (2017)",ROSE
-chiffre_2,45%, ,utilisée en chaleur des bâtiments.,"eau chaude sanitaire, chauffage des bâtiments",DRIEE Feuille de route
-chiffre_3,35%,de gaz fossile,30% d'électricité; 28% de produits pétroliers,Source: ROSE,Plaquette du ROSE
+chiffre_2,45%,d'énergie ,"est utilisée en chaleur des bâtiments, eau chaude sanitaire, chauffage des bâtiments.","eau chaude sanitaire, chauffage des bâtiments",DRIEE Feuille de route
+chiffre_3,35%,de gaz fossile,30% d'électricité; 28% de produits pétroliers. ,Source: ROSE,Plaquette du ROSE

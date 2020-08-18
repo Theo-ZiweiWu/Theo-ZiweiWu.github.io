@@ -1,6 +1,20 @@
 
 let body_enr_methan = d3.select("#body_enr_methan");
 
+d3.csv("page7_chiffres_cles.csv").then((data)=>{
+    chiffre_01 = data.filter(function(d){return d.id === "chiffre_1";});
+    chiffre_02 = data.filter(function(d){return d.id === "chiffre_2";});
+    chiffre_03 = data.filter(function(d){return d.id === "chiffre_3";});
+    set_html("page7_chiffre1", chiffre_01[0].chiffre_cles);
+    set_html("page7_chiffre2", chiffre_02[0].chiffre_cles);
+    set_html("page7_chiffre3", chiffre_03[0].chiffre_cles);
+    set_html("page7_mot1", chiffre_01[0].mots_cles);
+    set_html("page7_mot2", chiffre_02[0].mots_cles);
+    set_html("page7_mot3", chiffre_03[0].mots_cles);
+    set_html("page7_des1", chiffre_01[0].description);
+    set_html("page7_des2", chiffre_02[0].description);
+    set_html("page7_des3", chiffre_03[0].description);
+});
 
 Promise.all([
     d3.csv("ENR_methan.csv"),

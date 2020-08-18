@@ -1,0 +1,4 @@
+﻿id,chiffre_cles,mots_cles,description,description_sup,source
+chiffre_1,"71,6%",,"d’énergie est consommée par les logements construit avant 1980. (Source: ADEME, Recensement de DPE)","Source: ADEME, Recensement de DPE ","ADEME, Recensement de DPE"
+chiffre_2,"60,7%",,"des logements consomment plus de 230kwh/m2/an (classe E, F, G), qui dépassent presque 4 fois que l'objectif de SRCAE en 2050.",dépassent presque 4 fois que l'objectif de SRCAE en 2050,Données de DPE (Opendata de l'ADEME)
+chiffre_3,48 663,GWhc,"d’énergie sont économisées selon les certificats CEE, dont 55% representé par les CEE précarité.",dont 55% representé par les CEE précarité,DRIEE fichier de CEE

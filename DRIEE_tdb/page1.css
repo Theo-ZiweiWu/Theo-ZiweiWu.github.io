@@ -12,7 +12,6 @@ body{
 }
 
 h1{
-    margin: 0.5em 0 0 0;
     color: #474747;
 }
 
@@ -30,7 +29,10 @@ h4{
     margin-bottom: 1em;
 }
 
+.grand-titre{
+    margin: 2em 0 1em 0;
 
+}
 #container_linechart{
     margin-bottom: 0em;
 
@@ -48,34 +50,36 @@ h4{
 
 .container-chiffres{
     width: 1000px;
-    height: 400px;
+    height: 320px;
     display: inline-flex;
 }
 
 .chiffre-gros{
-    font-size: 60px;
+    margin: 0.3em 0 0 0;
+    font-size: 50px;
     color:  #ff8900;
 }
 
 .mots-cles{
-    font-size: 30px;
-    color:  #ff8900;
-}
-
-.description{
+    margin: 0;
     font-size: 20px;
     color:  #ff8900;
 }
 
+.description{
+    font-size: 15px;
+    color:  #ff8900;
+}
+
 .chiffre-cles{
-    width: 240px;
-    height: 280px;
+    width: 250px;
+    height: 220px;
     font-size: 10px;
     background-color: #ffffff;
-    border: solid #ff8900 2px;
-    border-radius: 10px;
+    border: solid #ff8900 3px;
+    border-radius: 20px;
     padding: 10px;
-    margin: 2em;
+    margin: 1.5em;
     text-align: center;
 }
 
@@ -91,7 +95,6 @@ h4{
     margin-top: 3em;
     margin-bottom: 4em;
     width: 900px;
-    height: 1px;
     border-top: solid #ACC0D8 1px;
 }
 

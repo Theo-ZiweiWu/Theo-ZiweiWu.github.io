@@ -100,12 +100,15 @@ function update_chiffre_cles(){
         consomm_1 = data.filter(function(d){return d.id === "consommation_1";});
         consomm_2 = data.filter(function(d){return d.id === "consommation_2";});
         consomm_3 = data.filter(function(d){return d.id === "consommation_3";});
-        precarite_1 = data.filter(function(d){return d.id === "precarite_1";});
-        precarite_2 = data.filter(function(d){return d.id === "precarite_2";});
-        precarite_3 = data.filter(function(d){return d.id === "precarite_3";});
         emission_1 = data.filter(function(d){return d.id === "emission_1";});
         emission_2 = data.filter(function(d){return d.id === "emission_2";});
         emission_3 = data.filter(function(d){return d.id === "emission_3";});
+        production_1 = data.filter(function(d){return d.id === "production_1";});
+        production_2 = data.filter(function(d){return d.id === "production_2";});
+        production_3 = data.filter(function(d){return d.id === "production_3";});
+        precarite_1 = data.filter(function(d){return d.id === "precarite_1";});
+        precarite_2 = data.filter(function(d){return d.id === "precarite_2";});
+        precarite_3 = data.filter(function(d){return d.id === "precarite_3";});
         bati_1 = data.filter(function(d){return d.id === "bati_1";});
         bati_2 = data.filter(function(d){return d.id === "bati_2";});
         bati_3 = data.filter(function(d){return d.id === "bati_3";});
@@ -131,19 +134,6 @@ function update_chiffre_cles(){
         set_html("consomm_2_mot_cle", consomm_2[0].mot_cle);
         set_html("consomm_3_mot_cle", consomm_3[0].mot_cle);
         
-        set_html("precarite_1_chiffre", precarite_1[0].chiffre_cles);
-        set_html("precarite_2_chiffre", precarite_2[0].chiffre_cles);
-        set_html("precarite_3_chiffre", precarite_3[0].chiffre_cles);
-        set_html("precarite_1_description", precarite_1[0].description);
-        set_html("precarite_2_description", precarite_2[0].description);
-        set_html("precarite_3_description", precarite_3[0].description);
-        set_html("precarite_1_des_sup", precarite_1[0].description_sup);
-        set_html("precarite_2_des_sup", precarite_2[0].description_sup);
-        set_html("precarite_3_des_sup", precarite_3[0].description_sup);
-        set_html("precarite_1_mot_cle", precarite_1[0].mot_cle);
-        set_html("precarite_2_mot_cle", precarite_2[0].mot_cle);
-        set_html("precarite_3_mot_cle", precarite_3[0].mot_cle);
-        
         set_html("emission_1_chiffre", emission_1[0].chiffre_cles);
         set_html("emission_2_chiffre", emission_2[0].chiffre_cles);
         set_html("emission_3_chiffre", emission_3[0].chiffre_cles);
@@ -156,7 +146,34 @@ function update_chiffre_cles(){
         set_html("emission_1_mot_cle", emission_1[0].mot_cle);
         set_html("emission_2_mot_cle", emission_2[0].mot_cle);
         set_html("emission_3_mot_cle", emission_3[0].mot_cle);
-        
+
+        set_html("production_1_chiffre", production_1[0].chiffre_cles);
+        set_html("production_2_chiffre", production_2[0].chiffre_cles);
+        set_html("production_3_chiffre", production_3[0].chiffre_cles);
+        set_html("production_1_description", production_1[0].description);
+        set_html("production_2_description", production_2[0].description);
+        set_html("production_3_description", production_3[0].description);
+        set_html("production_1_des_sup", production_1[0].description_sup);
+        set_html("production_2_des_sup", production_2[0].description_sup);
+        set_html("production_3_des_sup", production_3[0].description_sup);
+        set_html("production_1_mot_cle", production_1[0].mot_cle);
+        set_html("production_2_mot_cle", production_2[0].mot_cle);
+        set_html("production_3_mot_cle", production_3[0].mot_cle);
+                
+        set_html("precarite_1_chiffre", precarite_1[0].chiffre_cles);
+        set_html("precarite_2_chiffre", precarite_2[0].chiffre_cles);
+        set_html("precarite_3_chiffre", precarite_3[0].chiffre_cles);
+        set_html("precarite_1_description", precarite_1[0].description);
+        set_html("precarite_2_description", precarite_2[0].description);
+        set_html("precarite_3_description", precarite_3[0].description);
+        set_html("precarite_1_des_sup", precarite_1[0].description_sup);
+        set_html("precarite_2_des_sup", precarite_2[0].description_sup);
+        set_html("precarite_3_des_sup", precarite_3[0].description_sup);
+        set_html("precarite_1_mot_cle", precarite_1[0].mot_cle);
+        set_html("precarite_2_mot_cle", precarite_2[0].mot_cle);
+        set_html("precarite_3_mot_cle", precarite_3[0].mot_cle);
+
+
         set_html("bati_1_chiffre", bati_1[0].chiffre_cles);
         set_html("bati_2_chiffre", bati_2[0].chiffre_cles);
         set_html("bati_3_chiffre", bati_3[0].chiffre_cles);

@@ -1,4 +1,20 @@
 
+d3.csv("page4_chiffres_cles.csv").then((data)=>{
+  chiffre_01 = data.filter(function(d){return d.id === "chiffre_1";});
+  chiffre_02 = data.filter(function(d){return d.id === "chiffre_2";});
+  chiffre_03 = data.filter(function(d){return d.id === "chiffre_3";});
+  set_html("page4_chiffre1", chiffre_01[0].chiffre_cles);
+  set_html("page4_chiffre2", chiffre_02[0].chiffre_cles);
+  set_html("page4_chiffre3", chiffre_03[0].chiffre_cles);
+  set_html("page4_mot1", chiffre_01[0].mots_cles);
+  set_html("page4_mot2", chiffre_02[0].mots_cles);
+  set_html("page4_mot3", chiffre_03[0].mots_cles);
+  set_html("page4_des1", chiffre_01[0].description);
+  set_html("page4_des2", chiffre_02[0].description);
+  set_html("page4_des3", chiffre_03[0].description);
+});
+
+
 var units = "KWh";
  
 var margin_sankey = {top: 10, right: 10, bottom: 10, left: 10},
@@ -110,3 +126,4 @@ d3.csv("CEE_simplifiee.csv").then((data)=>{
   cee_chart.addLegend(60, 10, 500, 20, "right");
   cee_chart.draw();
 });
+

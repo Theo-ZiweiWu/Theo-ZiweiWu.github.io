@@ -1,0 +1,4 @@
+﻿id,chiffre_cles,mots_cles,description,description_sup,source
+chiffre_1,51%,de la production ,"de ENR&R du territoire est représenté par chaleur renouvelable, qui est issue principalement de : les déchets, la biomasse et la géothermie.","La chaleur est issue de 3 sources : les déchets, la biomasse et la géothermie.",DRIEE Feuille de route
+chiffre_2,"13,2%",,issu de la biomasse et 9% issu de la géothermie profonde dans la production de ENR&R (2019).,9%: part de géothermie profonde dans la production de ENR&R (2019),DRIEE fichier de Biomasse & Géothermie
+chiffre_3,300 000,Habitants,"alimentés en chaleur par les réseaux franciliens, soient 1,1 million d’équivalents logements.","1,1 million d’équivalents logements.",Plaquette du ROSE

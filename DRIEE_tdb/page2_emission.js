@@ -8,6 +8,7 @@ Promise.all([
 ]).then((datasources)=>{
     mapInfo = datasources[1];
     data_emiss = datasources[0];
+    update_chiffre_emission();
     data_emiss = annee_filter_emission(data_emiss);
     var sec_info = get_emissionInfo(data_emiss);
     console.log(sec_info);
@@ -18,6 +19,24 @@ Promise.all([
 
 var annee_c = "2017";
 var selectedEPCI = undefined;
+
+function update_chiffre_emission(){
+    d3.csv("page2_chiffres_cles.csv").then((data)=>{
+        chiffre_01 = data.filter(function(d){return d.id === "chiffre_1";});
+        chiffre_02 = data.filter(function(d){return d.id === "chiffre_2";});
+        chiffre_03 = data.filter(function(d){return d.id === "chiffre_3";});
+        set_html("page2_chiffre1", chiffre_01[0].chiffre_cles);
+        set_html("page2_chiffre2", chiffre_02[0].chiffre_cles);
+        set_html("page2_chiffre3", chiffre_03[0].chiffre_cles);
+        set_html("page2_mot1", chiffre_01[0].mots_cles);
+        set_html("page2_mot2", chiffre_02[0].mots_cles);
+        set_html("page2_mot3", chiffre_03[0].mots_cles);
+        set_html("page2_des1", chiffre_01[0].description);
+        set_html("page2_des2", chiffre_02[0].description);
+        set_html("page2_des3", chiffre_03[0].description);
+    })
+}
+
 
 function annee_filter_emission(data){
     return data.filter(function(d){return d.annee === annee_c;});
